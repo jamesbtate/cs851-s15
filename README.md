@@ -1,4 +1,4 @@
-cs851-s15
+cs751-s15
 =========
 
-Shared repository for ODU CS 751 / 851 Spring 2015
+James Tate's repository for ODU CS 751 Spring 2015.
