@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
-from multiprocessing import Pool, Manager
 import subprocess
-import signal
+import json
 import time
 import sys
 import os
@@ -47,3 +46,10 @@ if __name__=='__main__':
             time.sleep(0.02)
     except KeyboardInterrupt:
         print('\nKeyboardInterrupt')
+    finally:
+        #save stats
+        statsFile = open('download.stats', 'w')
+        d = {'started':started, 'succeeded':succeeded, 'headerErrors':headerErrors, 'contentErrors':contentErrors}
+        statsFile.write(json.dumps(d))
+        statsFile.write('\n')
+        statsFile.close()
