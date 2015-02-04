@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -e
 if [ -z "$1" ]
 then
     echo "This program requires an argument: tweet id"

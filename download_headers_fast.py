@@ -6,33 +6,44 @@ import time
 import sys
 import os
 
-def startProcess(tweetID, count, lock):
-    lock.acquire()
-    count += 1
-    print(count, tweetID)
-    lock.release()
-    cmd = "./download_headers.bash " + tweetID.strip()
-    subprocess.call(cmd, shell=True)
-    cmd2 = "./download_content.bash " + tweetID.strip()
-    subprocess.call(cmd2, shell=True)
-
-def init_worker():
-    signal.signal(signal.SIGINT, signal.SIG_IGN)
-
 if __name__=='__main__':
-    #signal.signal(signal.SIGINT, handler)
-    manager = Manager()
-    lock = manager.Lock()
-    count = manager.Value(int, 0)
+    max = 64
     tweetIDs = os.listdir('tweets')
-    pool = Pool(64, init_worker)
+    started = 0
+    succeeded = 0
+    headerErrors = []
+    contentErrors = []
     try:
-        #pool.map_async(startProcess, tweetIDs, 1)
-        for id in tweetIDs:
-            pool.apply_async(func=startProcess, args=(id,count,lock))
-        pool.close()
-        pool.join()
+        headerProcesses = []
+        contentProcesses = []
+        gotHeaders = []
+        while True:
+            for process,id in headerProcesses:
+                ret = process.poll()
+                if ret is None:
+                    continue
+                elif ret != 0:
+                    headerErrors.append((id, ret))
+                else:
+                    cmd2 = "./download_content.bash " + id.strip()
+                    contentProcesses.append((subprocess.Popen(cmd2, shell=True), id))
+                headerProcesses.remove((process,id))
+            for process,id in contentProcesses:
+                ret = process.poll()
+                if ret is None:
+                    continue
+                elif ret != 0:
+                    contentErrors.append((id, ret))
+                else:
+                    succeeded += 1
+                contentProcesses.remove((process,id))
+            if len(headerProcesses) + len(contentProcesses) < max and len(tweetIDs) > 1:
+                id = tweetIDs.pop()
+                cmd = "./download_headers.bash " + id.strip()
+                headerProcesses.append((subprocess.Popen(cmd, shell=True), id))
+                started += 1
+            sys.stdout.write('\r' + 'started: %d  succeeded: %d  header errors: %d  content errors: %d'
+                %(started, succeeded, len(headerErrors), len(contentErrors)))
+            time.sleep(0.02)
     except KeyboardInterrupt:
-        print('KeyboardInterrupt')
-        pool.terminate()
-        pool.join()
+        print('\nKeyboardInterrupt')
