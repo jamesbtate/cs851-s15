@@ -15,7 +15,6 @@ if __name__=='__main__':
     try:
         headerProcesses = []
         contentProcesses = []
-        gotHeaders = []
         while True:
             for process,id in headerProcesses:
                 ret = process.poll()
@@ -43,6 +42,8 @@ if __name__=='__main__':
                 started += 1
             sys.stdout.write('\r' + 'started: %d  succeeded: %d  header errors: %d  content errors: %d'
                 %(started, succeeded, len(headerErrors), len(contentErrors)))
+            if len(headerProcesses) + len(contentProcesses) == 0:
+                break
             time.sleep(0.02)
     except KeyboardInterrupt:
         print('\nKeyboardInterrupt')
