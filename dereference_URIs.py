@@ -6,12 +6,13 @@ import sys
 import os
 
 if __name__=='__main__':
-    max = 64
+    max = 128
     tweetIDs = os.listdir('tweets')
     started = 0
     succeeded = 0
     headerErrors = []
     contentErrors = []
+    startTime = time.time()
     try:
         headerProcesses = []
         contentProcesses = []
@@ -40,8 +41,8 @@ if __name__=='__main__':
                 cmd = "./download_headers.bash " + id.strip()
                 headerProcesses.append((subprocess.Popen(cmd, shell=True), id))
                 started += 1
-            sys.stdout.write('\r' + 'started: %d  succeeded: %d  header errors: %d  content errors: %d'
-                %(started, succeeded, len(headerErrors), len(contentErrors)))
+            sys.stdout.write('\r' + 'started: %d  succeeded: %d  header errors: %d  content errors: %d  elapsed seconds: %d'
+                %(started, succeeded, len(headerErrors), len(contentErrors), int(time.time()-startTime)))
             if len(headerProcesses) + len(contentProcesses) == 0:
                 break
             time.sleep(0.02)
