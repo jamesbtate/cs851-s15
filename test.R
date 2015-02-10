@@ -1,0 +1,5 @@
+stuff <- c(1,2,3,6,3,5,7,2)
+library(RColorBrewer)
+#brewer.pal(8, "Set1")
+colors <- brewer.pal(length(stuff), "Set1")
+barplot(stuff, col=colors)

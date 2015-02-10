@@ -1,0 +1,23 @@
+Downlaoding Tweets:
+./download_tweets.py
+
+Culling Bad Tweets:
+grep -vi porn output.log | grep
+
+Extracting Tweet Info to Individual Directory per Tweet:
+./extract_tweets.py output.log
+    This will skip tweets that do not have any URIs.
+
+Running curl and wget:
+./dereference_URIs.py
+    This will save three files for each URL:
+        headers.X   the curl output
+        content.X/wget.output   the wget stdout/stderr
+        content.X/[webpage]     the content of the URL
+    This also saves the download.stats file which contains a list of tweets that failed in curl or wget.
+
+Generating Tweet Summary:
+./summary.py -l tweets -p > tweets.summary.json
+
+Printing Stats:
+./summary.py -r tweets.summary.json -S -d download.stats
