@@ -2,3 +2,6 @@ python 'tweepy' module. installed on atira/sirius on python2/3
     https://github.com/tweepy/tweepy
 
 wget: wget -p -k -e robots=off -U 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.6) Gecko/20070802 SeaMonkey/1.1.4'
+
+excluded all tweets that contain "porn" (case-insensitive) anywhere in the tweet, even if part of word.
+    using: `grep -vi porn` on file containing all tweets in json, one per line

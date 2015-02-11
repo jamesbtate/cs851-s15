@@ -19,5 +19,17 @@ Running curl and wget:
 Generating Tweet Summary:
 ./summary.py -l tweets -p > tweets.summary.json
 
+Removing Tweets with Errors:
+./summary.py -r tweets.summary.json -d download.stats -x > tweets.summary.json.temp
+mv tweets.summary.json.temp tweets.summary.json
+
+Getting Carbon Date Info:
+./summary.py -p tweets.summary.json -f
+    This saves final URLs to files in tweet directories
+./carbondate_URIs.py tweets/
+    This saves carbon date info to files in tweet directories
+./summary.py -l tweets -p > tweets.summary.json
+    This re-reads the tweet directories and generates a summary, this time including carbon date info.
+
 Printing Stats:
-./summary.py -r tweets.summary.json -S -d download.stats
+

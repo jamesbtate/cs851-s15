@@ -1,12 +1,13 @@
 #!/usr/bin/python3
 from library import *
 import argparse
+import shutil
 import json
 import sys
 import os
 import re
 
-SAVE_DIR = 'tweets'
+tweetsDir = 'not_set'
 
 def parseArgs():
     desc = "Generate or display summary JSON from tweets directory."
@@ -18,6 +19,8 @@ def parseArgs():
     parser.add_argument('-s', '--print-stats', action='store_true')
     parser.add_argument('-S', '--print-stats-10000', action='store_true')
     parser.add_argument('-d', '--download-stats', help="Load the download stats from the given file and use it to exclude tweets that had errors during download.")
+    parser.add_argument('-x', '--remove-errors', action="store_true", help="Remove the tweet directory of all tweets that we consider failed.")
+    parser.add_argument('-f', '--final-uris', action="store_true", help="Save final URI into file in tweet directory.")
     args = parser.parse_args()
     if not args.load_tweets and not args.read_summary:
         parser.error("You must specify either -l or -r")
@@ -36,26 +39,34 @@ def printDict(d):
     for key in sortedKeys:
         print(key, d[key])
 
-def printStats(tweets):
+def printStats(tweets, delete=False, stopAt=999999999):
     print("Number of tweets with URIs:", len(tweets))
     codes = {}
     finalURIs = {}
     initialURIs = {}
     numURIs = {}
+    totalURIs = 0
     for tweet in tweets:
+        if totalURIs >= stopAt: break
         addOrIncrementDict(numURIs, len(tweet['urls']))
         for url in tweet['urls']:
+            if totalURIs >= stopAt: break
             for code in url['codes']:
                 addOrIncrementDict(codes, code)
             try:
                 addOrIncrementDict(finalURIs, url['finalURI'])
+                totalURIs += 1
             except:
                 stderr("Tweet", tweet['id'], "has no final URI.")
+                if delete: removeTweetDirByID(tweet['id'])
             addOrIncrementDict(initialURIs, url['t.co'])
+    print("Number of URIs:", totalURIs)
     print("HTTP Status Codes:")
     printDict(codes)
     print("Number of unique t.co URIs:", len(initialURIs))
     print("Number of unique final URIs:", len(finalURIs))
+    print("Number of URLs per Tweet:")
+    printDict(numURIs)
 
 def summarizeTweets(tweetsDir):
     tweetDirs = os.listdir(tweetsDir)
@@ -103,7 +114,29 @@ def summarizeTweets(tweetsDir):
     stderr("")
     return tweets
 
-def excludeDownloadErrors(tweets, downloadStatsPath):
+def saveFinalURIs(summary):
+    tweetsDir = summary['tweetsDir']
+    count = 0
+    for tweet in summary['tweets']:
+        tweetPath = os.path.join(tweetsDir, tweet['id'])
+        for url in tweet['urls']:
+            try:
+                finalURIPath = os.path.join(tweetPath, 'final_url.' + str(url['index']))
+                finalURIFile = open(finalURIPath, 'w')
+                finalURIFile.write(url['finalURI']+'\n')
+                finalURIFile.close()
+                count += 1
+                sys.stderr.write("\rWrote %d final URIs to file" %count)
+            except Exception as e:
+                stderr("\nError writing final URI for tweet", tweet['id'], "to file:", str(e))
+    stderr("")
+
+def removeTweetDirByID(id):
+    deletePath = os.path.join(tweetsDir, id)
+    shutil.rmtree(deletePath)
+    stderr("Removed tweet directory for tweet", id)
+
+def excludeDownloadErrors(tweets, downloadStatsPath, delete=False):
     downloadStatsFile = open(downloadStatsPath, 'r')
     downloadStats = json.loads(downloadStatsFile.read())
     downloadStatsFile.close()
@@ -111,30 +144,38 @@ def excludeDownloadErrors(tweets, downloadStatsPath):
         if tweet['id'] in tuple(l[0] for l in downloadStats['headerErrors']):
             tweets.remove(tweet)
             stderr("Tweet", tweet['id'], "removed for curl error", [x[1] for x in downloadStats['headerErrors'] if x[0] == tweet['id']][0])
+            if delete: removeTweetDirByID(tweet['id'])
         if tweet['id'] in tuple(l[0] for l in downloadStats['contentErrors']):
             tweets.remove(tweet)
             stderr("Tweet", tweet['id'], "removed for wget error", [x[1] for x in downloadStats['contentErrors'] if x[0] == tweet['id']][0])
+            if delete: removeTweetDirByID(tweet['id'])
 
 def readSummary(summaryPath):
     summaryFile = open(summaryPath, 'r')
-    tweets = json.loads(summaryFile.read())
+    summary = json.loads(summaryFile.read())
     summaryFile.close()
-    return tweets
+    return summary
 
 if __name__ == '__main__':
     args = parseArgs()
+    summary = {}
     if args.load_tweets:
+        summary['tweetsDir'] = args.load_tweets
         tweets = summarizeTweets(args.load_tweets)
+        summary['tweets'] = tweets
     else:
-        tweets = readSummary(args.read_summary)
+        summary = readSummary(args.read_summary)
+    tweetsDir = summary['tweetsDir']
     if args.download_stats:
-        excludeDownloadErrors(tweets, args.download_stats)
+        excludeDownloadErrors(summary['tweets'], args.download_stats, args.remove_errors)
+    if args.final_uris:
+        saveFinalURIs(summary)
     if args.print_json:
-        print(json.dumps(tweets))
+        print(json.dumps(summary))
     if args.print_stats:
         print("=== Stats for all tweets ===")
-        printStats(tweets)
+        printStats(summary['tweets'], delete=args.remove_errors)
     if args.print_stats_10000:
         print("=== Stats for first 10000 tweets ===")
-        printStats(tweets[:10000])
+        printStats(summary['tweets'], delete=args.remove_errors, stopAt=10000)
 
