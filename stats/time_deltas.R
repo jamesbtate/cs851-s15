@@ -18,10 +18,10 @@ xlab <- "URL Age in Days"
 #extend margin
 # default: c(5,4,4,2) + 0.1
 # bottom, left, top, right
-par(mar=c(10,4,4,2) + 0.1)
+#par(mar=c(10,4,4,2) + 0.1)
 
-pdf("time_deltas.pdf")
+pdf("time_deltas.pdf", height=4.0, width=4.5)
 
-mp <- hist(fullData, breaks=breaks, col=colors, main=title, xlab=xlab, labels=TRUE)
+mp <- hist(fullData, breaks=breaks, col=colors, main=title, xlab=xlab, labels=TRUE, ylim=c(0,10000))
 #axis(2)
 #axis(1, at=mp, line=2, tick=FALSE, xpd=TRUE, labels=labels)

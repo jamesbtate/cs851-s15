@@ -20,10 +20,10 @@ ylab <- "Frequency of URIs with this Multiplicity"
 #extend margin
 # default: c(5,4,4,2) + 0.1
 # bottom, left, top, right
-par(mar=c(10,4,4,2) + 0.1)
+#par(mar=c(10,4,4,2) + 0.1)
 
-pdf("frequency_final_uri_multiplicity.pdf")
+pdf("frequency_final_uri_multiplicity.pdf", height=3.8, width=6.0)
 
-mp <- hist(fullData, col=colors, breaks=200, xlim=c(1,15), main=title, xlab=xlab, ylab=ylab, labels=TRUE)
+mp <- hist(fullData, col=colors, breaks=200, xlim=c(1,14.5), ylim=c(0,5200), main=title, xlab=xlab, ylab=ylab, labels=TRUE)
 #axis(2)
 #axis(1, at=mp, line=2, tick=FALSE, xpd=TRUE, labels=labels)

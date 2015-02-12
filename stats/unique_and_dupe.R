@@ -13,9 +13,9 @@ title <- "Unique and Repeated URIs"
 #extend margin
 # default: c(5,4,4,2) + 0.1
 # bottom, left, top, right
-par(mar=c(10,4,4,2) + 0.1)
+#par(mar=c(10,4,4,2) + 0.1)
 
-pdf("unique_and_dupe.pdf")
+pdf("unique_and_dupe.pdf", height=4.0, width=5.5)
 
 mp <- barplot(unlist(myData), col=colors, names.arg=c("","","",""), axes=FALSE, main=title)
 axis(2)
