@@ -59,14 +59,20 @@ def printStats(tweets, delete=False, stopAt=999999999):
     initialURIs = {}
     numURIs = {}
     timeDeltas = {}
+    numRedirects = {}
     totalURIs = 0
     for tweet in tweets:
         if totalURIs >= stopAt: break
         addOrIncrementDict(numURIs, len(tweet['urls']))
         for url in tweet['urls']:
             if totalURIs >= stopAt: break
+            redirects = 0
             for code in url['codes']:
+                code = int(code)
                 addOrIncrementDict(codes, code)
+                if code >= 300 and code < 400:
+                    redirects += 1
+            addOrIncrementDict(numRedirects, redirects)
             if 'timeDelta' in url:
                 addOrIncrementDict(timeDeltas, url['timeDelta'])
             try:
@@ -79,6 +85,8 @@ def printStats(tweets, delete=False, stopAt=999999999):
     print("Number of URIs:", totalURIs)
     print("HTTP Status Codes:")
     printDict(codes)
+    print("Number of Redirects:")
+    printDict(numRedirects)
     print("Number of unique t.co URIs:", len(initialURIs))
     print("Number of unique final URIs:", len(finalURIs))
     initialURIFrequencies = dictValuesToCount(initialURIs)

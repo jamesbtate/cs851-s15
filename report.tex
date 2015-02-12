@@ -197,13 +197,21 @@ Each URI not removed from the sample had at least two HTTP status codes. The fir
 returned when dereferencing the initial http://t.co/... URI. There were 9711 redirect codes beyond
 those initial 10000 in the sample data. About 93\% of the URIs eventually resolved to a 200 status
 which indicates a webpage was successfully retrieved. About 6.5\% had client errors such as a 404,
-and only 15 URIs, 0.15\%, ended with a server error. The histogram in Figure 3-1 illustrates the
+and only 15 URIs, 0.15\%, ended with a server error.
+
+The histogram in Figure 3-1 illustrates the
 distribution of HTTP status codes received in the four common ranges (success, redirect, client error
-and server error).
+and server error). The histogram in Figure 3-2 shows the frequency of the number of redirects
+required to dereference a URI until a non-redirect status is returned.
 \begin{figure}[H]
     \centering
     \includegraphics{stats/http_status_codes.pdf}
-    \caption{Frequency of HTTP status codes in histogram by sequential category}
+    \caption{Frequency of HTTP status codes in histogram by sequential category.}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics{stats/num_redirects.pdf}
+    \caption{Frequency of number of redirects required to fully dereference a URI.}
 \end{figure}
 
 \subsection{Unique and Duplicate URIs}
@@ -217,7 +225,7 @@ In my sample set, there were 7376 unique http://t.co/... URIs,
 but only 5375 unique final URIs. This means there were 2001 URIs that were duplicates not from
 retweets, but from users pasting the same URL independant of each other.  
 Inversely, the number of repeated http://t.co/... URIs was 776 while the number of repeated final
-URIs was 1151. Figure 3-2 is a bar graph of the number of unique and repeated URIs. 
+URIs was 1151. Figure 3-3 is a bar graph of the number of unique and repeated URIs. 
 \begin{figure}[H]
     \centering
     \includegraphics{stats/unique_and_dupe.pdf}
@@ -230,10 +238,10 @@ URIs was 1151. Figure 3-2 is a bar graph of the number of unique and repeated UR
     \includegraphics{stats/uris_per_tweet.pdf}
     \caption{Frequency of HTTP status codes in histogram by sequential category.}
 \end{figure}
-Figure 3-3 shows the frequency of tweets with a given number of URIs in the sample data. The
+Figure 3-4 shows the frequency of tweets with a given number of URIs in the sample data. The
 histogram clearly shows that the vast majority of tweets only contain one URI.
 
-Figures 3-4 and 3-5 are histograms showing the frequency of URI multiplicity in my sample set.
+Figures 3-5 and 3-6 are histograms showing the frequency of URI multiplicity in my sample set.
 For these two figures, outliers, specifically multiplicites above 15, have been removed from the
 graph for a more appealling image. These outliers are less than 1\% of the sample data. The most
 striking sample from those outliers is one final URI that was present in 170 tweets, all of which
@@ -263,7 +271,7 @@ tweet from which the URI was retrieved. From these ages, I calculated some stati
 Of the 10000 URIs, 4231 were determined to have an age of zero, meaning the earliest known
 reference was the tweet from which they were retrieved. The oldest URI was 11.2 years old.
 This URI\footnote{\url{http://www.ewtn.com/library/HOMELIBR/FOSSILR.TXT}} appears to be a
-scholarly article about the fossil record, but is from a dubious source. Figure 3-6 is a
+scholarly article about the fossil record, but is from a dubious source. Figure 3-7 is a
 histogram of the ages if the URIs in the sample set.
 \begin{figure}[H]
     \centering
