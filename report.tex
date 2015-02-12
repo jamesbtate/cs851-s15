@@ -77,10 +77,10 @@ Before the URIs can be analysed, they need to be dereferenced using curl to obta
 obtaining
 the final URIs, I went ahead and retrieved the representation of the resource by dereferencing each URI in
 wget. The final URI is the last URI obtained by dereferencing each URI with an HTTP \texttt{HEAD} command,
-and following the chain of redirects. Anytime, a URI response is a redirect (HTTP status 3XX), the \texttt{Location} header
-in the response contained the next URI to be dereferenced.\cite{rfc2616} Eventually, each URI would eventually be
+and following the chain of redirects. Anytime a URI response is a redirect (HTTP status 3XX), the \texttt{Location} header
+in the response contained the next URI to be dereferenced.\cite{rfc2616} Eventually, each URI would be
 dereferenced into a successful (2XX), client error (4XX) or server error (5XX) response.\footnote{Actually,
-if the URI chain hit 50 URIs due to encountering 50 redirects, it would stop because curl would throw an
+if the URI chain hit 51 URIs due to encountering 50 redirects, it would stop because curl would throw an
 exception and quit. This did not happen in my sample, however.} The command to dereference the URIs is shown
 in listing 2-5.
 \begin{lstlisting}[basicstyle=\ttfamily,caption={Dereferencing URIs}]
@@ -107,10 +107,10 @@ and stderr is also redirected to that file.
 
 The wget command, on the other hand, is very busy. The flags, in this order, set maximum number of tries
 to two, set the timeout for all types of network operations to 30 seconds, ensure file extensions are set to
-correct values even if the URI does not have the correct extension, turn off robots.txt processing,
+correct values even if the URI does not have the correct extension, turn off \texttt{robots.txt} processing,
 sets the output filename to filename of the last URI (after redirection), sets the user-agent to a
 non-robot user-agent and sets the output directory to the content directory for this URI. The argument is
-the URL to be dereferenced and stdout and stderr are redirected to a log file in the content directory.
+the URI to be dereferenced and stdout and stderr are redirected to a log file in the content directory.
 
 The representation is stored in a separate subfolder of the tweet directory from the other information.
 The final directory structure looks like the sample shown in listing 2-8.
@@ -131,7 +131,7 @@ The final directory structure looks like the sample shown in listing 2-8.
 \end{lstlisting}
 The \texttt{dereference\_URIs.py} script saves some statistics about what it did in the
 \texttt{download.stats} file. The statistics include the IDs of any tweets for which there were errors
-when running curl or wget. These tweets (and all their URIs) will be removed in the enxt step.
+when running curl or wget. These tweets (and all their URIs) will be removed in the next step.
 
 \subsection{Combining Data}
 After the URIs are dereferenced, the data is not yet in an easily accessible and modifiable form. With
@@ -217,7 +217,7 @@ required to dereference a URI until a non-redirect status is returned.
 \end{figure}
 
 \subsection{Unique and Duplicate URIs}
-One of the fundamental features of Twitter is the ability to \emph{retweet} snother user's tweet.
+One of the fundamental features of Twitter is the ability to \emph{retweet} another user's tweet.
 If the original tweet included a URI and my filter caught it, a retweet during the time I was
 downloading tweets would have probably been downloaded also. Users also quite frequently share the
 same link without retweeting, but just by pasting the same link into the tweet text. Both of these
@@ -225,7 +225,7 @@ situations result in duplicate URIs.
 
 In my sample set, there were 7376 unique http://t.co/... URIs,
 but only 5375 unique final URIs. This means there were 2001 URIs that were duplicates not from
-retweets, but from users pasting the same URL independant of each other.  
+retweets, but from users pasting the same URI independent of each other.  
 Inversely, the number of repeated http://t.co/... URIs was 776 while the number of repeated final
 URIs was 1151. Figure 3-3 is a bar graph of the number of unique and repeated URIs. 
 \begin{figure}[H]
@@ -247,7 +247,7 @@ Figures 3-5 and 3-6 are histograms showing the frequency of URI multiplicity in 
 For these two figures, outliers, specifically multiplicites above 15, have been removed from the
 graph for a more appealling image. These outliers are less than 1\% of the sample data. The most
 striking sample from those outliers is one final URI that was present in 170 tweets, all of which
-were retweets.
+were retweets. This means the same initial URI is present in the sample set 170 times as well.
 \begin{figure}[H]
     \centering
     \includegraphics{stats/frequency_initial_uri_multiplicity.pdf}
@@ -274,7 +274,7 @@ Of the 10000 URIs, 4231 were determined to have an age of zero, meaning the earl
 reference was the tweet from which they were retrieved. The oldest URI was 11.2 years old.
 This URI\footnote{\url{http://www.ewtn.com/library/HOMELIBR/FOSSILR.TXT}} appears to be a
 scholarly article about the fossil record, but is from a dubious source. Figure 3-7 is a
-histogram of the ages if the URIs in the sample set.
+histogram of the ages of the URIs in the sample set.
 \begin{figure}[H]
     \centering
     \includegraphics{stats/time_deltas.pdf}
