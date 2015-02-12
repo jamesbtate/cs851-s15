@@ -1,3 +1,7 @@
+Python:
+https://docs.python.org/3/library/statistics.html
+https://docs.python.org/3.4/library/multiprocessing.html
+
 twitter and tweepy:
 http://stackoverflow.com/questions/16179566/stremlistener-doest-return-data-in-json-in-tweepy
 https://dev.twitter.com/streaming/reference/post/statuses/filter
@@ -32,3 +36,4 @@ https://stat.ethz.ch/R-manual/R-devel/library/utils/html/read.table.html
 Misc:
 https://wiki.ubuntu.com/SecurityTeam/Roadmap/KernelHardening#ptrace%20Protection
 http://www.cs.odu.edu/policies/CSA004-AccountQuota.pdf
+http://www.radford.edu/~biol-web/stats/standarderrorcalc.pdf

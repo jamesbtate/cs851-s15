@@ -1,8 +1,11 @@
 #!/usr/bin/python3
+from time import mktime,strptime
 from library import *
+import statistics
 import argparse
 import shutil
 import json
+import math
 import sys
 import os
 import re
@@ -21,6 +24,7 @@ def parseArgs():
     parser.add_argument('-d', '--download-stats', help="Load the download stats from the given file and use it to exclude tweets that had errors during download.")
     parser.add_argument('-x', '--remove-errors', action="store_true", help="Remove the tweet directory of all tweets that we consider failed.")
     parser.add_argument('-f', '--final-uris', action="store_true", help="Save final URI into file in tweet directory.")
+    parser.add_argument('-t', '--tweets-file', help="Load other tweet information from this tweets file.")
     args = parser.parse_args()
     if not args.load_tweets and not args.read_summary:
         parser.error("You must specify either -l or -r")
@@ -39,12 +43,22 @@ def printDict(d):
     for key in sortedKeys:
         print(key, d[key])
 
+def dictValuesToCount(input):
+    # takes input dict with some repeated values, and generates output dict
+    # with keys the being the values from input and values being the number
+    # of occurences of each
+    output = {}
+    for key in input:
+        addOrIncrementDict(output, input[key])
+    return output
+
 def printStats(tweets, delete=False, stopAt=999999999):
     print("Number of tweets with URIs:", len(tweets))
     codes = {}
     finalURIs = {}
     initialURIs = {}
     numURIs = {}
+    timeDeltas = {}
     totalURIs = 0
     for tweet in tweets:
         if totalURIs >= stopAt: break
@@ -53,6 +67,8 @@ def printStats(tweets, delete=False, stopAt=999999999):
             if totalURIs >= stopAt: break
             for code in url['codes']:
                 addOrIncrementDict(codes, code)
+            if 'timeDelta' in url:
+                addOrIncrementDict(timeDeltas, url['timeDelta'])
             try:
                 addOrIncrementDict(finalURIs, url['finalURI'])
                 totalURIs += 1
@@ -65,8 +81,24 @@ def printStats(tweets, delete=False, stopAt=999999999):
     printDict(codes)
     print("Number of unique t.co URIs:", len(initialURIs))
     print("Number of unique final URIs:", len(finalURIs))
+    initialURIFrequencies = dictValuesToCount(initialURIs)
+    print("Frequency of Initial URL Multiplicity:")
+    printDict(initialURIFrequencies)
+    finalURIFrequencies = dictValuesToCount(finalURIs)
+    print("Frequency of Final URL Multiplicity:")
+    printDict(finalURIFrequencies)
     print("Number of URLs per Tweet:")
     printDict(numURIs)
+    allTimeDeltas = []
+    for time in timeDeltas:
+        for i in range(timeDeltas[time]):
+            allTimeDeltas.append(time)
+    print("Median URI Age:", round(statistics.mean(allTimeDeltas)))
+    print("Mean URI Age:", round(statistics.median(allTimeDeltas)))
+    print("Standard Deviation of URI Ages:", round(statistics.stdev(allTimeDeltas)))
+    print("Standard Error of URI Ages:", round(statistics.stdev(allTimeDeltas)/math.sqrt(len(allTimeDeltas))))
+    print("Time Deltas (Twitter - creation estimate) in Seconds:")
+    printDict(timeDeltas)
 
 def summarizeTweets(tweetsDir):
     tweetDirs = os.listdir(tweetsDir)
@@ -156,6 +188,23 @@ def readSummary(summaryPath):
     summaryFile.close()
     return summary
 
+def loadMetadata(summary, tweetsFilePath):
+    tweetsFile = open(tweetsFilePath, 'r')
+    count = 0
+    for line in tweetsFile:
+        tweet = json.loads(line)
+        lineID = int(tweet['id'])
+        try:
+            summaryTweet = next(t for t in summary['tweets'] if int(t['id']) == lineID)
+        except StopIteration:
+            continue
+        if summaryTweet:
+            summaryTweet['creation'] = mktime(strptime(tweet['created_at'], "%a %b %d %H:%M:%S +0000 %Y"))
+            count += 1
+            sys.stderr.write("\rLoaded metadata for " + str(count) + " tweets.")
+    tweetsFile.close()
+    stderr("")
+
 if __name__ == '__main__':
     args = parseArgs()
     summary = {}
@@ -170,6 +219,8 @@ if __name__ == '__main__':
         excludeDownloadErrors(summary['tweets'], args.download_stats, args.remove_errors)
     if args.final_uris:
         saveFinalURIs(summary)
+    if args.tweets_file:
+        loadMetadata(summary, args.tweets_file)
     if args.print_json:
         print(json.dumps(summary))
     if args.print_stats:
