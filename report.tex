@@ -1,0 +1,70 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[toc,page]{appendix}
+\usepackage{listings}
+
+\begin{document}
+
+\renewcommand{\thelstlisting}{\thesection-\arabic{lstlisting}}
+
+\title{Introduction to Digital Libraries Assignment \#1}
+\date{February 11, 2015}
+\author{James Tate II}
+\maketitle
+
+\section{Introduction}
+This assignment required downloading \emph{tweets} from \emph{Twitter} using its API and processing the HTTP URIs
+those tweets contained. The URIs were dereferenced from their original http://t.co/... form to their final
+URI after following all redirects. The representation obtained by dereferencing the final URI was recorded
+for later use. The URIs were also given an age by the CarbonDate utility. This report includes some statistical
+data gathered along the way.
+
+\section{Methodology}
+The data for this assignment was obtained and processed in several stages rather than all at once. 
+This enabled agile development, and also did not require much effort be put into usability or maintainability 
+of the code used at each stage. Six significant Python scripts were developed, along with a library of
+miscellaneous functions not worth mentioning. Three Bash scripts were also developed. Third-party resources
+included CarbonDate, casperjs, phantomjs and CherryPy, along with the Python standard library, wget, curl and numerous other GNU utilities.
+
+\subsection{Downloading Tweets}
+The first was, of course, to download enough tweets that 10000 URIs were able to be analysed after culling
+the unusable tweets. Tweets were downloaded using Twitter's streaming API. A list of 23 keywords were used in
+the \texttt{filter} endpoint on the streaming API, as special permission is required to use the \texttt{firehose}
+endpoint. Because the streaming API was used, retireved tweets were newly published tweets at the time of
+retrieval. The JSON of each tweet was saved to an output file for later processing. The command to download
+tweets is shown in listing 2-1. The output file is always \texttt{output.log}.
+\begin{lstlisting}[basicstyle=\ttfamily,caption={Downloading Tweets}]
+    ./download_tweets.py
+\end{lstlisting}
+
+\subsection{Culling Tweets}
+The first step in culling tweets was a na\"{\i}ve attempt to omit tweets with adult content. \texttt{grep}
+was used ias shown in listing 2-2 to remove tweets containing the string \texttt{porn} in any case,
+regardless of position in a word.
+\begin{lstlisting}[basicstyle=\ttfamily,caption={Removing Naughty Tweets}]
+    grep -vi "porn" output.log > output.log.2
+\end{lstlisting}
+The next step in culling tweets was to actually remove tweets that did contain any HTTP URIs. This was
+similarly accomplished using grep, albeit with a somewhat more complicated expression, shown in listing 2-3.
+\begin{lstlisting}[basicstyle=\ttfamily,caption={Removing Tweets}]
+    grep -vi "porn" output.log > output.log.2
+\end{lstlisting}
+
+
+
+
+
+
+
+
+\begin{appendices}
+
+\section{Streaming API Filter Keywords}
+These keywords were selected arbitrarily. Keywords were added to the list until the streaming API seemed to pull tweets at a strong, consistent rate.
+
+\end{appendices}
+
+
+
+
+
+\end{document}
