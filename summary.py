@@ -3,6 +3,7 @@ from time import mktime,strptime
 from library import *
 import statistics
 import argparse
+import operator
 import shutil
 import json
 import math
@@ -25,6 +26,7 @@ def parseArgs():
     parser.add_argument('-x', '--remove-errors', action="store_true", help="Remove the tweet directory of all tweets that we consider failed.")
     parser.add_argument('-f', '--final-uris', action="store_true", help="Save final URI into file in tweet directory.")
     parser.add_argument('-t', '--tweets-file', help="Load other tweet information from this tweets file.")
+    parser.add_argument('-m', '--most-popular', type=int, metavar="NUM", help="Print the NUM most popular final URIs.")
     args = parser.parse_args()
     if not args.load_tweets and not args.read_summary:
         parser.error("You must specify either -l or -r")
@@ -51,6 +53,19 @@ def dictValuesToCount(input):
     for key in input:
         addOrIncrementDict(output, input[key])
     return output
+
+def printMostPopular(tweets, num=100):
+    # print num most popular final URIs
+    finalURIs = {}
+    for tweet in tweets:
+        for url in tweet['urls']:
+            addOrIncrementDict(finalURIs, url['finalURI'])
+    sortedURIs = sorted(finalURIs.items(), key=operator.itemgetter(1), reverse=True)
+    count = 0
+    for i in sortedURIs:
+        if count >= num: break
+        count += 1
+        print(i[1], i[0])
 
 def printStats(tweets, delete=False, stopAt=999999999):
     print("Number of tweets with URIs:", len(tweets))
@@ -237,4 +252,6 @@ if __name__ == '__main__':
     if args.print_stats_10000:
         print("=== Stats for first 10000 tweets ===")
         printStats(summary['tweets'], delete=args.remove_errors, stopAt=10000)
+    if args.most_popular:
+        printMostPopular(summary['tweets'], num=args.most_popular)
 
