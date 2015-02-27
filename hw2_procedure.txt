@@ -1,0 +1,12 @@
+deleted 430 files that were downloaded in hw1 that were audio files, not html. they were 11.6GB of podcasts
+
+got popular URIs using new summary.py option
+
+opened 200 most popular URIs in chrome to manually cull crap webpages
+
+used below for loop to index popular URIs
+    c=0; for i in $(cat popular_tweets_pruned); do c=$(( c + 1 )); echo "$c $i"; done > popular_tweets_pruned_ids
+
+downloaded using wget_warc.bash
+
+used grep -L "200 OK" warc/wget/*.wget.output to find indexes of URIs that are no good
