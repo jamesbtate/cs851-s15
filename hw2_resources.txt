@@ -1,0 +1,4 @@
+https://webarchive.jira.com/wiki/display/Heritrix/unexpected+offsite+content
+https://webarchive.jira.com/wiki/display/Heritrix/Configuring+Crawl+Scope+Using+DecideRules
+https://webarchive.jira.com/wiki/display/Heritrix/unexpectedly+slow+crawling+on+idle+crawler
+
