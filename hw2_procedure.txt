@@ -10,3 +10,12 @@ used below for loop to index popular URIs
 downloaded using wget_warc.bash
 
 used grep -L "200 OK" warc/wget/*.wget.output to find indexes of URIs that are no good
+
+to find warcs that are present for multiple methods:
+    comm -1 -2 <(ls warcreate-warcs/ | cut -d. -f1 | sort) <(ls webrecorder-warcs/ | cut -d. -f1 | sort)
+
+to run SOLR:
+    cd warc-solr-test-server/
+    PATH=$PATH:/home/jtate/src/apache-maven-3.2.5/bin/ mvn jetty:run-exploded -Djetty.port=10770
+to add WARCs to SOLR:
+    java -jar warc-indexer-2.0.1-20150116.110435-2-jar-with-dependencies.jar -s http://localhost:10770/discovery -t ../../cs751/warc/wget/*.warc.gz

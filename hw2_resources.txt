@@ -1,4 +1,8 @@
 https://webarchive.jira.com/wiki/display/Heritrix/unexpected+offsite+content
 https://webarchive.jira.com/wiki/display/Heritrix/Configuring+Crawl+Scope+Using+DecideRules
 https://webarchive.jira.com/wiki/display/Heritrix/unexpectedly+slow+crawling+on+idle+crawler
-
+http://eclipse.org/jetty/documentation/current/jetty-maven-plugin.html#configuring-jetty-container
+https://github.com/ukwa/webarchive-discovery/wiki/Quick-Start
+https://github.com/ukwa/webarchive-discovery
+http://maven.apache.org/download.cgi
+https://wiki.apache.org/solr/SolrQuerySyntax

@@ -1,0 +1,1132 @@
+Query String:
+keywords:[* TO *]
+
+Response:
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 0,
+    "params": {
+      "indent": "true",
+      "q": "keywords:[* TO *]",
+      "_": "1425488314057",
+      "wt": "json"
+    }
+  },
+  "response": {
+    "numFound": 60,
+    "start": 0,
+    "docs": [
+      {
+        "source_file_s": "102.warc.gz@966",
+        "url": "http://www.washingtonpost.com/news/post-nation/wp/2015/01/28/a-blizzard-mystery-who-shoveled-the-boston-marathon-finish-line/?tid=sm_fb",
+        "host": "www.washingtonpost.com",
+        "domain": "washingtonpost.com",
+        "public_suffix": "com",
+        "content_type_served": "text/html;charset=UTF-8",
+        "server": [
+          "nginx"
+        ],
+        "content_length": 98045,
+        "id": "sha1:ZL6LB73ANDBFIE2LQNW6DR7KB64Q3PVY/o6EbxIVjPf+Jg1bh6I7FxA==",
+        "hash": [
+          "sha1:ZL6LB73ANDBFIE2LQNW6DR7KB64Q3PVY"
+        ],
+        "crawl_date": "2015-02-27T00:02:27Z",
+        "crawl_year": "2015",
+        "wayback_date": "20150227000227",
+        "content": [
+          "A blizzard mystery: Who shoveled the Boston Marathon finish line? - The Washington PostAccessibility for screenreaderSign InUsernamePostTVPoliticsOpinionsLocalSportsNationalWorldBusinessTechLifestyleEntertainmentClassifiedsJobsReal EstateEventsRentalsCarsWP BrandConnectSubscribeNewsletters & Alertswashingtonpost.com © 1996-2015 The Washington PostHelp and Contact UsTerms of ServicePrivacy PolicySubmissions and Discussion PolicyRSS Terms of ServiceAd ChoicesSectionsThe Washington PostA blizzard mystery: Who shoveled the Boston Marathon finish line?Sign In UsernameSubscribePost NationA blizzard mystery: Who shoveled the Boston Marathon finish line?Share on FacebookShare on TwitterShare on Google PlusShare via EmailMore OptionsShare via EmailShare on WhatsappShare on PinterestShare on Google PlusShare on LinkedInShare on TumblrResize TextPrint ArticleCommentsBy Mark Berman January 28 Follow @markbermanAs gobs and gobs of snow pummeled the greater Boston region (more than two feet fell at Logan International Airport, a record for January), a mystery emerged: Who was the person out there shoveling the finish line of the Boston Marathon? The question became a hashtag, the hashtag became a police matter, and the answer, eventually, turned out to be relatively simple.Here is what happened. On Tuesday, as the snow and wind battered Boston and much of New England, someone posted a photo of a person at the Boston Marathon’s finish line.Love that Dirty Frozen Water #Boston #bostonblizzard #BostonStrong pic.twitter.com/BDaI2m1z0C— Philip L. Hillman (@PhillyIdol1017) January 27, 2015This made its way around the Internet, as things do, and various news organizations (ahem) jumped on the chance to talk about this positive enigma.A hashtag soon followed: #WhoShoveledTheFinishLine, people wondered? If they tweeted enough, could they find this man or woman?How amazing is this? Someone shoveled the Finish Line of the Boston Marathon. #BostonStrong #WhoShoveledTheFinishLine pic.twitter.com/3BFul8nJ3j— Chris Gibilisco (@Sinatra1979) January 28, 2015So who DID shovel the Boston Marathon finish line? #whoshoveledthefinishline http://t.co/jhBbYEmxl8— Deb Filcman (@DebFilcman) January 28, 2015The Boston Police Department got involved:Help Boston solve a #BlizzardOf2015 mystery. #WhoShoveledTheFinishLine? #BostonStrong pic.twitter.com/1icgPcW9Vc— Boston Police Dept. (@bostonpolice) January 28, 2015On Wednesday, the mystery was solved and someone was identified as the unknown shoveler who had so enthralled a frigid, snowed-out region.The manager of the Back Bay Social Club said he saw people tweeting about the photo and the mysterious person — only to recognize the shoveler and the shovel.“I was like, ‘Oh shoot, that was Chris!” Ryan Swann, manager of the restaurant, said in a telephone interview.Christopher Laudani, who has tended bar at the place for about six months, was helping shovel outside the restaurant on Tuesday, because it remained open during the snowstorm.After shoveling for a while, Laudani asked if he could borrow the restaurant’s shovel, Swann said. Laudani took the shovel and disappeared for a while. When he was asked later where he went, he said he was clearing off the marathon finish line.The result is a lot of praise for Laudani and a lot of calls for the restaurant. “I’m no hero, I’m just a nut who loves the marathon,” Laudani told Boston magazine.So what is next for Laudani after a day as the subject of a viral enigma, yet another person unexpectedly thrust to some measure of notoriety because of Twitter or Facebook (and for positive reasons, rather than for some good, old-fashioned, crowdsourced Twitter shaming)? He will be right back where he was when the snow hit. He’s scheduled to work on Wednesday night.Mark Berman is a reporter on the National staff. He runs Post Nation, a destination for breaking news and developing stories from around the country. Share on FacebookShare  Share on TwitterTweetCommentsShow CommentsDiscussion PolicyCommentsSuperFan BadgeSuperFan badge holders consistently post smart, timely comments about Washington area sports and teams.More about badges | Request a badgeCulture Connoisseur BadgeCulture Connoisseurs consistently offer thought-provoking, timely comments on the arts, lifestyle and entertainment.More about badges | Request a badgeFact Checker BadgeFact Checkers contribute questions, information and facts to The Fact Checker.More about badges | Request a badgeWashingtologist BadgeWashingtologists consistently post thought-provoking, timely comments on events, communities, and trends in the Washington area.More about badges | Request a badgePost Writer BadgeThis commenter is a Washington Post editor, reporter or producer.Post Forum BadgePost Forum members consistently offer thought-provoking, timely comments on politics, national and international affairs.More about badges | Request a badgeWeather Watcher BadgeWeather Watchers consistently offer thought-provoking, timely comments on climates and forecasts.More about badges | Request a badgeWorld Watcher BadgeWorld Watchers consistently offer thought-provoking, timely comments on international affairs.More about badges | Request a badgePost Contributor BadgeThis commenter is a Washington Post contributor. Post contributors aren’t staff, but may write articles or columns. In some cases, contributors are sources or experts quoted in a story.More about badges | Request a badgePost RecommendedWashington Post reporters or editors recommend this comment or reader post.You must be logged in to report a comment.Sign in hereYou must be logged in to recommend a comment.Sign in hereComments our editors find particularly useful or relevant are displayed in Top Comments, as are comments by users with these badges: . Replies to those posts appear here, as well as posts by staff writers.All comments are posted in the All Comments tab.More about badgesGet a badgeTo pause and restart automatic updates, click \"Live\" or \"Paused\". If paused, you'll be notified of the number of additional comments that have come in.Comments our editors find particularly useful or relevant are displayed in Top Comments, as are comments by users with these badges: . Replies to those posts appear here, as well as posts by staff writers.SpamOffensiveDisagreeOff-TopicFacebookTwitterRedditStumbleUponDiggDeliciousnationalpost-nationPlease enter a valid email addressMost Read National1The Siberian crater saga is more widespread - and scarier - than anyone thought2BREAKING: Two llamas were on the run today in Arizona3The roots of why Obama and Netanyahu dislike each other so much4That spooky white spot on Ceres? New photos show two of them.5Someone in Oregon stole a house. Yes, an entire house.1The Siberian crater saga is more widespread — and scarier — than anyone thought2BREAKING: Two llamas were on the run today in Arizona3The roots of why Obama and Netanyahu dislike each other so much4How Stephen Hawking, diagnosed with ALS decades ago, is still alive5That spooky white spot on Ceres? New photos show two of them.The Most Popular All OverWNYC - New York Public RadioMedicine's Murky World: The FDA, Medical Websites, And Risky ChemicalsThe Washington Post'Jihadi John': Islamic State killer is identified as Londoner Mohammed EmwaziTIMEWhy a JetBlue Tweet About ‘Bluemanity’ Was ControversialThe AtlanticWhat ISIS Really WantsThe Toledo BladePort board OKs funds for vacant hotelSlateHelp! My 12-Year-Old Hates, Hates Going to Church. Should I Give Up?Honolulu Star-AdvertiserUH athletic department gets $1.2 million donationThe Baltimore SunBuck Showalter indicates Nick Markakis told him his comments were taken out of contextThe DodoSeaWorld Loses 1 Million Visitors As It Clings To Orca CaptivityPRISmitten with smut: US and Canadian farmers dread corn smut, but it's a hit in MexicoOur Online GamesPlay right from this pageSudokuGenre(s):  Strategy Put on your Sudoku hat and get ready for a challenging Sudoku puzzle!Daily CrosswordGenre(s):  Word Same fun of crosswords but online!Just WordsGenre(s):  Word Get ready to be wowed with wonderful word fun!TrizzleGenre(s):  Strategy Experience the joy of Trizzle!washingtonpost.com© 1996-2015 The Washington Post Help and Contact UsTerms of ServicePrivacy PolicySubmissions and Discussion PolicyRSS Terms of ServiceAd ChoicesNext StoryConvictions of black protesters imprisoned for 1961 sit-in are overturned, 54 years laterAbby Phillip · January 28"
+        ],
+        "content_text_length": 8669,
+        "content_type": [
+          "text/html"
+        ],
+        "title": "A blizzard mystery: Who shoveled the Boston Marathon finish line? - The Washington Post",
+        "keywords": "boston marathon, marathon finish line, boston snow, snow massachusetts, boston marathon shoveling, marathon shoveler",
+        "content_encoding": "UTF-8",
+        "content_ffb": "3c21444f",
+        "content_first_bytes": "3c 21 44 4f 43 54 59 50 45 20 68 74 6d 6c 3e 20 3c 68 74 6d 6c 3e 20 3c 68 65 61 64 3e 20 3c 6d",
+        "content_type_droid": "text/html; version=5",
+        "links_hosts": [
+          "digg.com",
+          "account.washingtonpost.com",
+          "subscribe.washingtonpost.com",
+          "www.wnyc.org",
+          "www.staradvertiser.com",
+          "t.co",
+          "www.posttv.com",
+          "www.bostonmagazine.com",
+          "www.pri.org",
+          "feedproxy.google.com",
+          "twitter.com",
+          "www.theatlantic.com",
+          "www.stumbleupon.com",
+          "www.washingtonpost.com",
+          "www.time.com",
+          "www.toledoblade.com",
+          "www.slate.com",
+          "www.delicious.com",
+          "www.thedodo.com",
+          "www.baltimoresun.com"
+        ],
+        "links_domains": [
+          "theatlantic.com",
+          "staradvertiser.com",
+          "t.co",
+          "toledoblade.com",
+          "posttv.com",
+          "slate.com",
+          "washingtonpost.com",
+          "time.com",
+          "google.com",
+          "bostonmagazine.com",
+          "twitter.com",
+          "baltimoresun.com",
+          "wnyc.org",
+          "pri.org",
+          "thedodo.com"
+        ],
+        "links_public_suffixes": [
+          "co",
+          "com",
+          "org"
+        ],
+        "elements_used": [
+          "body",
+          "data.length;i++){var",
+          "link",
+          "div",
+          "img",
+          "noscript",
+          "br",
+          "meta",
+          "title",
+          "style",
+          "button",
+          "h5",
+          "h4",
+          "head",
+          "h1",
+          "ul",
+          "b",
+          "form",
+          "a",
+          "blockquote",
+          "script",
+          "header",
+          "i",
+          "li",
+          "input",
+          "iframe",
+          "article",
+          "strong",
+          "p",
+          "nav",
+          "html",
+          "em",
+          "span"
+        ],
+        "content_type_tika": "text/html; charset=UTF-8",
+        "content_type_version": "5",
+        "content_type_full": "text/html; charset=UTF-8; version=5",
+        "content_type_norm": "html",
+        "content_language": "en",
+        "ssdeep_hash_bs_192": "c/qyKJzNh0Z9s9BVOywHVpMuEbZ/OWqCWNP4eaQ0eyAyTP4UJYCHG",
+        "ssdeep_hash_bs_384": "sjK3hM9sb9+Vp0ZdqCWNAeH8B2",
+        "ssdeep_hash_ngram_bs_192": "c/qyKJzNh0Z9s9BVOywHVpMuEbZ/OWqCWNP4eaQ0eyAyTP4UJYCHG",
+        "ssdeep_hash_ngram_bs_384": "sjK3hM9sb9+Vp0ZdqCWNAeH8B2",
+        "crawl_dates": [
+          "2015-02-27T00:02:27Z"
+        ],
+        "crawl_years": [
+          "2015"
+        ],
+        "_version_": 1494730948990730200
+      },
+      {
+        "source_file_s": "103.warc.gz@922",
+        "url": "http://www.reddit.com/r/technology/comments/2u0ngk/google_is_bringing_superfast_internet_to_four/",
+        "host": "www.reddit.com",
+        "domain": "reddit.com",
+        "public_suffix": "com",
+        "content_type_served": "text/html; charset=UTF-8",
+        "server": [
+          "cloudflare-nginx"
+        ],
+        "content_length": 148044,
+        "id": "sha1:AVCVZ4QUTTQKAO4PQ7EBQTAWCZRHN43Z/K+isItrKdBF7Oi0vh2tILw==",
+        "hash": [
+          "sha1:AVCVZ4QUTTQKAO4PQ7EBQTAWCZRHN43Z"
+        ],
+        "crawl_date": "2015-02-27T00:02:28Z",
+        "crawl_year": "2015",
+        "wayback_date": "20150227000228",
+        "content": [
+          "3c05jump to contentmy subredditsannouncementsArtAskRedditaskscienceawwblogbookscreepydataisbeautifulDIYDocumentariesEarthPornexplainlikeimfiveFitnessfoodfunnyFuturologygadgetsgamingGetMotivatedgifshistoryIAmAInternetIsBeautifulJokesLifeProTipslistentothismildlyinterestingmoviesMusicnewsnosleepnottheonionOldSchoolCoolpersonalfinancephilosophyphotoshopbattlespicsscienceShowerthoughtsspacesportstelevisiontifutodayilearnedTwoXChromosomesUpliftingNewsvideosworldnewsWritingPromptsedit subscriptionsfront-all-random |  sports-gadgets-videos-funny-Art-gaming-askscience-books-Documentaries-creepy-DIY-nosleep-listentothis-AskReddit-worldnews-pics-EarthPorn-movies-TwoXChromosomes-WritingPrompts-LifeProTips-space-science-Music-gifs-InternetIsBeautiful-GetMotivated-aww-personalfinance-dataisbeautiful-Futurology-history-photoshopbattles-philosophy-mildlyinteresting-Showerthoughts-tifu-IAmA-Fitness-news-explainlikeimfive-television-UpliftingNews-nottheonion-Jokes-OldSchoolCool-food-todayilearnedmore » technology commentsrelatedother discussions (1)want to join? sign in or create an account in seconds| Englishlimit my search to /r/technologyuse the following search parameters to narrow your results:subreddit:subredditfind submissions in \"subreddit\"author:usernamefind submissions by \"username\"site:example.comfind submissions from \"example.com\"url:textsearch for \"text\" in urlselftext:textsearch for \"text\" in self post contentsself:yes (or self:no)include (or exclude) self postsnsfw:yes (or nsfw:no)include (or exclude) results marked as NSFWe.g. subreddit:aww site:imgur.com dogsee the search faq for details.advanced search: by author, subreddit...this post was submitted on 28 Jan 2015193 points (86% upvoted)shortlink:remember mereset passwordloginSubmit a new linkSubmit a new text posttechnologysubscribeunsubscribe5,103,808 readers2,511 users here nowFilterAllPoliticsPure TechBusinessDiscussionCurrent Topic FiltersNo Net NeutralityNo ComcastRemove FilterWelcome to r/technologyVision/r/technology is a subreddit dedicated to the discussion of all things technology. This subreddit is for technology-related submissions only, but we allow articles which are of a political nature provided they are also significantly related to technology.DefinitionTechnology is the making, modification, usage, and knowledge of tools, machines, techniques, crafts, systems, and methods of organization, in order to solve a problem, improve a pre-existing solution to a problem, achieve a goal, handle an applied input/output relation or perform a specific function. (Wikipedia)*Rules1. Allowed SubmissionsSubmissions must be a technology related article or self post.Self posts must contribute to /r/technology and foster reasonable discussion.Self posts must not be about customer service or complaints.Not allowed:Requests for tech support, asking questions, or asking for help. Try posting these in /r/techsupport and /r/AskTechnology respectively.Meta posts: you can submit these to /r/technologytalk.2. Follow the Rules of RedditAll reddit-wide rules apply here.Reddiquette also applies.3. TitlesLink submissions should use the article's title or a quote describing its content. They must be free of personal opinion and accurately represent the content of the article. Posts that fail to meet these criteria may be removed at moderator discretion.4. No Image or Video SubmissionsThis does not include articles with supporting videos.5. No Mobile SitesThese URLs are usually prepended with \"m.\" or \"mobile.\" Please link to the desktop versions of sites instead.6. No Personal InformationNo personal information or Facebook links.7. No Petitions or SurveysAlso no crowdfunding submissions.TransparencyReformsThe moderators of this subreddit are dedicated to transparency and building trust with the community. /r/technology is currently undergoing reform to increase moderator transparency and openness. Currently implemented reforms:AutomoderatorOur /u/AutoModerator configuration may be viewed here.Submission RemovalsRemoved threads will either be given a removal reason flair or comment response. Please message the moderators if your thread was removed without a reason in the flair or the comments.ModmailWe will answer all legitimate, answerable modmail inquiries to the best of our abilities within a reasonable period of time.Way AheadFurther reforms will be implemented in the coming days, if you have a suggestion please message the moderators.Technical Support CommunitiesAny tech related queries to be posted in/r/techsupport/r/buildapc/r/24hoursupport/r/applehelp/r/linux4noobsRelated Sub-RedditsTechnology relevant Communities/r/Android/r/Apple/r/Blackberry/r/Bitcoin/r/Chrome/r/CompSci/r/Computing/r/Engineering/r/Firefox/r/Futurology/r/Gadgets/r/Geek/r/Google/r/GoogleGlass/r/Hardware/r/ImaginaryTechnology/r/Kickstarter/r/Linux/r/Microsoft/r/Mobile/r/NetSec/r/Privacy/r/Programming/r/Rad_Decentralization/r/RenewableEnergy/r/Software/r/Startups/r/Tech/r/TechnologyPorn/r/Ubuntu/r/Windows/r/WindowsPhoneCreditsCSS & Logoa community for 7 yearsmessage the moderatorsMODERATORSqgyh2ketralnisAutoModeratorX019creqbillyuprotorcowboypreggithazysummerskyGilgamesh-...and 19 more »192193194BusinessGoogle is bringing superfast internet to four cities. Cable companies should be terrified. (vox.com)submitted 16 days ago by User_Name1352 commentssharecancelloading...4000all 52 commentssorted by: bestbesttopnewhotcontroversialoldrandom[–]fluxuate27 24 points25 points26 points 16 days ago (18 children)Until they come to more than just a few cities a year, no one's going to be terrified.permalink[–]subsubquery 11 points12 points13 points 16 days ago* (16 children)Look at the trend:+1: Kansas City+2: San Antonio and Austin+4: This announcementTo not get carried away with the pattern, one thing we can agree on is that Google is getting better and more efficient at this. More revenue is also being put into this \"hobby\" so they'll announce more than a few cities next time.permalinkparent[–]SmiteTheeWithAFish 10 points11 points12 points 15 days ago (13 children)Don't forget that partnership with SpaceX, to launch about 4,000 internet satellites, for a global connection alternative.permalinkparent[–]chrisms150 2 points3 points4 points 15 days ago (11 children)Which, while interesting, would have horrible latency times. So the only people interested in that would be people who don't game, or use their connection for video conferencing into an office or something like that.It would at least cut off some cash flow to the cable companies of users who don't need low pings though.permalinkparent[–]kaibee 1 point2 points3 points 15 days ago (1 child)Actually the plan is to put them in near earth orbit so the latency times wouldn't be horrible. (something like 60-120ms)permalinkparent[–]chrisms150 0 points1 point2 points 15 days ago (0 children)Hmm, 60 is reasonable, but 120 would make gaming unplayable. At least those delays would make average home users fine though so hopefully it'l force the ISPS to actually compete and be better.permalinkparent[–]SmiteTheeWithAFish 0 points1 point2 points 14 days ago* (0 children)Only according to how high up the satellites are.Keep in mind, satellite latency is a four way trip. Your request goes up, then down, then the answer goes up, then down. As well as wherever it bounces around, normally.If they put the satellites up around 500 miles up, like GPS satellites, that's 'normal' + 2000 miles, or about 100ms additional lag.While that would be murder on a video game, it would be relatively benign for typical internet use.I should underscore that they are NOT putting all of these up in geosynchronous orbit. Parking up there is extremely limited. You'll just be connected to whatever satellites are overhead, and connect to additional ones as they move along. Sort of like driving and talking on the phone connects to different cellular towers.Of course, most of the time, they won't be directly overhead. So add some variable ping time for them, according to their relative locations to you, over time.permalinkparent[–]SmiteTheeWithAFish 0 points1 point2 points 14 days ago* (6 children)Another thing you're overlooking is co-hosting+mirroring content on the satellites. I wonder how much SSD storage you could launch with each of them? I'm thinking: LOTS.That would be a 25ms ping time (give or take) from surface to satellite, at 500 miles up. That's better than anything I can get from my cable internet or from a cell phone.The English Wikipedia, images and all a little less than 50GB, as a ZIM. You can download/torrent it. (You should, too). Sure, it's bigger, stored as a mirror, and it does come in many languages, but the content could be mirrored across the constellation of satellites. Trivially. There are other, similar repositories of knowledge that could be cohosted and mirrored on all of the satellites. The Project Gutenberg ZIM is also about the same size. You should download it, too.Common web libraries, fonts, etc., could all be cohosted, to speed up load times.As a revenue source, you could charge companies to mirror their content on it. News sites could cache content on the satellites, and refresh several times a day. Most web sites have a fuck-ton of relatively invariant content and assets, before you get to the meat of their offerings, and for the majority, that 'meat' doesn't really change that much, either.Even if there were a global catastrophe, like an all-out nuclear war, most of these satellites would still be up there, working. Wouldn't it be nice, if they had useful content to serve up? Like wikipedia articles on water purification? How to make batteries? Even the 'old', non-copyrighted Project Gutenberg content preserves content on making things from scratch.permalinkparent[–]chrisms150 0 points1 point2 points 14 days ago (5 children)Hi; I feel like you didn't read my post at all from what you just said.permalinkparent[–]SmiteTheeWithAFish 0 points1 point2 points 14 days ago (4 children)You claimed 'horrible latency times'.25ms is not 'horrible'.permalinkparent[–]chrisms150 0 points1 point2 points 14 days ago (3 children)Again, please reread my post. Your 25ms is one trip. Not four. So the true latency would be 50ms if the data was on a satellite. And, if you read my post, I specifically said this would be no-go for games/teleconferencing.Both of which are not scenarios your post addresses at all.permalinkparent[–]SmiteTheeWithAFish 0 points158121 point2 points 14 days ago (2 children)You're right and wrong. It's 50ms, up and down, since the satellite had the content mirrored, locally.As in, it didn't have to bounce all over space and the internet, to find a terrestrial server farm. It's got a copy of the same shit ON THAT SATELLITE, to send back.http://www.webopedia.com/TERM/M/mirror_site.htmlIn other words, your browser asks for: http://allthefonts/some_big_font.woffThe satellite has 'http://allthefonts/some_big_font.woff' in its local cache.It sends its own, mirrored copy to your browser, without involving the rest of the internet, as if it came from there.permalinkparent[–]chrisms150 0 points1 point2 points 14 days ago (1 child)What are you on about dude. I just said - that it is 50ms assuming the satellite has the data on it. Literally just said that exactly. Please read my posts before you reply to them.permalinkparentcontinue this thread[–]elkab0ng 0 points1 point2 points 15 days ago (0 children)A lot of the utility value of the internet is simply the ability to communicate something - even a short message or update - to any place in the world at little or no cost.I like my netflix and will give up house of cards when they pry it from my cold dead fingers, but it's important to remember the value of a communication network isn't necesarily how big a pile of stuff you can move from one place to another, but just the fact that you can, and it doesn't cost anythingpermalinkparent[–]KevlarBoxers 1 point2 points3 points 14 days ago (0 children)If Google and Space X were a physical entity, I'd hug it.permalinkparent[–]FunnyHunnyBunny 3 points4 points5 points 15 days ago (0 children)San Antonio still hasn't been officially confirmed... Very likely it will in future though.permalinkparent[–]Throwahoymatie 0 points1 point2 points 15 days ago (0 children)That would be funny if they announced 8 cities next. The cable companies would catch the pattern and piss themselves.permalinkparent[–]UptownDonkey 2 points3 points4 points 15 days ago (0 children)just a few cities a yearGoogle already missed their opportunity to seriously compete with cable companies because of this. That was probably never their goal of course but if they had done an aggressive roll out 3-5 years ago they would have had a major competitive advantage. With all the major cable companies on track to start deploying DOCSIS 3.1 later this year it's very likely cable will have more gigabit data subscribers than Google Fiber even by the end of 2015. It's basically the same situation that happened with Verizon FIOS. They couldn't build out fast enough and pickup enough subscribers to make the numbers work. When cable companies started DOCSIS 3 deployments plus deep discounting in competitive markets Verizon actually lost subscribers.permalinkparent[–]The_sad_zebra 20 points21 points22 points 15 days ago (1 child)They should put some in Philadelphia, Comcast's home city.permalink[–]Sybs 5 points6 points7 points 15 days ago (0 children)Maybe not wise to try eating the prey before you've killed it.permalinkparent[–]ReverendDexter 10 points11 points12 points 16 days ago (9 children)If Google would come to the North Bay, I'd scrap Comcast as fast as their customer service would let me. I'd pay more for Google Fiber than I currently overpay to Comcast just to have an actual fast, actually reliable service.permalink[–]j_schmotzenberg 3 points4 points5 points 15 days ago (1 child)Try Sonic.netpermalinkparent[–]ReverendDexter 2 points3 points4 points 15 days ago (0 children)I have :( I'm at the very end of the run, max speed is about double dial-up, and the connection drops out every 5-10 minutes. Even the sonic employees in the neighborhood don't use the free sonic service they can get.permalinkparent[+]PostNationalism comment score below threshold-7 points-6 points-5 points 16 days ago (6 children)If Google covered the nation in fiber they'd have all the same problems Comcast is having..permalinkparent[–]12345768 7 points8 points9 points 16 days ago (1 child)Comcast is a Frankenstein network from buying up companies, Google wouldn't have that problem.permalinkparent[–]MacGuffin1 1 point2 points3 points 15 days ago (0 children)Google bought the Provo system that was built by Provo city and managed/retailed by third parties. I'm not disagreeing with you, just wanted to add clarifying information if we're drawing a comparison.permalinkparent[–]SvenSvensen 1 point2 points3 points 15 days ago (0 children)Just so we're clear on this: Comcast is not having any technical problems. They are perfectly capable of providing better service but they choose not to in any city where they have no competition.permalinkparent[–]ReverendDexter 7 points8 points9 points 16 days ago (2 children)Sure. Google's not some magical fantasy do-gooder, they're the new kid on the block and they have to provide reason for people to switch. When they're the big established company with the majority of market share, they don't have to do that.Right now, Google WILL provide better service than Comcast becasue they have to. Should Google become the monopoly player, then we can move on to the next upcomer who's using better service to bait us away.It's not about Google vs Comcast, it's about new player in a damn near monopoly market.permalinkparent[–]DZCreeper 8 points9 points10 points 15 days ago (1 child)Google would never be as bad as Comcast. Their an internet company. They make revenue from people having fast and reliable internet connections.permalinkparent[–]bartturner 3 points4 points5 points 15 days ago (0 children)Totally agree. The incentive for Google is completely different than Comcast. There is much better alignmentpermalinkparent[–]digitrix 3 points4 points5 points 16 days ago (4 children)Sucks that it will probably never come to WA. I would love to have it.permalink[–]Gunski 0 points1 point2 points 15 days ago (3 children)Don't speak such devil words!permalinkparent[–]digitrix 1 point2 points3 points 15 days ago (1 child)Here is an article explaining why. Although maybe they would consider a smaller city like Bellevue or Tacoma.permalinkparent[–]Gunski 1 point2 points3 points 15 days ago (0 children)This makes me really sad.permalinkparent[–]trainrider27 7 points8 points9 points 16 days ago (0 children)Cable companies HATE them!Find out what one company can do to speed up your Internet by 100x!permalink[–]MNasser4 2 points3 points4 points 16 days ago (5 children)So why WONT they bring it to more cities faster? ELI5 anyone?permalink[–]Yuli-Ban 9 points10 points11 points 16 days ago (0 children)Because it costs money to build the infrastructure, and the cable companies are fighting this every step of the way.permalinkparent[–]PsychoWorld 4 points5 points6 points 15 days ago (0 children)More importantly, many cities have laws that heavily favor established cable companies as to make them into oligopolies.Right of Way laws and council interference is why they probably won't ever go into certain Cali cities and Seattle.permalinkparent[–]johansch 0 points1 point2 points 15 days ago (0 children)Because they aren't really that serious about this effort. They're willing to put in a small amount of their money to try to tease the market into action, but not really wanting to go full in. It's a bit similar to trolling. (Congrats to those in the selected markets though!)permalinkparent[–]Carocrazy132 -2 points-1 points0 points 16 days ago (0 children)Google is an awesome crafty company who doesn't wanna be targeted. Now sh...permalinkparent[–]bartturner 1 point2 points3 points 15 days ago* (0 children)Google interest alignment with the consumer is what excites me most about Google providing Internet.Faster and cheaper Internet is good for Google. This is one of the critical problems with the existing ISPs.permalink[–]WStHappenings 0 points1 point2 points 15 days ago (0 children)Another really interesting side-benefit of installing fiber and running it is that Google becomes a vertically integrated business - they own the search, they own the ads, and they own the wire (or fiber) you used to get to the search and the ads.Who knows if they'd do it (IMHO they would be stupid not to, morals excepted), but it means their data centers can access your bits as they fly across the wire - meaning they can collect all sorts of interesting user habits based on your browsing (data is big money) and they won't even have the \"who is this user IRL?\" problems since they'll have an account holder's physical name/address for each fiber account.permalink[–]coldincanada 0 points1 point2 points 15 days ago (0 children)Are they going to use this one weird old trick that moms in your area know about but is going to be banned?!permalink[–]Ev3nt 0 points1 point2 points 15 days ago (2 children)Come on do some major cities already, especially NYC to give Time Warner a kick in the ass for its crap overpriced garbage service.permalink[–]Iced-Dragonhide 0 points1 point2 points 14 days ago (0 children)Yes, please.permalinkparent[–]mike7654 0 points1 point2 points 16 days ago (1 child)If google installed fiber on Uranus I bet most redditors would visit if not make a colonypermalink[–]Dwansumfauk 2 points3 points4 points 15 days ago (0 children)I don't know, the latency to Earth would be too much to game on, but the download speed would be really tempting.permalinkparent[–]infotheist -1 points0 points1 point 15 days ago (1 child)Why are they taking so fucking long? Seriously. It seems like Google Fiber has been rolling out for at least 2-4 years now.permalink[–]Moses89 1 point2 points3 points 15 days ago (0 children)Because they have to tear up streets and yards to install the fiber. They also have to work with cities to get everything in order legally which takes awhile. It's also why Google is so invested in trying to get rid of state laws that prohibit them from expanding into areas that don't already have some basic fiber networks already in place.permalinkparentaboutblogaboutteamsource codeadvertisejobshelpwikiFAQreddiquetterulescontact ustoolsmobilefirefox extensionchrome extensionbuttonswidget<3reddit goldstoreredditgiftsreddit AMA appreddit.tvradio redditUse of this site constitutes acceptance of our User Agreement (updated) and Privacy Policy (updated). © 2015 reddit inc. All rights reserved.REDDIT and the ALIEN Logo are registered trademarks of reddit inc.p Rendered by PID 10094 on app-28 at 2015-02-14 03:15:19.298293+00:00 running d131957 country code: US.0"
+        ],
+        "content_text_length": 21454,
+        "content_type": [
+          "text/html"
+        ],
+        "title": "Google is bringing superfast internet to four cities. Cable companies should be terrified. : technology",
+        "keywords": "reddit, reddit.com, vote, comment, submit",
+        "content_encoding": "UTF-8",
+        "content_ffb": "33633035",
+        "content_first_bytes": "33 63 30 35 0d 0a 3c 21 64 6f 63 74 79 70 65 20 68 74 6d 6c 3e 3c 68 74 6d 6c 20 78 6d 6c 6e 73",
+        "content_type_droid": "text/html; version=5",
+        "links_hosts": [
+          "nc.reddit.com",
+          "radioreddit.com",
+          "addons.mozilla.org",
+          "reddit.tv",
+          "redditama.reddit.com",
+          "www.geekwire.com",
+          "chrome.google.com",
+          "ne.reddit.com",
+          "www.reddit.com",
+          "reddit.com",
+          "www.vox.com",
+          "i.reddit.com",
+          "www.webopedia.com",
+          "redditgifts.com"
+        ],
+        "links_domains": [
+          "radioreddit.com",
+          "webopedia.com",
+          "reddit.com",
+          "google.com",
+          "mozilla.org",
+          "reddit.tv",
+          "vox.com",
+          "redditgifts.com",
+          "geekwire.com"
+        ],
+        "links_public_suffixes": [
+          "com",
+          "tv",
+          "org"
+        ],
+        "elements_used": [
+          "dt",
+          "body",
+          "tr",
+          "link",
+          "div",
+          "img",
+          "td",
+          "br",
+          "meta",
+          "th",
+          "dd",
+          "title",
+          "time",
+          "style",
+          "button",
+          "h4",
+          "dl",
+          "h1",
+          "head",
+          "option",
+          "h3",
+          "h2",
+          "ul",
+          "form",
+          "select",
+          "a",
+          "blockquote",
+          "label",
+          "table",
+          "code",
+          "script",
+          "i",
+          "li",
+          "input",
+          "iframe",
+          "strong",
+          "p",
+          "html",
+          "em",
+          "span"
+        ],
+        "content_type_tika": "text/html; charset=UTF-8",
+        "content_type_version": "5",
+        "content_type_full": "text/html; charset=UTF-8; version=5",
+        "content_type_norm": "html",
+        "content_language": "en",
+        "ssdeep_hash_bs_384": "zXr0px7HEXQ6UMW9NSrpJjMKiMMJn67fpWAcELsjLs7ozCQj+3dyWVDW5c63o",
+        "ssdeep_hash_bs_768": "aEZUj9NSrpJpiApxbs872+3dyWd4cN",
+        "ssdeep_hash_ngram_bs_384": "zXr0px7HEXQ6UMW9NSrpJjMKiMMJn67fpWAcELsjLs7ozCQj+3dyWVDW5c63o",
+        "ssdeep_hash_ngram_bs_768": "aEZUj9NSrpJpiApxbs872+3dyWd4cN",
+        "crawl_dates": [
+          "2015-02-27T00:02:28Z"
+        ],
+        "crawl_years": [
+          "2015"
+        ],
+        "_version_": 1494730953106391000
+      },
+      {
+        "source_file_s": "106.warc.gz@970",
+        "url": "http://www.breakingnews.com/item/2015/01/30/nfl-commissioner-roger-goodell-on-criticism-of-him/?utm_source=dlvr.it&utm_medium=twitter",
+        "host": "www.breakingnews.com",
+        "domain": "breakingnews.com",
+        "public_suffix": "com",
+        "server": [
+          "nginx"
+        ],
+        "content_type_served": "text/html; charset=utf-8",
+        "content_length": 66076,
+        "id": "sha1:L3DM3P2B2L322QDYKD377WMWGGSBPW3Z/ZJ8J2Oppr6MJCa8s+Y53hg==",
+        "hash": [
+          "sha1:L3DM3P2B2L322QDYKD377WMWGGSBPW3Z"
+        ],
+        "crawl_date": "2015-02-27T00:03:20Z",
+        "crawl_year": "2015",
+        "wayback_date": "20150227000320",
+        "content": [
+          "00006000×Find out first with the Breaking News appDownload our free app for Android, Windows Phone, and moreGet itFind out first with the Breaking News appDownload our free iOS app and get instant push alerts for any topicGet itFind out first with the Breaking News appDownload our free Android app and get instant push alerts for any topicGet itBREAKING NEWSSearch topicsSaved topicsTap on a topic to save it hereMuted topicsTap on a topic to hide updates2015 Super BowlLoad more2015 Super BowlJan 30, 2015, 06:51 PM GMT(18:51)NFL Commissioner Roger Goodell on criticism of him and league in the past year over domestic violence incidents: 'As an organization and as an individual, it's been a tough year.'End of alertAlert my friends20WHOA!Load moreAdvertisementGet the appFind out first with the Breaking News appDownload our free app for iOS, Android, Windows Phone, and more00000000"
+        ],
+        "content_text_length": 919,
+        "content_type": [
+          "text/html"
+        ],
+        "title": "NFL Commissioner Roger Goodell on criticism of him and league in the past year over domestic violence incidents: 'As an organization and as an individual, it's been a tough year.' - breakingnews.com",
+        "keywords": "2015 Super Bowl , Adrian Peterson child abuse case, NFL playoffs 2014-15, Ray Rice domestic violence case, football, National Football League, Roger Goodell, sports",
+        "content_encoding": "UTF-8",
+        "content_ffb": "30303030",
+        "content_first_bytes": "30 30 30 30 36 30 30 30 0d 0a 3c 21 44 4f 43 54 59 50 45 20 68 74 6d 6c 3e 0a 3c 68 74 6d 6c 20",
+        "content_type_droid": "text/html; version=5",
+        "links_hosts": [
+          "www.breakingnews.com",
+          "ad.apps.fm"
+        ],
+        "links_domains": [
+          "breakingnews.com",
+          "apps.fm"
+        ],
+        "links_public_suffixes": [
+          "fm",
+          "com"
+        ],
+        "elements_used": [
+          "body",
+          "link",
+          "img",
+          "div",
+          "br",
+          "meta",
+          "time",
+          "title",
+          "n.length;o++)r(n[o]);return",
+          "h4",
+          "head",
+          "h1",
+          "h3",
+          "ul",
+          "b",
+          "form",
+          "a",
+          "script",
+          "header",
+          "section",
+          "i",
+          "li",
+          "input",
+          "strong",
+          "p",
+          "nav",
+          "html",
+          "o;)i[r]=t[e+r];return",
+          "span"
+        ],
+        "content_type_tika": "text/html; charset=UTF-8",
+        "content_type_version": "5",
+        "content_type_full": "text/html; charset=UTF-8; version=5",
+        "content_type_norm": "html",
+        "content_language": "en",
+        "ssdeep_hash_bs_24": "uk7GNjwrTI9VwcivFLN02Yko6X6IHfz7o",
+        "ssdeep_hash_bs_48": "u4Gar4KcidgM3Po",
+        "ssdeep_hash_ngram_bs_24": "uk7GNjwrTI9VwcivFLN02Yko6X6IHfz7o",
+        "ssdeep_hash_ngram_bs_48": "u4Gar4KcidgM3Po",
+        "crawl_dates": [
+          "2015-02-27T00:03:20Z"
+        ],
+        "crawl_years": [
+          "2015"
+        ],
+        "_version_": 1494730957186400300
+      },
+      {
+        "source_file_s": "111.warc.gz@833",
+        "url": "http://www.cuttingedgeesports.com/",
+        "url_type": "slashpage",
+        "host": "www.cuttingedgeesports.com",
+        "domain": "cuttingedgeesports.com",
+        "public_suffix": "com",
+        "content_type_served": "text/html",
+        "content_length": 37336,
+        "id": "sha1:AGQ73EMT5VHYGHL2PTHYDHSLWIYW22HU/wCG1QmUITM+C8ENY9tgX5A==",
+        "hash": [
+          "sha1:AGQ73EMT5VHYGHL2PTHYDHSLWIYW22HU"
+        ],
+        "crawl_date": "2015-02-27T00:04:17Z",
+        "crawl_year": "2015",
+        "wayback_date": "20150227000417",
+        "content": [
+          "10001 Hour1 Day1 Week1 MonthForeverREGISTER | FORGOT PASSWORD?  Home|Register|Xbox OneGhostCall Of Duty: Advanced Warfare4v4Ultra Street Fighter IV|PCSmite5v5 Smite team ladder|Tournaments$100 4v4 Powered by ETGcE AM league OQ 1 1/30/15 6pm estFree entry 4v4 1/24/15 7pm estFree entry 2v2 SND 1/25/15 10pm estFree Entry 2v2 6pm est 1/31/15cE AM league OQ 3 2/13/15 6pm estcE AM League|StaffStaff Contact ListApply to Staff|Credit Shop|cE TV|Lans|F/A's|Achievements|1000Halo 4Halo 4Call of Duty: Advanced WarfareCall of Duty: Advanced WarefareLansLan eventsTreyarch takes control over ... +Read MoreStaff changeup and new thing... +Read MoreHalo 4 and Ultra street figh... +Read MoreHalo 4 Lan 2v2 and FFA Resul... +Read MorecE AM LeagueCall Of Duty: Advanc...cE AM league OQ 3 2/...Call Of Duty: Advanc...Free Entry 2v2 6pm e...Call Of Duty: Advanc...Free entry 2v2 SND 1...Call Of Duty: Advanc...4v4Call Of Duty: Advanced Wa...5v5 Smite team ladderSmiteMember | View Full Leaderboard PointsDomey 200joedoghp 100Floppie 100MLGAstronomy 100RJ 100Tweets by @cE_eSportsMembers: 861 | Teams: 239 | Ladders: 2 | Tournaments: 9© 2013-2014 Cutting Edge EsportsHome | Leaderboard | ContactTournaments | LansCredit Shop | Support | Report Matchvar ol_textcolor = \"#ffffff\";var ol_fgcolor = \"#141414\";var ol_bgcolor = \"#940808\";0"
+        ],
+        "content_text_length": 1402,
+        "content_type": [
+          "text/html"
+        ],
+        "title": "Cutting Edge eSports",
+        "keywords": "video game battles ladders tournaments",
+        "content_encoding": "UTF-8",
+        "content_ffb": "31303030",
+        "content_first_bytes": "31 30 30 30 0d 0a 0a 0a 0a 3c 21 44 4f 43 54 59 50 45 20 68 74 6d 6c 20 50 55 42 4c 49 43 20 22",
+        "content_type_droid": "text/html",
+        "links_hosts": [
+          "esport-jerseys.com",
+          "www.cuttingedgeesports.com",
+          "twitter.com",
+          "gammagamers.com"
+        ],
+        "links_domains": [
+          "cuttingedgeesports.com",
+          "esport-jerseys.com",
+          "twitter.com",
+          "gammagamers.com"
+        ],
+        "links_public_suffixes": [
+          "com"
+        ],
+        "elements_used": [
+          "body",
+          "tr",
+          "link",
+          "div",
+          "img",
+          "td",
+          "br",
+          "meta",
+          "center",
+          "title",
+          "head",
+          "option",
+          "ul",
+          "form",
+          "b",
+          "select",
+          "font",
+          "a",
+          "sc",
+          "table",
+          "script",
+          "embed",
+          "li",
+          "input",
+          "html",
+          "span"
+        ],
+        "content_type_tika": "text/html; charset=utf-8",
+        "content_type_full": "text/html; charset=utf-8",
+        "content_type_norm": "html",
+        "content_language": "en",
+        "ssdeep_hash_bs_24": "MpPtNSPmqPMmBurB+mS92fFEP3v/dXD+mom9AsKREFetgu8G4M8aQtVHvH",
+        "ssdeep_hash_bs_48": "E1MBkrB+mQAFmZDHopVIetDYf",
+        "ssdeep_hash_ngram_bs_24": "MpPtNSPmqPMmBurB+mS92fFEP3v/dXD+mom9AsKREFetgu8G4M8aQtVHvH",
+        "ssdeep_hash_ngram_bs_48": "E1MBkrB+mQAFmZDHopVIetDYf",
+        "crawl_dates": [
+          "2015-02-27T00:04:17Z"
+        ],
+        "crawl_years": [
+          "2015"
+        ],
+        "_version_": 1494730966538649600
+      },
+      {
+        "source_file_s": "109.warc.gz@953",
+        "url": "http://thebiglead.com/2015/01/27/nba-d-league-teammates-jarnell-stokes-and-kalin-lucas-ejected-for-fighting-each-other-in-timeout/",
+        "host": "thebiglead.com",
+        "domain": "thebiglead.com",
+        "public_suffix": "com",
+        "server": [
+          "nginx"
+        ],
+        "content_type_served": "text/html; charset=UTF-8",
+        "content_length": 118608,
+        "id": "sha1:RYRZH2X2ARCTEW5LR2QEY7RDIVC6B7YA/OdHEv50tW12a6HiDcXQc2w==",
+        "hash": [
+          "sha1:RYRZH2X2ARCTEW5LR2QEY7RDIVC6B7YA"
+        ],
+        "crawl_date": "2015-02-27T00:03:47Z",
+        "crawl_year": "2015",
+        "wayback_date": "20150227000347",
+        "content": [
+          "1dea1ff0facebooktwittergoogle plusemailPOWERED BYfacebooktwitterAd ChoicesPrivacy Notice/Your California Privacy RightsTerms of ServiceAboutCommenters' Bill of RightsPowered by WordPress.com VIP1feaNFLNCAAFNBANCAABMLBSOCCERMEDIAWAGSROUNDUPMenuMenuNFLNCAAFNBANCAABMLBSOCCERMEDIAWAGSROUNDUPfacebooktwitterMenuPopular Now:Dez Bryant •Cowboys •Ray Rice •Jerry Jones •Katie Nolan •Bill Simmons •FOX Sports 1 •Mike Florio •Adam Schefter •Police Report •Dallas Cowboys •Josh Hamilton •Anaheim Angels •Warren Sapp •Prostitutes •Sam Faiers NBANBA D-League Teammates Jarnell Stokes and Kalin Lucas Ejected for Fighting Each Other in TimeoutBy: Ryan Glasspiegel January 27, 2015 10:36 pm ET4.1kSHARE ON FACEBOOK3.5kSHARE ON TWITTERTWEETSHARE ON SMSSMSSHARE ON WHATSAPPWHATSAPPEMAILJarnell Stokes and Kalin Lucas, teammates on the Iowa Energy (the D-League affiliate of the Memphis Grizzlies), were ejected from tonight’s game against the Rio Grande Valley Vipers for fighting each other during a timeout in the third quarter. It’s unclear what sparked the fracas — and hopefully better video will emerge (the game video here is rewindable) — but the game’s color commentator said Lucas looked like he might’ve gotten bloodied up a little bit.Related: If Joe Alexander Gets Dunked on in the NBA D-League, Does Anybody See It?Related: NBA D-League’s Reno Bighorns Shot 61 Three-Pointers in a GameD-League, Jarnell Stokes, Kalin Lucas, NBA 4.1kSHARE ON FACEBOOK3.5kSHARE ON TWITTERTWEETSHARE ON SMSSMSSHARE ON WHATSAPPWHATSAPPEMAILNEXT Floyd Mayweather and Manny Pacquaio Met at Halftime of Heat GameBecause you want to see it first!Like and follow The Big Lead today!More LeadsNBANBA D-League's Reno Bighorns Shot 61 Three-Pointers in a GameNBARajon Rondo and Rick Carlisle Jawed With Each Other During a TimeoutNBAJason Williams \"White Chocolate\" Update: He's Killing it in a Rec League in OrlandoFrom our Partnersblog comments powered by DisqusMarch Media Madness 2015: The Francesa RegionHere's How the Lakers Can Rebuild Quickly This SummerJameis Winston is \"Pro-Ready,\" Marcus Mariota is Not, But Does It Matter?Latest LeadsView Comments3mRex Ryan Customized His Truck with the Huge Bills LogoNFL 3 minutes ago·Mike CardilloHe’s got spirit.View Comments1hrHere's a Funny Dog Gif I Found on RedditAnimals 1 hour ago·Stephen Douglasyou’re welcome.View Comments1hrNC State Coach Mark Gottfried Danced a Strange Dance After the Wolfpack Upset North CarolinaCollege Basketball 1 hour ago·Stephen DouglasGottfried is on the dancing bubble with those moves.View Commentsreply219shares1hrNFL Appeals Judge's Adrian Peterson RulingNFL 1 hour ago·Ty DuffyAdrian Peterson will be reinstated per Adam Schefter. The NFLPA filed suit on his behalf, after his suspension was upheld by a league (…)View Commentsreply145shares2hrFeyenoord-Roma Match Suspended After Fans Throw Inflatable Banana at GervinhoSoccer 2 hours ago·Ryan GlasspiegelAwful.View Comments2hrKimbo Slice and Ken Shamrock Will Fight in Bellator on SpikeTV in 2015MMA 2 hours ago·Stephen DouglasSeven years later.View Commentsreply103shares3hrSergio Garcia Successfully Hit a Completely Submerged Golf Ball at the Honda ClassicGolf 3 hours ago·Michael ShamburgerNo, you can’t do this.The RoundupRoundup: Patrick Kane Out 12 Weeks, Ducktales Rebooting, Rob Konrad Police VideoView Commentsreply645 sharesPopular Leads4d75ksharesRumors Surfacing that There is a Video Out There of Dez Bryant Doing Something Really BadFebruary 22, 2015NFL2d7.4ksharesDid ESPN and Fox Discuss a Trade Involving Ian Darke and Katie Nolan?February 24, 2015Media19hr6.4ksharesAdam Schefter Has Been Working on the Dez Bryant Video Rumor Since SeptemberNFL7hr5.5ksharesDez Bryant's Girlfriend Was Reportedly Dragged into a Car by Someone, in a 2011 Wal-Mart Parking Lot IncidentNFL1d4.5ksharesJosh Hamilton Facing MLB Discipline For Something \"Worse\" Than PEDsFebruary 25, 2015MLB1w6.1ksharesWarren Sapp Paid $600 for Oral Sex From Prostitutes, Recorded Video of it on His Cell PhoneFebruary 19, 2015NFL1d1.4ksharesRoundup: Derrick Rose Needs 3rd Knee Surgery in 34 Months; Les Moonves Made Pacquiao/Mayweather Happen & Dashcam Video Captures House ExplosionFebruary 25, 2015RoundupAd ChoicesPrivacy Notice/Your California Privacy RightsTerms of ServiceAboutCommenters' Bill of RightsPowered by WordPress.com VIPMore InformationBecause you want to see it first.Like and follow The Big Lead today!Add your thoughts here... (optional)Post toCancel0"
+        ],
+        "content_text_length": 4690,
+        "content_type": [
+          "text/html"
+        ],
+        "title": "NBA D-League Teammates Jarnell Stokes and Kalin Lucas Ejected for Fighting Each Other in Timeout | The Big Lead",
+        "keywords": "nba, d-league, jarnell stokes, kalin lucas",
+        "content_encoding": "UTF-8",
+        "generator": [
+          "WordPress.com"
+        ],
+        "content_ffb": "31646561",
+        "content_first_bytes": "31 64 65 61 0d 0a 3c 21 44 4f 43 54 59 50 45 20 68 74 6d 6c 3e 0a 3c 21 2d 2d 5b 69 66 20 49 45",
+        "content_type_droid": "text/html; version=5",
+        "links_hosts": [
+          "disqus.com",
+          "facebook.com",
+          "thebiglead.com",
+          "plus.google.com",
+          "www.facebook.com",
+          "usatodaysports.com",
+          "twitter.com",
+          "dleague.nba.com",
+          "vip.wordpress.com",
+          "usatoday.com"
+        ],
+        "links_domains": [
+          "disqus.com",
+          "nba.com",
+          "facebook.com",
+          "thebiglead.com",
+          "google.com",
+          "usatodaysports.com",
+          "twitter.com",
+          "usatoday.com",
+          "wordpress.com"
+        ],
+        "links_public_suffixes": [
+          "com"
+        ],
+        "elements_used": [
+          "hr",
+          "body",
+          "link",
+          "div",
+          "img",
+          "noscript",
+          "aside",
+          "br",
+          "meta",
+          "title",
+          "style",
+          "h1",
+          "head",
+          "h3",
+          "h2",
+          "ul",
+          "form",
+          "select",
+          "arrcookies.length;i++){x=arrcookies[i].substr(0,arrcookies[i].indexof(\"=\"));y=arrcookies[i].substr(arrcookies[i].indexof(\"=\")+1);x=x.replace(",
+          "a",
+          "label",
+          "script",
+          "u;a++){o=r[a];i.push(o);for(var",
+          "header",
+          "footer",
+          "li",
+          "input",
+          "iframe",
+          "article",
+          "strong",
+          "textarea",
+          "p",
+          "nav",
+          "html",
+          "span"
+        ],
+        "content_type_tika": "text/html; charset=UTF-8",
+        "content_type_version": "5",
+        "content_type_full": "text/html; charset=UTF-8; version=5",
+        "content_type_norm": "html",
+        "content_language": "en",
+        "ssdeep_hash_bs_96": "9jpEtKyl/m/yvt1pxtpYkW9gmCUMy+F6nmA1d9sWgEZORmdZ",
+        "ssdeep_hash_bs_192": "ct9l/M2t1PdW9gmCly+UL9sWgEc0",
+        "ssdeep_hash_ngram_bs_96": "9jpEtKyl/m/yvt1pxtpYkW9gmCUMy+F6nmA1d9sWgEZORmdZ",
+        "ssdeep_hash_ngram_bs_192": "ct9l/M2t1PdW9gmCly+UL9sWgEc0",
+        "crawl_dates": [
+          "2015-02-27T00:03:47Z"
+        ],
+        "crawl_years": [
+          "2015"
+        ],
+        "_version_": 1494730959641116700
+      },
+      {
+        "source_file_s": "126.warc.gz@1037",
+        "url": "http://bleacherreport.com/articles/2322488-the-best-football-prospect-nobodys-ever-heard-of?utm_source=facebook.com&utm_medium=referral&utm_campaign=programming-national?is_shared=true?is_shared=true",
+        "host": "bleacherreport.com",
+        "domain": "bleacherreport.com",
+        "public_suffix": "com",
+        "content_type_served": "text/html; charset=utf-8",
+        "server": [
+          "nginx/1.7.7 + Phusion Passenger 4.0.50",
+          "Phusion Passenger 4.0.50"
+        ],
+        "content_length": 194040,
+        "id": "sha1:OXRAOQZUSNAOIOHDRYKF66FAUFHY32EJ/V+NadCuvRhv4hD7UvpBVWA==",
+        "hash": [
+          "sha1:OXRAOQZUSNAOIOHDRYKF66FAUFHY32EJ"
+        ],
+        "crawl_date": "2015-02-27T00:06:53Z",
+        "crawl_year": "2015",
+        "wayback_date": "20150227000653",
+        "content": [
+          "The Best Football Prospect Nobody Has Ever Heard Of | Bleacher ReportCollege FootballWant more real-time College Football news?Visit Team Stream on BleacherReport.com!×The Best Football Prospect Nobody Has Ever Heard OfBySanjay Kirpalani, Featured ColumnistJan 28, 2015ShareTweetNext ARTICLE »Use your ? ? (arrow) keys to browse more storiesvia Carl Bruere1.4MReads379CommentsEaston Bruere should be having the time of his life right now.He just finished his senior season as quarterback at Rio Rancho (New Mexico) High School by leading it to a 13-0 record and a 6A state title. According to MaxPreps, Easton threw for 4,567 yards and 49 touchdowns with only six interceptions this season. In the process, he became the state's all-time leader in passing yards.Easton should be getting ready to enjoy his final semester of high school before heading off to college to resume his playing career. But there's one small problem.He has zero scholarship offers less than a week before national signing day.How could he find himself in this situation?The primary reasons for his present circumstances are largely beyond his control. Given that he checks in at 6'3\", 200 pounds—measurements that place him bigger or equal to 24 of the nation's top 50 pro-style passers in the 2015 class—his measurables aren't an issue like they were for Desmon White last year.According to his father, Carl, Easton attended numerous camps—including those held at schools in the Big Ten, Big 12, Mountain West and the Pac-12—prior to his senior season.\"They've all really loved him,\" Carl told Bleacher Report. \"They showed him a lot of love when he visited. They thought he had great size and a good arm and things of that nature. They all said he's definitely a Division I quarterback.\" Carl said that at first, Easton would get excited when mail would arrive from colleges. That joy faded over time, when he realized there was nothing of substance enclosed. \"He's got tons of letters,\" Carl said. \"It's funny, because he stopped opening them because he knew it was filler mail. He got letters from 20 or 30 colleges, and once in a while, there would be a handwritten letter from a coach. But it's really strange, because they came from places all over the country. But he knew what they were. He was excited at first. But then, it's like, 'OK, I know what this is.'\"Credit: Carl BruereThere aren't any off-field concerns for schools to ponder, either.Easton is carrying a 4.0 GPA during his senior year and has a cumulative average of 3.75. He and Carl—who doubles as the offensive coordinator at Rio Rancho—have started a quarterback camp designed to mentor younger kids in his hometown. It certainly can't be because of his performance.En route to winning the state title, Easton outdueled 4-star quarterback, fellow New Mexico native and Michigan commitment Zach Gentry by throwing for 554 yards and three touchdowns in a 64-43 win over El Dorado in the state semifinals, according to James Yodice of the Albuquerque Journal. He plays in his state's biggest classification, and his team has beaten teams from Arizona and West Texas during his high school career. The answer to his conundrum has several layers, starting with his home state.ShareTweetNew Mexico's state nickname is The Land of Enchantment. However, for college recruiters, the entire state might as well be Area 51.Since 2005, the state has produced just four players who have earned a 4-star rating and another 11 who were ranked as 3-stars by 247Sports. In the same time frame, only six quarterbacks from New Mexico earned a star rating.Only two prospects from New Mexico have been rated a 3-star or better in the 2015 cycle—with Gentry being one of them. With the perceived lack of talent in the state, players such as Easton are grossly underexposed when compared with prospects from other states.\"I think being in New Mexico has hurt him, because there are so many players elsewhere and not enough here,\" Carl said. \"For instance, Texas or Ohio State or any school can go to one little area in Texas where there are 20 or 30 prospects in the same place. Whereas in New Mexico, you're only really looking at one or two players, so they don't really come out here a lot.\" Breaking: Easton Bruere is named New Mexico Mr. Football by @nmpreps https://t.co/uTGnOgqg8l pic.twitter.com/QiU75BQOWx— Kyle Henderson (@nmpreps) December 15, 2014Brandon Darlington, who just finished up his first year as the offensive line coach at Rio Rancho, grew up in Pennsylvania and played college football at Syracuse from 2002-06. \"When (my wife and I) first came out here, to find out how big football really is out here, and how popular it is, it was kind of a culture shock, actually,\" Darlington said.He notes that he was also shocked at the quality of the competition Rio Rancho faced.\"It's not like we're playing against crappy opponents,\" Darlington said. \"We're playing against West Texas teams. We're playing schools like Mayfield and Las Cruces and so on. Teams that have been putting up big-time numbers and putting people in Division I schools for years.\"During the spring evaluation period, Carl said that coaches from Tulsa and Iowa State were the only programs who stopped by Rio Rancho, a town of nearly 100,000 people just north of Albuquerque. \"In order for us to get seen, we have to go out and go to these camps,\" Easton said. \"No colleges usually come to New Mexico. It's kind of funny, because we've beaten teams like Notre Dame Prep and Salpointe from Arizona that have guys going Division I all the time.\" If a player from New Mexico gets noticed, it's usually because he's the no-brainer type coaches simply can't refuse.For example, Gentry—who is friends with Easton—is 6'7\", 240 pounds with a 4.6-second time in the 40-yard dash.His measurables alone would be enough to generate college interest. The fact that he's been productive helped him avoid the fate of other talented players from New Mexico who weren't as physically gifted.Kyle Henderson, who has covered high school football in New Mexico for the last decade and runs NMPreps.com (part of the Rivals network) shares a similar sentiment. \"Zach Gentry was hard to put on the map, honestly,\" Henderson said. \"If he wasn't 6'7\", 240, I don't know if he'd have the offers that he has now.\"Henderson witnessed the duel between El Dorado and Rio Rancho live and said it didn't take long to know he was watching something special between the two stud passers.\"It was back-and-forth with two heavyweights going at it,\" Henderson said. \"I wouldn't say that Easton completely outshined Zach, but it was clear that these two were something that we will probably never see again in New Mexico. It was that good of a matchup.\"Living in an area that has historically been neglected by colleges is a burden that Easton admits he's pondered.\"From day one, I told my dad, 'I wish we didn't live in New Mexico because of this recruiting thing,'\" Easton said as he replayed those conversations in his mind. \"'No one comes to New Mexico. No one looks at New Mexico kids.' Then you look at the picture like, what else do these college coaches want me to do?\" Credit: Carl BruereUpon viewing Easton in his first few practices at his new home, Darlington's first thought was to ask to see which school he was committed to.Utterly befuddled at the news that he had yet to receive an offer, he took matters into his own hands.\"From the day I took the job and started coaching, I've just been posting his highlights and statistics on people's Facebook,\" Darlington said. \"Whether they are GAs at colleges or they coach at other colleges. I'd be like, 'Hey, take a look at this kid,' or 'What do you think?'\"Darlington received positive feedback on Easton from several of his coaching friends scattered throughout the country.\"One coach at a Pac-12 school said that he liked Easton, but he already had commitments at quarterback for the next two years.\"According to Darlington, that particular coach noted that the unusually deep 2015 quarterback class in California allowed most schools to focus their efforts in territories they were already familiar with.Carl and Easton also took matters into their own hands in the quest to net a scholarship offer.They sent out film to every FBS school and several FCS and Division II programs. They even researched schools and their recruiting classes to see which schools still had openings and needs at quarterback. \"We kept up with his stats weekly and sent that out with his Hudl film on a weekly basis,\" Carl said. \"We researched it and came up with a group of about 30 colleges that publicly have not gotten their 2015 quarterback yet, and we sent stuff out to them every week, his film and stats.\"Anyone looking for a 6'3\" QB with 49 TD passes, 4,100 yards and only 3 INTs this season? Anyone? #EastonBruere http://t.co/tILVeilDjp— Chad Wilson (@GridironStuds) December 2, 2014Recruiting is never final until a player enrolls or signs a national letter of intent, so Carl also mass-emailed every FBS school in the country in case an opening suddenly materialized. The rest of the staff at Rio Rancho also tried to use its network to get the word out on its star quarterback.\"Some of our coaches have some connections, and they've been talking to other coaches for me and things like that,\" Easton said. \"I've been in a couple of magazines, Sports Illustrated being one of them. We've done a lot of things.\" Congratulations to rio rancho's Easton bruere for making the Faces on the Crowd section of sports illustrated pic.twitter.com/M25OetLgOK— J.P. Murrieta (@KOBSports) November 29, 2014While it's not a complete shock that colleges outside the state aren't beating down the doors of the Bruere residence, the fact that in-state programs New Mexico and New Mexico State have shunned the state's most prolific prep passer is peculiar.For the record, the Lobos received a commitment from 3-star JUCO passer Austin Apodaca in December. The Aggies have yet to secure a verbal pledge from a quarterback in the 2015 cycle, perhaps due to the fact they signed six quarterbacks in the 2014 cycle.\"It baffles me that the home schools don't even offer him, and they're 20 minutes down the road,\" Darlington said.As fate would have it, both schools who came to view Easton live in the spring were heavily interested in him.In fact, the coach from Tulsa hinted to staff members at Rio Rancho that an offer would be coming—one that Carl said Easton was prepared to accept.Their long journey would finally have a happy ending.Instead, a bitter dose of reality intervened.\"It was a Monday when he (Tulsa coach) was here. I guess they saw someone else later that week that they liked better and reneged on that, which was kind of disappointing because we let the cat out and said that Easton was going to commit because he loved Tulsa. That was kind of heartbreaking.\"He was on the Cyclones board as well, but they secured a commitment from their top target, which ended their pursuit of him.The same could be said for Michigan State, where Easton enjoyed working with Spartans quarterback coach Brad Salem during a summer camp session.\"He's a great guy,\" Carl said. \"He already had his offer for 2015, but we had a great experience going there. He was high on Easton, and he still keeps in touch with him.\"RT this: #recruitEastonBruere— Kyle Henderson (@nmpreps) November 29, 2014Despite the disappointments piling up heading into the season, Easton hasn't let the uncertainty surrounding his future affect him whether on or off the field.Instead, he brushed it aside and delivered a nearly flawless senior campaign on the field.He was a solid starter in each of his sophomore and junior seasons but elevated his game to another level as a senior.Entering this season, he had thrown 59 touchdown passes in the previous two seasons while completing nearly 67 percent of his passes. This year, he nearly doubled his total in scoring strikes and raised his completion rate to an astounding 75 percent. Henderson notes that Rio Rancho had never won a state title prior to this season despite being on the cusp of that elusive championship for many years. Easton focused his attention on accomplishing that goal and had to topple Gentry and Mayfield's Kavika Johnson—a quarterback with offers from BYU, UTEP, New Mexico and New Mexico State—to do it. \"Since he didn't get recruited and since he doesn't have any offers, it was almost like he had a chip on his shoulder, and he went out there every game like he had something to prove,\" Henderson said. \"He carried that with him, and I think it elevated his game. They went through a gauntlet in the playoffs and beat a very good team in the state title game.\"However, Easton admits it's been hard to keep a positive attitude at times given his recruitment struggles.\"It gets to me at times,\" Easton said. \"That's just laying in bed at night sometimes and thinking about it. I was able to play for a unique group this year. I spent a ton of time with them, and that kept my mind off recruiting, because we were always just having a ball playing football.\"His attitude in dealing with the snub from colleges reminds Carl of how his son puts away his mistakes on the field—one of the attributes he said helps Easton stand out in a loaded 2015 class of quarterbacks.\"It's funny, because he's amazing in how he's handling all of this,\" Carl said. \"All he says is, 'Dad, I want to go where someone wants me.' That's all he cares about. 'I don't care where it is, as long as they want me and I can help them win.' He just wants to go to a place that wants him there. I don't know how he does it. Because it's killing his father.\" Only a handful of prep football players are fortunate enough to earn scholarship offers to continue their careers in college. There's nothing in Easton Bruere's resume that suggests he shouldn't be one of them.In fact, his body of work suggests he's the nation's most accomplished player in the 2015 class without a scholarship offer.\"In New Mexico, we don't get a lot of notoriety for our football prospects,\" Henderson said. \"We get it. But for someone to put a 13-0 season together at the highest level, with his numbers, that's something noteworthy. There has to be some place out there, Division I-wise, that you'd think this guy can fit into. There's few guys nationally, whether you're from New Mexico or California or Texas, that can say they did what Easton did. He's incredibly deserving of landing a scholarship offer.\" Sanjay Kirpalani is a National Recruiting Analyst for Bleacher Report. Unless otherwise noted, all quotes were obtained firsthand and all recruiting information courtesy of 247Sports.Follow @SanjayKirpalani ShareTweet379CommentsDOWNLOAD FREE APPMore College FB FromTop 25 Teams' Fastest-Ever NFL Combine 40 TimesRedshirt Freshmen Who Could Be Stars in 2015Best Fits for Top Uncommitted '16 QB RecruitsThe Media's Love Affair with Harbaugh Has BegunDon't Look Too Much into Stars' Combine 'Failures'Players Who Should Change Positions Next YearPredictions for 2015 Spring PracticeOne Thing to Fear About Every Power 5 TeamCoaches Whose Jobs Are on the Line in 2015SEC or 'The Field' for CFB Playoff?Spring Exhibitions We Wish We Could SeeBiggest Trap Games of the 2015 SeasonLoad More StoriesFollow B/R on FacebookCollege FB Team StreamTMPre-Spring Practice Record Predictions for Top 25 College Fo...from Bleacher ReportBaylor's Nacita Apologizes, Admits He Broke Rulesfrom Bleacher ReportReport: LSU Hit with Recruiting Sanctionsfrom Bleacher ReportPre-Spring Record Predictions for Top Teamsfrom Bleacher Report'White Llama' Gets Its Own Recruiting Profilefrom Bleacher ReportRecruiting Sanctions Won't Stop Les Milesfrom Bleacher ReportTCU's Boykin to Undergo Wrist Surgeryfrom Bleacher ReportJump to the Bleacher Report homepage« PreviousNext »Out of BoundsYou're currently logged into FacebookDo you want to share your Bleacher Report activity on Facebook?College FB NewsletterWe'd like to send you the most entertaining College Football articles, videos, and podcasts from around the web.Subscribe NowWe will never share your email addressThanks for signing up.Subscribe to More TeamsSign up for newslettersChoose TeamsGet the appReal-time news for your favorite teams, right on your mobile device.Download NowFollow B/RTwitterFacebookInstagramGoogle+Launch a careerB/R's Writer Program and Advanced Program in Sports Media can give you the edge you need to get ahead.Apply NowPopular Topics2015 NFL Mock DraftNFL Power RankingsNBA Power Rankings2015 NBA Mock DraftTurnerCopyright © 2015 Bleacher Report, Inc. Turner Broadcasting System, Inc. All Rights Reserved.BleacherReport.com is part of Bleacher Report - Turner Sports Network, part of the Turner Sports and Entertainment Network.Certain photos copyright © 2015 by Getty Images.Any commercial use or distribution without the express written consent of Getty Images is strictly prohibited.AboutBlogContact UsCareersCommunity GuidelinesPrivacyTerms of Use"
+        ],
+        "content_text_length": 17229,
+        "content_type": [
+          "text/html"
+        ],
+        "title": "The Best Football Prospect Nobody Has Ever Heard Of | Bleacher Report",
+        "keywords": "College Football, Opinion",
+        "content_encoding": "ISO-8859-1",
+        "content_ffb": "3c21444f",
+        "content_first_bytes": "3c 21 44 4f 43 54 59 50 45 20 68 74 6d 6c 3e 0a 3c 21 2d 2d 5b 69 66 20 49 45 20 36 5d 3e 3c 68",
+        "content_type_droid": "text/html; version=5",
+        "links_hosts": [
+          "bleacherreport.com",
+          "247sports.com",
+          "www.abqjournal.com",
+          "plus.google.com",
+          "www.facebook.com",
+          "blog.bleacherreport.com",
+          "twitter.com",
+          "instagram.com",
+          "newmexicostate.247sports.com",
+          "www.turner.com",
+          "www.si.com",
+          "t.co",
+          "www.maxpreps.com",
+          "www.reddit.com"
+        ],
+        "links_domains": [
+          "bleacherreport.com",
+          "facebook.com",
+          "si.com",
+          "247sports.com",
+          "reddit.com",
+          "google.com",
+          "turner.com",
+          "abqjournal.com",
+          "twitter.com",
+          "instagram.com",
+          "maxpreps.com",
+          "t.co"
+        ],
+        "links_public_suffixes": [
+          "co",
+          "com"
+        ],
+        "elements_used": [
+          "body",
+          "link",
+          "img",
+          "div",
+          "noscript",
+          "sup",
+          "aside",
+          "br",
+          "fb:like",
+          "meta",
+          "title",
+          "time",
+          "style",
+          "n.length;o++)r(n[o]);return",
+          "h4",
+          "head",
+          "h1",
+          "h3",
+          "h2",
+          "ul",
+          "form",
+          "a",
+          "blockquote",
+          "label",
+          "script",
+          "section",
+          "header",
+          "footer",
+          "li",
+          "input",
+          "iframe",
+          "article",
+          "strong",
+          "address",
+          "p",
+          "nav",
+          "html",
+          "em",
+          "o;)i[r]=t[e+r];return",
+          "span"
+        ],
+        "content_type_tika": "text/html; charset=ISO-8859-1",
+        "content_type_version": "5",
+        "content_type_full": "text/html; charset=ISO-8859-1; version=5",
+        "content_type_norm": "html",
+        "content_language": "en",
+        "ssdeep_hash_bs_384": "MbZIGUKrx2XZSeNctCZQL6memJeuXI1pikJlawW0TR",
+        "ssdeep_hash_bs_768": "OZIDKrcQxeuXI1piCVR",
+        "ssdeep_hash_ngram_bs_384": "MbZIGUKrx2XZSeNctCZQL6memJeuXI1pikJlawW0TR",
+        "ssdeep_hash_ngram_bs_768": "OZIDKrcQxeuXI1piCVR",
+        "crawl_dates": [
+          "2015-02-27T00:06:53Z"
+        ],
+        "crawl_years": [
+          "2015"
+        ],
+        "_version_": 1494730989145948200
+      },
+      {
+        "source_file_s": "124.warc.gz@1009",
+        "url": "http://bleacherreport.com/articles/2322488-the-best-football-prospect-nobodys-ever-heard-of?utm_source=twitter.com&utm_medium=referral&utm_campaign=programming-national",
+        "host": "bleacherreport.com",
+        "domain": "bleacherreport.com",
+        "public_suffix": "com",
+        "content_type_served": "text/html; charset=utf-8",
+        "server": [
+          "nginx/1.7.7 + Phusion Passenger 4.0.50",
+          "Phusion Passenger 4.0.50"
+        ],
+        "content_length": 193978,
+        "id": "sha1:HSSG64YPBYCB3VGL3CIFPFYNTWJKHSKM/0mzrw/iI/nAj3uP7pc1qGg==",
+        "hash": [
+          "sha1:HSSG64YPBYCB3VGL3CIFPFYNTWJKHSKM"
+        ],
+        "crawl_date": "2015-02-27T00:06:21Z",
+        "crawl_year": "2015",
+        "wayback_date": "20150227000621",
+        "content": [
+          "The Best Football Prospect Nobody Has Ever Heard Of | Bleacher ReportCollege FootballWant more real-time College Football news?Visit Team Stream on BleacherReport.com!×The Best Football Prospect Nobody Has Ever Heard OfBySanjay Kirpalani, Featured ColumnistJan 28, 2015ShareTweetNext ARTICLE »Use your ? ? (arrow) keys to browse more storiesvia Carl Bruere1.4MReads379CommentsEaston Bruere should be having the time of his life right now.He just finished his senior season as quarterback at Rio Rancho (New Mexico) High School by leading it to a 13-0 record and a 6A state title. According to MaxPreps, Easton threw for 4,567 yards and 49 touchdowns with only six interceptions this season. In the process, he became the state's all-time leader in passing yards.Easton should be getting ready to enjoy his final semester of high school before heading off to college to resume his playing career. But there's one small problem.He has zero scholarship offers less than a week before national signing day.How could he find himself in this situation?The primary reasons for his present circumstances are largely beyond his control. Given that he checks in at 6'3\", 200 pounds—measurements that place him bigger or equal to 24 of the nation's top 50 pro-style passers in the 2015 class—his measurables aren't an issue like they were for Desmon White last year.According to his father, Carl, Easton attended numerous camps—including those held at schools in the Big Ten, Big 12, Mountain West and the Pac-12—prior to his senior season.\"They've all really loved him,\" Carl told Bleacher Report. \"They showed him a lot of love when he visited. They thought he had great size and a good arm and things of that nature. They all said he's definitely a Division I quarterback.\" Carl said that at first, Easton would get excited when mail would arrive from colleges. That joy faded over time, when he realized there was nothing of substance enclosed. \"He's got tons of letters,\" Carl said. \"It's funny, because he stopped opening them because he knew it was filler mail. He got letters from 20 or 30 colleges, and once in a while, there would be a handwritten letter from a coach. But it's really strange, because they came from places all over the country. But he knew what they were. He was excited at first. But then, it's like, 'OK, I know what this is.'\"Credit: Carl BruereThere aren't any off-field concerns for schools to ponder, either.Easton is carrying a 4.0 GPA during his senior year and has a cumulative average of 3.75. He and Carl—who doubles as the offensive coordinator at Rio Rancho—have started a quarterback camp designed to mentor younger kids in his hometown. It certainly can't be because of his performance.En route to winning the state title, Easton outdueled 4-star quarterback, fellow New Mexico native and Michigan commitment Zach Gentry by throwing for 554 yards and three touchdowns in a 64-43 win over El Dorado in the state semifinals, according to James Yodice of the Albuquerque Journal. He plays in his state's biggest classification, and his team has beaten teams from Arizona and West Texas during his high school career. The answer to his conundrum has several layers, starting with his home state.ShareTweetNew Mexico's state nickname is The Land of Enchantment. However, for college recruiters, the entire state might as well be Area 51.Since 2005, the state has produced just four players who have earned a 4-star rating and another 11 who were ranked as 3-stars by 247Sports. In the same time frame, only six quarterbacks from New Mexico earned a star rating.Only two prospects from New Mexico have been rated a 3-star or better in the 2015 cycle—with Gentry being one of them. With the perceived lack of talent in the state, players such as Easton are grossly underexposed when compared with prospects from other states.\"I think being in New Mexico has hurt him, because there are so many players elsewhere and not enough here,\" Carl said. \"For instance, Texas or Ohio State or any school can go to one little area in Texas where there are 20 or 30 prospects in the same place. Whereas in New Mexico, you're only really looking at one or two players, so they don't really come out here a lot.\" Breaking: Easton Bruere is named New Mexico Mr. Football by @nmpreps https://t.co/uTGnOgqg8l pic.twitter.com/QiU75BQOWx— Kyle Henderson (@nmpreps) December 15, 2014Brandon Darlington, who just finished up his first year as the offensive line coach at Rio Rancho, grew up in Pennsylvania and played college football at Syracuse from 2002-06. \"When (my wife and I) first came out here, to find out how big football really is out here, and how popular it is, it was kind of a culture shock, actually,\" Darlington said.He notes that he was also shocked at the quality of the competition Rio Rancho faced.\"It's not like we're playing against crappy opponents,\" Darlington said. \"We're playing against West Texas teams. We're playing schools like Mayfield and Las Cruces and so on. Teams that have been putting up big-time numbers and putting people in Division I schools for years.\"During the spring evaluation period, Carl said that coaches from Tulsa and Iowa State were the only programs who stopped by Rio Rancho, a town of nearly 100,000 people just north of Albuquerque. \"In order for us to get seen, we have to go out and go to these camps,\" Easton said. \"No colleges usually come to New Mexico. It's kind of funny, because we've beaten teams like Notre Dame Prep and Salpointe from Arizona that have guys going Division I all the time.\" If a player from New Mexico gets noticed, it's usually because he's the no-brainer type coaches simply can't refuse.For example, Gentry—who is friends with Easton—is 6'7\", 240 pounds with a 4.6-second time in the 40-yard dash.His measurables alone would be enough to generate college interest. The fact that he's been productive helped him avoid the fate of other talented players from New Mexico who weren't as physically gifted.Kyle Henderson, who has covered high school football in New Mexico for the last decade and runs NMPreps.com (part of the Rivals network) shares a similar sentiment. \"Zach Gentry was hard to put on the map, honestly,\" Henderson said. \"If he wasn't 6'7\", 240, I don't know if he'd have the offers that he has now.\"Henderson witnessed the duel between El Dorado and Rio Rancho live and said it didn't take long to know he was watching something special between the two stud passers.\"It was back-and-forth with two heavyweights going at it,\" Henderson said. \"I wouldn't say that Easton completely outshined Zach, but it was clear that these two were something that we will probably never see again in New Mexico. It was that good of a matchup.\"Living in an area that has historically been neglected by colleges is a burden that Easton admits he's pondered.\"From day one, I told my dad, 'I wish we didn't live in New Mexico because of this recruiting thing,'\" Easton said as he replayed those conversations in his mind. \"'No one comes to New Mexico. No one looks at New Mexico kids.' Then you look at the picture like, what else do these college coaches want me to do?\" Credit: Carl BruereUpon viewing Easton in his first few practices at his new home, Darlington's first thought was to ask to see which school he was committed to.Utterly befuddled at the news that he had yet to receive an offer, he took matters into his own hands.\"From the day I took the job and started coaching, I've just been posting his highlights and statistics on people's Facebook,\" Darlington said. \"Whether they are GAs at colleges or they coach at other colleges. I'd be like, 'Hey, take a look at this kid,' or 'What do you think?'\"Darlington received positive feedback on Easton from several of his coaching friends scattered throughout the country.\"One coach at a Pac-12 school said that he liked Easton, but he already had commitments at quarterback for the next two years.\"According to Darlington, that particular coach noted that the unusually deep 2015 quarterback class in California allowed most schools to focus their efforts in territories they were already familiar with.Carl and Easton also took matters into their own hands in the quest to net a scholarship offer.They sent out film to every FBS school and several FCS and Division II programs. They even researched schools and their recruiting classes to see which schools still had openings and needs at quarterback. \"We kept up with his stats weekly and sent that out with his Hudl film on a weekly basis,\" Carl said. \"We researched it and came up with a group of about 30 colleges that publicly have not gotten their 2015 quarterback yet, and we sent stuff out to them every week, his film and stats.\"Anyone looking for a 6'3\" QB with 49 TD passes, 4,100 yards and only 3 INTs this season? Anyone? #EastonBruere http://t.co/tILVeilDjp— Chad Wilson (@GridironStuds) December 2, 2014Recruiting is never final until a player enrolls or signs a national letter of intent, so Carl also mass-emailed every FBS school in the country in case an opening suddenly materialized. The rest of the staff at Rio Rancho also tried to use its network to get the word out on its star quarterback.\"Some of our coaches have some connections, and they've been talking to other coaches for me and things like that,\" Easton said. \"I've been in a couple of magazines, Sports Illustrated being one of them. We've done a lot of things.\" Congratulations to rio rancho's Easton bruere for making the Faces on the Crowd section of sports illustrated pic.twitter.com/M25OetLgOK— J.P. Murrieta (@KOBSports) November 29, 2014While it's not a complete shock that colleges outside the state aren't beating down the doors of the Bruere residence, the fact that in-state programs New Mexico and New Mexico State have shunned the state's most prolific prep passer is peculiar.For the record, the Lobos received a commitment from 3-star JUCO passer Austin Apodaca in December. The Aggies have yet to secure a verbal pledge from a quarterback in the 2015 cycle, perhaps due to the fact they signed six quarterbacks in the 2014 cycle.\"It baffles me that the home schools don't even offer him, and they're 20 minutes down the road,\" Darlington said.As fate would have it, both schools who came to view Easton live in the spring were heavily interested in him.In fact, the coach from Tulsa hinted to staff members at Rio Rancho that an offer would be coming—one that Carl said Easton was prepared to accept.Their long journey would finally have a happy ending.Instead, a bitter dose of reality intervened.\"It was a Monday when he (Tulsa coach) was here. I guess they saw someone else later that week that they liked better and reneged on that, which was kind of disappointing because we let the cat out and said that Easton was going to commit because he loved Tulsa. That was kind of heartbreaking.\"He was on the Cyclones board as well, but they secured a commitment from their top target, which ended their pursuit of him.The same could be said for Michigan State, where Easton enjoyed working with Spartans quarterback coach Brad Salem during a summer camp session.\"He's a great guy,\" Carl said. \"He already had his offer for 2015, but we had a great experience going there. He was high on Easton, and he still keeps in touch with him.\"RT this: #recruitEastonBruere— Kyle Henderson (@nmpreps) November 29, 2014Despite the disappointments piling up heading into the season, Easton hasn't let the uncertainty surrounding his future affect him whether on or off the field.Instead, he brushed it aside and delivered a nearly flawless senior campaign on the field.He was a solid starter in each of his sophomore and junior seasons but elevated his game to another level as a senior.Entering this season, he had thrown 59 touchdown passes in the previous two seasons while completing nearly 67 percent of his passes. This year, he nearly doubled his total in scoring strikes and raised his completion rate to an astounding 75 percent. Henderson notes that Rio Rancho had never won a state title prior to this season despite being on the cusp of that elusive championship for many years. Easton focused his attention on accomplishing that goal and had to topple Gentry and Mayfield's Kavika Johnson—a quarterback with offers from BYU, UTEP, New Mexico and New Mexico State—to do it. \"Since he didn't get recruited and since he doesn't have any offers, it was almost like he had a chip on his shoulder, and he went out there every game like he had something to prove,\" Henderson said. \"He carried that with him, and I think it elevated his game. They went through a gauntlet in the playoffs and beat a very good team in the state title game.\"However, Easton admits it's been hard to keep a positive attitude at times given his recruitment struggles.\"It gets to me at times,\" Easton said. \"That's just laying in bed at night sometimes and thinking about it. I was able to play for a unique group this year. I spent a ton of time with them, and that kept my mind off recruiting, because we were always just having a ball playing football.\"His attitude in dealing with the snub from colleges reminds Carl of how his son puts away his mistakes on the field—one of the attributes he said helps Easton stand out in a loaded 2015 class of quarterbacks.\"It's funny, because he's amazing in how he's handling all of this,\" Carl said. \"All he says is, 'Dad, I want to go where someone wants me.' That's all he cares about. 'I don't care where it is, as long as they want me and I can help them win.' He just wants to go to a place that wants him there. I don't know how he does it. Because it's killing his father.\" Only a handful of prep football players are fortunate enough to earn scholarship offers to continue their careers in college. There's nothing in Easton Bruere's resume that suggests he shouldn't be one of them.In fact, his body of work suggests he's the nation's most accomplished player in the 2015 class without a scholarship offer.\"In New Mexico, we don't get a lot of notoriety for our football prospects,\" Henderson said. \"We get it. But for someone to put a 13-0 season together at the highest level, with his numbers, that's something noteworthy. There has to be some place out there, Division I-wise, that you'd think this guy can fit into. There's few guys nationally, whether you're from New Mexico or California or Texas, that can say they did what Easton did. He's incredibly deserving of landing a scholarship offer.\" Sanjay Kirpalani is a National Recruiting Analyst for Bleacher Report. Unless otherwise noted, all quotes were obtained firsthand and all recruiting information courtesy of 247Sports.Follow @SanjayKirpalani ShareTweet379CommentsDOWNLOAD FREE APPMore College FB FromTop 25 Teams' Fastest-Ever NFL Combine 40 TimesRedshirt Freshmen Who Could Be Stars in 2015Best Fits for Top Uncommitted '16 QB RecruitsThe Media's Love Affair with Harbaugh Has BegunDon't Look Too Much into Stars' Combine 'Failures'Players Who Should Change Positions Next YearPredictions for 2015 Spring PracticeOne Thing to Fear About Every Power 5 TeamCoaches Whose Jobs Are on the Line in 2015SEC or 'The Field' for CFB Playoff?Spring Exhibitions We Wish We Could SeeBiggest Trap Games of the 2015 SeasonLoad More StoriesFollow B/R on FacebookCollege FB Team StreamTMPre-Spring Practice Record Predictions for Top 25 College Fo...from Bleacher ReportBaylor's Nacita Apologizes, Admits He Broke Rulesfrom Bleacher ReportReport: LSU Hit with Recruiting Sanctionsfrom Bleacher ReportPre-Spring Record Predictions for Top Teamsfrom Bleacher Report'White Llama' Gets Its Own Recruiting Profilefrom Bleacher ReportRecruiting Sanctions Won't Stop Les Milesfrom Bleacher ReportTCU's Boykin to Undergo Wrist Surgeryfrom Bleacher ReportJump to the Bleacher Report homepage« PreviousNext »Out of BoundsYou're currently logged into FacebookDo you want to share your Bleacher Report activity on Facebook?College FB NewsletterWe'd like to send you the most entertaining College Football articles, videos, and podcasts from around the web.Subscribe NowWe will never share your email addressThanks for signing up.Subscribe to More TeamsSign up for newslettersChoose TeamsGet the appReal-time news for your favorite teams, right on your mobile device.Download NowFollow B/RTwitterFacebookInstagramGoogle+Launch a careerB/R's Writer Program and Advanced Program in Sports Media can give you the edge you need to get ahead.Apply NowPopular Topics2015 NFL Mock DraftNFL Power RankingsNBA Power Rankings2015 NBA Mock DraftTurnerCopyright © 2015 Bleacher Report, Inc. Turner Broadcasting System, Inc. All Rights Reserved.BleacherReport.com is part of Bleacher Report - Turner Sports Network, part of the Turner Sports and Entertainment Network.Certain photos copyright © 2015 by Getty Images.Any commercial use or distribution without the express written consent of Getty Images is strictly prohibited.AboutBlogContact UsCareersCommunity GuidelinesPrivacyTerms of Use"
+        ],
+        "content_text_length": 17229,
+        "content_type": [
+          "text/html"
+        ],
+        "title": "The Best Football Prospect Nobody Has Ever Heard Of | Bleacher Report",
+        "keywords": "College Football, Opinion",
+        "content_encoding": "ISO-8859-1",
+        "content_ffb": "3c21444f",
+        "content_first_bytes": "3c 21 44 4f 43 54 59 50 45 20 68 74 6d 6c 3e 0a 3c 21 2d 2d 5b 69 66 20 49 45 20 36 5d 3e 3c 68",
+        "content_type_droid": "text/html; version=5",
+        "links_hosts": [
+          "bleacherreport.com",
+          "247sports.com",
+          "www.abqjournal.com",
+          "plus.google.com",
+          "www.facebook.com",
+          "blog.bleacherreport.com",
+          "twitter.com",
+          "instagram.com",
+          "newmexicostate.247sports.com",
+          "www.turner.com",
+          "www.si.com",
+          "t.co",
+          "www.maxpreps.com",
+          "www.reddit.com"
+        ],
+        "links_domains": [
+          "bleacherreport.com",
+          "facebook.com",
+          "si.com",
+          "247sports.com",
+          "reddit.com",
+          "google.com",
+          "turner.com",
+          "abqjournal.com",
+          "twitter.com",
+          "instagram.com",
+          "maxpreps.com",
+          "t.co"
+        ],
+        "links_public_suffixes": [
+          "co",
+          "com"
+        ],
+        "elements_used": [
+          "body",
+          "link",
+          "img",
+          "div",
+          "noscript",
+          "sup",
+          "aside",
+          "br",
+          "fb:like",
+          "meta",
+          "title",
+          "time",
+          "style",
+          "n.length;o++)r(n[o]);return",
+          "h4",
+          "head",
+          "h1",
+          "h3",
+          "h2",
+          "ul",
+          "form",
+          "a",
+          "blockquote",
+          "label",
+          "script",
+          "section",
+          "header",
+          "footer",
+          "li",
+          "input",
+          "iframe",
+          "article",
+          "strong",
+          "address",
+          "p",
+          "nav",
+          "html",
+          "em",
+          "o;)i[r]=t[e+r];return",
+          "span"
+        ],
+        "content_type_tika": "text/html; charset=ISO-8859-1",
+        "content_type_version": "5",
+        "content_type_full": "text/html; charset=ISO-8859-1; version=5",
+        "content_type_norm": "html",
+        "content_language": "en",
+        "ssdeep_hash_bs_384": "MbZIGUKrx2XZSeNctCZQL6memJeuXI1pikJlawW0TR",
+        "ssdeep_hash_bs_768": "OZIDKrcQxeuXI1piCVR",
+        "ssdeep_hash_ngram_bs_384": "MbZIGUKrx2XZSeNctCZQL6memJeuXI1pikJlawW0TR",
+        "ssdeep_hash_ngram_bs_768": "OZIDKrcQxeuXI1piCVR",
+        "crawl_dates": [
+          "2015-02-27T00:06:21Z"
+        ],
+        "crawl_years": [
+          "2015"
+        ],
+        "_version_": 1494730983781433300
+      },
+      {
+        "source_file_s": "137.warc.gz@920",
+        "url": "http://blogs.kqed.org/mindshift/2015/01/no-tech-board-games-that-teach-coding-skills-to-young-children/",
+        "host": "blogs.kqed.org",
+        "domain": "kqed.org",
+        "public_suffix": "org",
+        "server": [
+          "Apache",
+          "PHP/5.3.3"
+        ],
+        "content_type_served": "text/html; charset=UTF-8",
+        "content_length": 55245,
+        "id": "sha1:TFAZTOMLNPRDNACKB27RMHAIK7UP5WYE/Iu46o1mslG2ks2R/uFj+Kg==",
+        "hash": [
+          "sha1:TFAZTOMLNPRDNACKB27RMHAIK7UP5WYE"
+        ],
+        "crawl_date": "2015-02-27T00:08:11Z",
+        "crawl_year": "2015",
+        "wayback_date": "20150227000811",
+        "content": [
+          "95fHomeNewsRadioTVEducationArtsFoodScienceDonateCommentsPostsHow we will learnGames and LearningBig IdeasTeaching StrategiesChildren and MediaAboutDigital Tools Kids and CodingNo-Tech Board Games That Teach Coding Skills to Young ChildrenMindShift |January 28, 2015| 2 CommentsPrintTweetEmail PostCards program “Robot Turtles” to blast, turn or proceed to their destination. (Courtesy of Matthew Farber)By Matthew FarberThanks in part to STEM education initiatives and the tech boom, coding in the classroom has become more ubiquitous. Computer programming tasks students to persistently work to solve problems by thinking logically. What’s more, learning how to code is a desired 21st century career skill.There are several digital games designed for kids as young as 5 that turn coding into a fun activity, such as Kodable and Scratch Jr. But some game designers are going further back to programming’s fundamentals by creating physical games that can’t be found in any app store.One tabletop game is Code Monkey Island. It features sequencing and looping statements printed on playable cards. In effect, the cards are the language; choosing correct conditional statements correctly can leads to victory.Another board game that captured imaginations, and major crowdfunding on Kickstarter, is Robot Turtles, which teaches basic coding concepts to preschoolers. Unlike other children’s games (think: Candyland, Chutes and Ladders), the mechanic of play does not rely on luck. All cards are face up and the players work together cooperatively to win.A child can build cognitive skills by playing Robot Turtles because when a child plays, or “programs,” a card, he or she is applying logic, according to Bill Ritchie, CEO of ThinkFun, which published the game. “Robot Turtles is a great example of what coding means for a preschooler,” Ritchie explained. “It is about sequencing instruction by instruction, and then being able to recognize the consequences. It’s a mental framework that is appropriate for a preschooler.” In other words, Robot Turtles helps growing minds think about thinking.Why Teach Coding?Teaching children how to code is not new; it dates back to the 1970s and 1980s. Most notable, perhaps, are the initiatives from MIT professor Seymour Papert. His MIT lab helped bring the Logo language into schools. In Logo, users programmed a graphical turtle on a computer’s screen. This exemplified Papert’s notion of constructionism, the learning theory that can be summed up as “learn by making.”Although the Logo language may seem crude by today’s standards, its powerful ideas still resonate. Programming a computer meant that the learner created his or her own working system. Students were learning how to think. In fact, the Logo initiative lives on — it evolved to the visual, interlocking brick language today called Scratch, which was followed up with Scratch Jr.Setting up the GameFlickr/Buster BensonTo start the game, the adult (parent or teacher) — known as the “Turtle Mover” — places the Robot Turtle Card at the start square and then places the Jewel Card (the goal of the turtle’s quest) elsewhere on the board. The Turtle Mover is the only one allowed to move the turtle. He or she also provides feedback by making beeping sounds. The child — or “Turtle Master” — then selects forward, left or right directional playing cards, which serve as commands to advance the turtle to the jewel.When a child wins — or “levels up” — in Robot Turtles, additional challenges “unlock.” Obstacles include stone and ice walls, as well as wooden crates. More complex game cards include Function Frogs, which can be “coded” to repeat a series of programmed instructions. In essence, the adult is the computer to the child programmer.Solving Problems TogetherEntrepreneur Dan Shapiro invented Robot Turtles because he grew frustrated whenever he played board games, along with his two young children. “One of the things that led to Robot Turtles was because [children’s] games give parents an unfair advantage,” Shapiro said. “Either the parent wins over and over again or they end up throwing the match. Part of the inspiration for Robot Turtles was to create a game where parents and kids could come to it at their own level; the parents do one thing and the kids do a different thing.”Meaningful social cooperation between parent and child superseded Shapiro’s desire to teach coding skills. “The interaction would be something really magical,” he continued. “It [Robot Turtles’ creation] didn’t come about because I wanted to teach kids to program; it came about because I wanted a fun way for kids and parents to interact.”Any programmer will tell you that coding a computer is more than entering lines of instructions. When a programmer clicks “run,” the results may fail. The next step is “debugging” — the often painstaking process of error-checking code. Debugging until a solution is found is similar to the 21st century competency of design thinking: trial1360and error based on a challenge.In Robot Turtles, when the child gives an adult a “wrong” card — for example, a move that takes the turtle off of the game’s board — an opportunity to learn emerges. Ritchie explained, “If a child puts down a bad set of cards, then the parent has an obligation to allow the child to own the responsibility. The child then has to make the decision to debug and to change.”Rather than correcting a child’s mistake, the adult is instructed to simply make a beeping sound. The child Turtle Master can then tap on the “Bug Card,” a round card adorned with a ladybug. After announcing “Debug,” the child can adjust his or her set of commands. Here, failure becomes iteration.“If you ask me the one thing I want my kids to feel about learning, it is that you cannot be afraid to try things and see what happens,” Shapiro said. “It was crucial for me to build that [debugging] into the game — more than the skill of learning about computers. The ability to undo the last move — with no penalty or loss of points — where you just try something and then try again, really gets into the heart of the educational mission of the game. It’s not about learning how to program. It’s about learning how to learn.”Explore: board games, coding, game-based learning, programmingPrintTweetEmail PostPrevious Article« More Colleges Offer Competency-Based Degree ProgramsNext ArticleWhy Even ‘Good’ Schools Benefit From Trying Fresh Ideas »581Brian SilberbergVery cool idea, in my experience with teaching coding it could often run into roadbumps if kids found the idea tedious and boring. But making it into a game there is some potential to get the kids of that persuasion interested in the process. Would be hugely interested in seeing how effective this turns out to be down the line.JessaGreat idea, I love seeing interesting ways of teaching coding to kids. I work at UCode where we teach kids after school at our center & on1dline virtually how to code. W10f8hat an amazing and creative world we will live in when all children will have coding education right along with math and science.Follow MindShiftSponsored byBecome a KQED sponsorMost PopularSteps to Creating the Conditions for Deep, Rigorous, Applied LearningWhy Some Teachers May Question 'New' Education TrendsHow the Power of Interest Drives LearningInquiry Learning Ideas for Math and Science With iPadsExploring the Idea of 'Happiness' As Part of School WorkEDUCATIONAL APPSApps That Rise to the Top: Tested and Approved By TeachersEducators from around the country share their favorite educational apps.Katrina Schwartz |June 11, 2014| 66 CommentsThree Awesome Games That Help Kids Make GamesSummer break presents the perfect opportunity for students to dig into games and build skills that’ll reap huge rewards when they return in the fall. Game making can be one of the best ways to get students thinking creatively while cultivating useful technical literacies, and there’s a ton of absorbing tools that students won’t tire of over the long break. Here are three options to choose from depending on the type of technology students have at home.MindShift |June 4, 2014| 24 Comments5 Games and Apps That Build Math and English SkillsFor educators who are interested in using games for learning — specifically towards developing skills as they relate to the Common Core State Standards — here are five games students can enjoy and that we’ve found sync with standards.MindShift |March 20, 2014| 15 CommentsBeyond Minecraft: Games That Inspire Building and ExplorationThe success and popularity of Minecraft in and out of classrooms is no surprise. It’s one of the best examples of the potential of learning with games because it embraces exploration, discovery, creation, collaboration, and problem-solving while allowing teachers to shepherd play toward any subject area. But Minecraft is not the only game of this kind. Take a look at some of these.MindShift |November 19, 2013| 21 CommentsFollow MindShiftSubscribeEnter your email below to receive our daily newsletter.Privacy guaranteed. We never share your info.MindShiftTerms of ServicePrivacy Policy© 2015 KQED Inc. All rights reserved.0"
+        ],
+        "content_text_length": 9261,
+        "content_type": [
+          "text/html"
+        ],
+        "title": "No-Tech Board Games That Teach Coding Skills to Young Children | MindShift",
+        "keywords": "board games,coding,featured,full-image,game-based learning,programming",
+        "content_encoding": "UTF-8",
+        "content_ffb": "3935660d",
+        "content_first_bytes": "39 35 66 0d 0a 3c 21 44 4f 43 54 59 50 45 20 68 74 6d 6c 20 50 55 42 4c 49 43 20 22 2d 2f 2f 57",
+        "content_type_droid": "application/xhtml+xml; version=1.0",
+        "links_hosts": [
+          "www.flickr.com",
+          "www.kodable.com",
+          "plus.google.com",
+          "www.danshapiro.com",
+          "www.kickstarter.com",
+          "www.twitter.com",
+          "www.thinkfun.com",
+          "www.kqed.org",
+          "www.scratchjr.org",
+          "www.youtube.com",
+          "kqed-mindshift.disqus.com",
+          "scratch.mit.edu",
+          "www.facebook.com",
+          "twitter.com",
+          "www.printfriendly.com",
+          "www.logofoundation.org",
+          "www.matthewfarber.com",
+          "blogs.kqed.org",
+          "www.pinterest.com",
+          "codemonkeyplanet.com"
+        ],
+        "links_domains": [
+          "pinterest.com",
+          "logofoundation.org",
+          "kodable.com",
+          "danshapiro.com",
+          "mit.edu",
+          "kickstarter.com",
+          "matthewfarber.com",
+          "disqus.com",
+          "thinkfun.com",
+          "facebook.com",
+          "printfriendly.com",
+          "google.com",
+          "kqed.org",
+          "twitter.com",
+          "scratchjr.org",
+          "youtube.com",
+          "codemonkeyplanet.com",
+          "flickr.com"
+        ],
+        "links_public_suffixes": [
+          "com",
+          "edu",
+          "org"
+        ],
+        "elements_used": [
+          "body",
+          "link",
+          "div",
+          "img",
+          "br",
+          "meta",
+          "title",
+          "style",
+          "head",
+          "h1",
+          "h3",
+          "ul",
+          "form",
+          "a",
+          "script",
+          "li",
+          "cite",
+          "input",
+          "iframe",
+          "strong",
+          "p",
+          "html",
+          "em",
+          "small",
+          "scr'",
+          "span"
+        ],
+        "content_type_tika": "text/html; charset=UTF-8",
+        "content_type_version": "1.0",
+        "content_type_full": "text/html; charset=UTF-8",
+        "content_type_norm": "html",
+        "content_language": "en",
+        "ssdeep_hash_bs_192": "jtOQmKRVR+89JWn6b3yBDmZMJK7eMs663Q6oGm2DgZ441+msyum71FTbLcQTqp",
+        "ssdeep_hash_bs_384": "ZOhKDR+GojmZn7e06r7DY4+h7um71Jb0",
+        "ssdeep_hash_ngram_bs_192": "jtOQmKRVR+89JWn6b3yBDmZMJK7eMs663Q6oGm2DgZ441+msyum71FTbLcQTqp",
+        "ssdeep_hash_ngram_bs_384": "ZOhKDR+GojmZn7e06r7DY4+h7um71Jb0",
+        "crawl_dates": [
+          "2015-02-27T00:08:11Z"
+        ],
+        "crawl_years": [
+          "2015"
+        ],
+        "_version_": 1494731008449183700
+      },
+      {
+        "source_file_s": "138.warc.gz@817",
+        "url": "http://ow.ly/i/8qJZg",
+        "host": "ow.ly",
+        "domain": "ow.ly",
+        "public_suffix": "ly",
+        "content_type_served": "text/html; charset=utf-8",
+        "content_length": 8356,
+        "id": "sha1:2IJK5KAGUQDYHDGRQOQTCAL2MVIOMNZY/7OBeAlmjE8SR7l5qcrsCMA==",
+        "hash": [
+          "sha1:2IJK5KAGUQDYHDGRQOQTCAL2MVIOMNZY"
+        ],
+        "crawl_date": "2015-02-27T00:08:29Z",
+        "crawl_year": "2015",
+        "wayback_date": "20150227000829",
+        "content": [
+          "Ow.ly - image uploaded by @BHBlackHawks (BH Black Hawks)Ow.lySign in with TwitterBHBlackHawksPosted 1 month agoReport AbuseOriginal ImageDirect Link:ThumbnailFull ImageMore photos from BHBlackHawks See AllDeveloper APITerms & ConditionsPrivacy PolicyCopyright©2014 Hootsuite Media Inc. All Rights Reserved."
+        ],
+        "content_text_length": 321,
+        "content_type": [
+          "text/html"
+        ],
+        "title": "Ow.ly - image uploaded by @BHBlackHawks (BH Black Hawks)",
+        "keywords": "Ow.ly, Shorten urls, share files, track visits, twitter file sharing, twitter image sharing",
+        "content_encoding": "UTF-8",
+        "content_ffb": "0a0a0a0a",
+        "content_first_bytes": "0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 0a 3c 21 44 4f 43 54 59 50 45 20 68 74 6d 6c 3e",
+        "content_type_droid": "text/html; version=5",
+        "links_hosts": [
+          "hootsuite.com",
+          "ow.ly"
+        ],
+        "links_domains": [
+          "hootsuite.com",
+          "ow.ly"
+        ],
+        "links_public_suffixes": [
+          "com",
+          "ly"
+        ],
+        "elements_used": [
+          "body",
+          "ul",
+          "link",
+          "a",
+          "img",
+          "div",
+          "script",
+          "aside",
+          "meta",
+          "header",
+          "section",
+          "footer",
+          "li",
+          "input",
+          "title",
+          "figure",
+          "article",
+          "button",
+          "nav",
+          "h4",
+          "html",
+          "head",
+          "span",
+          "h2"
+        ],
+        "content_type_tika": "text/html; charset=UTF-8",
+        "content_type_version": "5",
+        "content_type_full": "text/html; charset=UTF-8; version=5",
+        "content_type_norm": "html",
+        "content_language": "en",
+        "ssdeep_hash_bs_6": "FVNiqJKLFFQkiTRg/Ct9E2yb2vpElfaVCWuEcsKlrRuv7DA9n",
+        "ssdeep_hash_bs_12": "FiqgAJt9tO2SlfaVVRHKtgTDA9n",
+        "ssdeep_hash_ngram_bs_6": "FVNiqJKLFFQkiTRg/Ct9E2yb2vpElfaVCWuEcsKlrRuv7DA9n",
+        "ssdeep_hash_ngram_bs_12": "FiqgAJt9tO2SlfaVVRHKtgTDA9n",
+        "crawl_dates": [
+          "2015-02-27T00:08:29Z"
+        ],
+        "crawl_years": [
+          "2015"
+        ],
+        "_version_": 1494731010369126400
+      },
+      {
+        "source_file_s": "145.warc.gz@850",
+        "url": "http://ballislife.com/d-league-fight-teammates/",
+        "host": "ballislife.com",
+        "domain": "ballislife.com",
+        "public_suffix": "com",
+        "content_type_served": "text/html; charset=UTF-8",
+        "server": [
+          "Apache/2.2.29 (Amazon)",
+          "PHP/5.3.29"
+        ],
+        "content_length": 72879,
+        "id": "sha1:RFWLTWHP4ZZSHWZUXYUZZHEELLANBKEV/mbKRH7nzyLw9+EbspOqBQA==",
+        "hash": [
+          "sha1:RFWLTWHP4ZZSHWZUXYUZZHEELLANBKEV"
+        ],
+        "crawl_date": "2015-02-27T00:09:06Z",
+        "crawl_year": "2015",
+        "wayback_date": "20150227000906",
+        "content": [
+          "D-League team wins despite 2 players getting ejected – for fighting each other!Advertise With Us!Contact UsYouTubeFacebookTwitterGoogle+InstagramSubscribeBall Is Life.comHomeNBAHigh School WestEastMidwestSouthCollegeVideos HS VidsStreet VidsCollege VidsNBA VidsPerformanceExclusiveLifestyle KicksImages MemesWallpapersBasketball ArtShopHigh SchoolWestEastMidwestSouthHomeNBAHigh SchoolExclusive VideosCollegeVideosLifestyleKicksImagesShopTrendingSort By:Week|Month|All Time260 lb Male Teacher Arrested For Body slamming A Female...Allonzo Trier Is The Most Unstoppable Scorer In High...Zach LaVine & Drew Hanlen Show You How To Do Moves by...Kobe on Jimmy Kimmel, Bryant didn’t enjoy the Lakers...Harry Giles Can’t Be Stopped! January is Showtime in...Klay Thompson makes 8 out of 10 3-pointers in the dark!Jalen Harris Underrated PG with HANDLES! Hidden Gem in 2016The Plano West Highlight Show On Senior Night! DJ Hogg,...MIXTAPE Ivan Rabb, Paris Austin & Bishop O’dowd...Jamal Crawford crosses Patty Mills, Mills gets on 1 knee...3 Year Old Dunks All Over Another 3 Year Old on Fisher...5’9 Tyler Ulis Can’t Be Stopped! Kentucky Bound...Tearjerker! Military Mom surprises her son during a...The BEST of Ballislife 2013! CRAZIEST Dunks, Ankle Breakers...The BEST of Ballislife 2012! Chris Paul, John Wall, Paul...BEST of Ballislife 2014! The CRAZIEST Highlights of The...Marcus LoVett and Charlie Moore’s Dramatic...Forget the Rankings…5’9 PG Charlie Moore Has...Marcus LoVett Jr Is TOO Nice! Starts Off Junior Season In...Malik Newman Was UNSTOPPABLE At Mustang Madness Tournament!Teyana Taylor Gets CROSSED Up BAD But Still Looks Good!6’8 Chinese Pro Player tries to fight The Professor...There’s a New Kobe In LA! Kobe Paras Breakout...Storytime: Team USA trainer tells a story about...Ankle Breakers Vol. 2! Nastiest Handles, Crossovers &...Chicago Baller finally gets to play The Professor 1-on-1...Nike Lebron James 9 “South Beach” EditionBallislife Ankle Breakers Vol. 1!! NASTIEST Handles,...Stanley Johnson “Work” | An Inspiring Journey...Infographic comparison: Jordan, Kobe & LeBron at age 28« PreviousUse ? ? arrow keys to browse more articlesNext »D-League team wins despite 2 players getting ejected – for fighting each other!Published on January 28th, 2015 by David Astramskas | 6,885 viewsBlogsD-LeagueVideosTweetTweetThe Iowa Energy pulled off a 4-point win against the Rio Grande Valley Vipers last night despite losing two of their players in the 3rd quarter due to a fight…with each other!Teammates Jarnell Stokes and Kalin Lucas actually got into a fist fight during a time-out. We don’t know what started it yet but it’s the D-League where everybody gets to shoot and score. 124-120 final score actually seems low compared to a lot of the games that go down in the league. On Saturday, Reno beat LA 155-147 and last week Reno lost to the Rio Grande Valley Vipers 153-160! Like I said, there’s plenty of shots to go around.Lucas left the game with 18 points, 5 boards and 5 assists while Stokes had 16 points and 8 rebounds. If Stokes sounds familiar it’s because he played with the Grizzlies earlier in the season.Hearing about this story reminded me of when ex-NBA player Renaldo Balkman choked one of his own teammates during a game.I think the closest thing to teammates fighting in the NBA is LeBron blowing up at Chalmers. Tags: Jarnell StokesAbout the AuthorDavid Astramskas Astramskiss aka VincentDa aka Expiredpineapples is a digital-marketing guy living in Houston. He’s worked with the NBA, Sprite, ESPN, NBA2K, cool people like LeBron, DWade, Adrian Peterson and Robert Horry, a long list of not-so-cool people and 1 or 2 real s****ty people. Won awards & been featured in mags like Sports Illustrated as a video editor & web developer. Releasing a book in 2014. Studied film & women at FSU during the golden age of hip-hop. .Related PostsTim Ohlbrecht gets dunked on again in Summer League. 1st Nick Johnson & now Jarnell Stokes.Back to Top ?LATEST POSTSChris Paul puts Corey Brewer on skates & pisses off James Harden in Clippers’ lossFebruary 26, 2015FSU Freshman scores 30 points in final four-plus minutes vs MiamiFebruary 26, 2015Zach Randolph Elbows DeMarcus Cousins Twice In The Face, Cousins Kicks a ChairFebruary 26, 2015The Best Sights & Sounds From Kevin Garnett’s HomecomingFebruary 26, 20151996 McDonalds High School Dunk Contest (Kobe, Thomas, Earl, Benjamin)February 26, 2015Jusuf Nurkic gets a tech for scoring & then handing the ball to a flopping Markieff MorrisFebruary 26, 2015Markel Brown’s 360 Gives Us An Excuse To Show You His Nasty College Dunk Which Led To His EjectionFebruary 26, 2015Ben “where’s his hair” McLemore throws down a windmill off 1 legFebruary 26, 2015Kris Humphries dunks on Adreian Payne, finally ends up on the top half of a posterFebruary 26, 2015Evan Turner Finally Gets His First Career Triple DoubleFebruary 26, 2015Featured Video Official TwitterTweets by @BallislifeIndexHomeExclusiveNBAHigh SchoolWestEastMidwestSouthCollegeVideosPerformanceLifestyleKicksImagesMemesWallpapersBasketball ArtShopBallislife.com is the premier destination for your latest mixtapes, shoe drops, upcoming artists, hoop lifestyle & apparel in the basketball world. The fans made us what we are today, for that we thank you.© 2014 Ballislife.comHigh SchoolWestEastMidwestSouthSitemapContact UsBack to Top ?"
+        ],
+        "content_text_length": 5524,
+        "content_type": [
+          "text/html"
+        ],
+        "title": "D-League team wins despite 2 players getting ejected – for fighting each other!",
+        "keywords": "jarnell stokes",
+        "content_encoding": "UTF-8",
+        "content_ffb": "3c737479",
+        "content_first_bytes": "3c 73 74 79 6c 65 20 74 79 70 65 3d 22 74 65 78 74 2f 63 73 73 22 3e 23 69 4e 61 76 20 23 69 41",
+        "content_type_droid": "application/octet-stream",
+        "links_hosts": [
+          "pinterest.com",
+          "facebook.com",
+          "shop.ballislife.com",
+          "plus.google.com",
+          "www.facebook.com",
+          "twitter.com",
+          "instagram.com",
+          "youtube.com",
+          "www.youtube.com",
+          "ballislife.com"
+        ],
+        "links_domains": [
+          "pinterest.com",
+          "facebook.com",
+          "google.com",
+          "twitter.com",
+          "instagram.com",
+          "youtube.com",
+          "ballislife.com"
+        ],
+        "links_public_suffixes": [
+          "com"
+        ],
+        "elements_used": [
+          "body",
+          "link",
+          "div",
+          "img",
+          "noscript",
+          "br",
+          "meta",
+          "center",
+          "time",
+          "title",
+          "style",
+          "button",
+          "h5",
+          "h4",
+          "fieldset",
+          "head",
+          "h1",
+          "h3",
+          "h2",
+          "ul",
+          "b",
+          "form",
+          "a",
+          "label",
+          "script",
+          "section",
+          "header",
+          "footer",
+          "li",
+          "input",
+          "iframe",
+          "article",
+          "p",
+          "nav",
+          "html",
+          "em",
+          "span"
+        ],
+        "content_type_tika": "text/html; charset=UTF-8",
+        "content_type_full": "text/html; charset=UTF-8",
+        "content_type_norm": "html",
+        "content_language": "en",
+        "ssdeep_hash_bs_96": "Fl433jUvsiYkbau53Hi7UlW001C7F1MZ1/bhITWcfqN8NveMDBt",
+        "ssdeep_hash_bs_192": "FlC3o17FhlH0o7LMZ1/bhC/fi6Pr",
+        "ssdeep_hash_ngram_bs_96": "Fl433jUvsiYkbau53Hi7UlW001C7F1MZ1/bhITWcfqN8NveMDBt",
+        "ssdeep_hash_ngram_bs_192": "FlC3o17FhlH0o7LMZ1/bhC/fi6Pr",
+        "crawl_dates": [
+          "2015-02-27T00:09:06Z"
+        ],
+        "crawl_years": [
+          "2015"
+        ],
+        "_version_": 1494731014565527600
+      }
+    ]
+  }
+}
