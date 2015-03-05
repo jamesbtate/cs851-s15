@@ -8,3 +8,8 @@ http://maven.apache.org/download.cgi
 https://wiki.apache.org/solr/SolrQuerySyntax
 http://stackoverflow.com/questions/6738902/vim-syntax-highlighting-with-and-lstlistings-lstinline
 http://en.wikibooks.org/wiki/LaTeX/Tables
+http://www.harding.edu/fmccown/r/
+http://www.carlislerainey.com/2012/12/17/controlling-axes-of-r-plots/
+http://stackoverflow.com/questions/2704072/how-do-i-emphasize-parts-of-an-lstlisting
+http://en.wikibooks.org/wiki/LaTeX/Importing_Graphics#Examples
+http://en.wikibooks.org/wiki/LaTeX/List_Structures
