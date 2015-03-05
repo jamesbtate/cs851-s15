@@ -1,0 +1,10 @@
+*report.log
+*report.out
+*report.aux
+texput.log
+.*.swp
+*.pyc
+warc/
+tweets/
+__pycache__/
+CarbonDate/

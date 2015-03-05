@@ -6,3 +6,5 @@ https://github.com/ukwa/webarchive-discovery/wiki/Quick-Start
 https://github.com/ukwa/webarchive-discovery
 http://maven.apache.org/download.cgi
 https://wiki.apache.org/solr/SolrQuerySyntax
+http://stackoverflow.com/questions/6738902/vim-syntax-highlighting-with-and-lstlistings-lstinline
+http://en.wikibooks.org/wiki/LaTeX/Tables
