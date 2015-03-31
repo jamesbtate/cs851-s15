@@ -1,0 +1,464 @@
+Generating work queue...
+5504
+Running boilerpipe
+6__main__.py: Can't open ./tweets/560619686698569730/content.0/weather-nyc-boston-philadelphia-brace_27.html?utm_content=bufferb02e0 for reading: [Errno 2] No such file or directory: './tweets/560619686698569730/content.0/weather-nyc-boston-philadelphia-brace_27.html?utm_content=bufferb02e0'
+9__main__.py: Can't open ./tweets/560610417949413377/content.0/blizzard-2015-new-england-bears-brunt.html?utm_content=buffer543b9 for reading: [Errno 2] No such file or directory: './tweets/560610417949413377/content.0/blizzard-2015-new-england-bears-brunt.html?utm_content=buffer543b9'
+11__main__.py: Can't open ./tweets/560610409367879680/content.0/blizzard-2015-mta-subway-bus-service_28.html?utm_content=buffer37e8e for reading: [Errno 2] No such file or directory: './tweets/560610409367879680/content.0/blizzard-2015-mta-subway-bus-service_28.html?utm_content=buffer37e8e'
+13__main__.py: Can't open ./tweets/560615907785854976/content.0/a-history-of-economics-through-soccer?utm_source=dlvr.it for reading: [Errno 2] No such file or directory: './tweets/560615907785854976/content.0/a-history-of-economics-through-soccer?utm_source=dlvr.it'
+18__main__.py: Can't open ./tweets/560620304737636352/content.0/snowstorm-to-hit-northeast-us-weather.html?utm_content=buffer2606a for reading: [Errno 2] No such file or directory: './tweets/560620304737636352/content.0/snowstorm-to-hit-northeast-us-weather.html?utm_content=buffer2606a'
+__main__.py: Can't open ./tweets/560611606325784577/content.0/new-york-city-is-spared-worst-effects.html?utm_content=bufferfb80d for reading: [Errno 2] No such file or directory: './tweets/560611606325784577/content.0/new-york-city-is-spared-worst-effects.html?utm_content=bufferfb80d'
+__main__.py: Can't open ./tweets/560613008695496704/content.0/index.html?rss=true for reading: [Errno 2] No such file or directory: './tweets/560613008695496704/content.0/index.html?rss=true'
+21__main__.py: Can't open ./tweets/560615192979988481/content.0/us-snow-blizzard-shuts-down-new-york.html?utm_content=buffera3107 for reading: [Errno 2] No such file or directory: './tweets/560615192979988481/content.0/us-snow-blizzard-shuts-down-new-york.html?utm_content=buffera3107'
+__main__.py: Can't open ./tweets/561646243810516994/content.0/us-snow-blizzard-shuts-down-new-york.html?utm_content=bufferfe723 for reading: [Errno 2] No such file or directory: './tweets/561646243810516994/content.0/us-snow-blizzard-shuts-down-new-york.html?utm_content=bufferfe723'
+23__main__.py: Can't open ./tweets/560613700164272129/content.0/atlantic-blizzard-what-you-need-to-know.html?utm_content=buffera76f5 for reading: [Errno 2] No such file or directory: './tweets/560613700164272129/content.0/atlantic-blizzard-what-you-need-to-know.html?utm_content=buffera76f5'
+26__main__.py: Can't open ./tweets/560620692505243648/content.0/tracy-pyles-virginia-black-reporter-boy?utm_content=buffer32847 for reading: [Errno 2] No such file or directory: './tweets/560620692505243648/content.0/tracy-pyles-virginia-black-reporter-boy?utm_content=buffer32847'
+__main__.py: Can't open ./tweets/560611848395825152/content.0/index.html?utm_campaign=Feed%3A+Mashable+%28Mashable%29 for reading: [Errno 2] No such file or directory: './tweets/560611848395825152/content.0/index.html?utm_campaign=Feed%3A+Mashable+%28Mashable%29'
+29__main__.py: Can't open ./tweets/560614336969080832/content.0/index.html?utm_source=twitterfeed for reading: [Errno 2] No such file or directory: './tweets/560614336969080832/content.0/index.html?utm_source=twitterfeed'
+32^CTraceback (most recent call last):
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 162, in _run_module_as_main
+Traceback (most recent call last):
+  File "./gen_list_uniq_content_paths.py", line 52, in <module>
+    subprocess.call(cmd, shell=True)
+  File "/usr/lib/python3.4/subprocess.py", line 535, in call
+    return p.wait(timeout=timeout)
+  File "/usr/lib/python3.4/subprocess.py", line 1536, in wait
+    (pid, sts) = self._try_wait(0)
+  File "/usr/lib/python3.4/subprocess.py", line 1493, in _try_wait
+    (pid, sts) = _eintr_retry_call(os.waitpid, self.pid, wait_flags)
+  File "/usr/lib/python3.4/subprocess.py", line 487, in _eintr_retry_call
+    return func(*args)
+KeyboardInterrupt
+    "__main__", fname, loader, pkg_name)
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 318, in <module>
+    main()
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 299, in main
+    no_headings, encoding, default_encoding, enc_errors)
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/core.py", line 377, in justext
+    revise_paragraph_classification(paragraphs, max_heading_distance)
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/core.py", line 356, in revise_paragraph_classification
+    distance += len(paragraphs[j].text)
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/paragraph.py", line 28, in text
+    @property
+KeyboardInterrupt
+jtate@sirius:~/cs751/hw$ vim gen_list_uniq_content_paths.py
+jtate@sirius:~/cs751/hw$ ./gen_list_uniq_content_paths.py
+Generating work queue...
+5504
+Running boilerpipe
+199Traceback (most recent call last):
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 318, in <module>
+    main()
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 299, in main
+    no_headings, encoding, default_encoding, enc_errors)
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/core.py", line 370, in justext
+    dom = html_to_dom(html_text, default_encoding, encoding, enc_errors)
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/core.py", line 63, in html_to_dom
+    dom = lxml.html.fromstring(decoded_html)
+  File "/home/jtate/opt/lib/python2.7/site-packages/lxml/html/__init__.py", line 725, in fromstring
+    doc = document_fromstring(html, parser=parser, base_url=base_url, **kw)
+  File "/home/jtate/opt/lib/python2.7/site-packages/lxml/html/__init__.py", line 613, in document_fromstring
+    value = etree.fromstring(html, parser, **kw)
+  File "lxml.etree.pyx", line 3094, in lxml.etree.fromstring (src/lxml/lxml.etree.c:70505)
+  File "parser.pxi", line 1828, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:106339)
+  File "parser.pxi", line 1709, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:105042)
+  File "parser.pxi", line 1047, in lxml.etree._BaseParser._parseUnicodeDoc (src/lxml/lxml.etree.c:99470)
+  File "parser.pxi", line 580, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:94286)
+  File "parser.pxi", line 690, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:95722)
+  File "parser.pxi", line 631, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:95001)
+lxml.etree.XMLSyntaxError: None
+432Traceback (most recent call last):
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 318, in <module>
+    main()
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 299, in main
+    no_headings, encoding, default_encoding, enc_errors)
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/core.py", line 370, in justext
+    dom = html_to_dom(html_text, default_encoding, encoding, enc_errors)
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/core.py", line 63, in html_to_dom
+    dom = lxml.html.fromstring(decoded_html)
+  File "/home/jtate/opt/lib/python2.7/site-packages/lxml/html/__init__.py", line 725, in fromstring
+    doc = document_fromstring(html, parser=parser, base_url=base_url, **kw)
+  File "/home/jtate/opt/lib/python2.7/site-packages/lxml/html/__init__.py", line 616, in document_fromstring
+    "Document is empty")
+lxml.etree.ParserError: Document is empty
+626Traceback (most recent call last):
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 318, in <module>
+    main()
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 290, in main
+    "Can't open %s for reading: %s" % (args[0], e))
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 38: ordinal not in range(128)
+1356Traceback (most recent call last):
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 318, in <module>
+    main()
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 299, in main
+    no_headings, encoding, default_encoding, enc_errors)
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/core.py", line 370, in justext
+    dom = html_to_dom(html_text, default_encoding, encoding, enc_errors)
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/core.py", line 63, in html_to_dom
+    dom = lxml.html.fromstring(decoded_html)
+  File "/home/jtate/opt/lib/python2.7/site-packages/lxml/html/__init__.py", line 725, in fromstring
+    doc = document_fromstring(html, parser=parser, base_url=base_url, **kw)
+  File "/home/jtate/opt/lib/python2.7/site-packages/lxml/html/__init__.py", line 613, in document_fromstring
+    value = etree.fromstring(html, parser, **kw)
+  File "lxml.etree.pyx", line 3094, in lxml.etree.fromstring (src/lxml/lxml.etree.c:70505)
+  File "parser.pxi", line 1828, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:106339)
+  File "parser.pxi", line 1709, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:105042)
+  File "parser.pxi", line 1047, in lxml.etree._BaseParser._parseUnicodeDoc (src/lxml/lxml.etree.c:99470)
+  File "parser.pxi", line 580, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:94286)
+  File "parser.pxi", line 690, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:95722)
+  File "parser.pxi", line 631, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:95001)
+lxml.etree.XMLSyntaxError: None
+1953Traceback (most recent call last):
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 318, in <module>
+    main()
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 299, in main
+    no_headings, encoding, default_encoding, enc_errors)
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/core.py", line 370, in justext
+    dom = html_to_dom(html_text, default_encoding, encoding, enc_errors)
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/core.py", line 63, in html_to_dom
+    dom = lxml.html.fromstring(decoded_html)
+  File "/home/jtate/opt/lib/python2.7/site-packages/lxml/html/__init__.py", line 725, in fromstring
+    doc = document_fromstring(html, parser=parser, base_url=base_url, **kw)
+  File "/home/jtate/opt/lib/python2.7/site-packages/lxml/html/__init__.py", line 613, in document_fromstring
+    value = etree.fromstring(html, parser, **kw)
+  File "lxml.etree.pyx", line 3094, in lxml.etree.fromstring (src/lxml/lxml.etree.c:70505)
+  File "parser.pxi", line 1828, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:106339)
+  File "parser.pxi", line 1709, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:105042)
+  File "parser.pxi", line 1047, in lxml.etree._BaseParser._parseUnicodeDoc (src/lxml/lxml.etree.c:99470)
+  File "parser.pxi", line 580, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:94286)
+  File "parser.pxi", line 690, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:95722)
+  File "parser.pxi", line 631, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:95001)
+lxml.etree.XMLSyntaxError: None
+2361Traceback (most recent call last):
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 318, in <module>
+    main()
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 299, in main
+    no_headings, encoding, default_encoding, enc_errors)
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/core.py", line 370, in justext
+    dom = html_to_dom(html_text, default_encoding, encoding, enc_errors)
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/core.py", line 63, in html_to_dom
+    dom = lxml.html.fromstring(decoded_html)
+  File "/home/jtate/opt/lib/python2.7/site-packages/lxml/html/__init__.py", line 725, in fromstring
+    doc = document_fromstring(html, parser=parser, base_url=base_url, **kw)
+  File "/home/jtate/opt/lib/python2.7/site-packages/lxml/html/__init__.py", line 613, in document_fromstring
+    value = etree.fromstring(html, parser, **kw)
+  File "lxml.etree.pyx", line 3094, in lxml.etree.fromstring (src/lxml/lxml.etree.c:70505)
+  File "parser.pxi", line 1828, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:106339)
+  File "parser.pxi", line 1709, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:105042)
+  File "parser.pxi", line 1047, in lxml.etree._BaseParser._parseUnicodeDoc (src/lxml/lxml.etree.c:99470)
+  File "parser.pxi", line 580, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:94286)
+  File "parser.pxi", line 690, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:95722)
+  File "parser.pxi", line 631, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:95001)
+lxml.etree.XMLSyntaxError: None
+2520Traceback (most recent call last):
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 318, in <module>
+    main()
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 299, in main
+    no_headings, encoding, default_encoding, enc_errors)
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/core.py", line 370, in justext
+    dom = html_to_dom(html_text, default_encoding, encoding, enc_errors)
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/core.py", line 63, in html_to_dom
+    dom = lxml.html.fromstring(decoded_html)
+  File "/home/jtate/opt/lib/python2.7/site-packages/lxml/html/__init__.py", line 725, in fromstring
+    doc = document_fromstring(html, parser=parser, base_url=base_url, **kw)
+  File "/home/jtate/opt/lib/python2.7/site-packages/lxml/html/__init__.py", line 613, in document_fromstring
+    value = etree.fromstring(html, parser, **kw)
+  File "lxml.etree.pyx", line 3094, in lxml.etree.fromstring (src/lxml/lxml.etree.c:70505)
+  File "parser.pxi", line 1828, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:106339)
+  File "parser.pxi", line 1709, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:105042)
+  File "parser.pxi", line 1047, in lxml.etree._BaseParser._parseUnicodeDoc (src/lxml/lxml.etree.c:99470)
+  File "parser.pxi", line 580, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:94286)
+  File "parser.pxi", line 690, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:95722)
+  File "parser.pxi", line 631, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:95001)
+lxml.etree.XMLSyntaxError: None
+2533Traceback (most recent call last):
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 318, in <module>
+    main()
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 290, in main
+    "Can't open %s for reading: %s" % (args[0], e))
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 77: ordinal not in range(128)
+2536Traceback (most recent call last):
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 318, in <module>
+    main()
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 299, in main
+    no_headings, encoding, default_encoding, enc_errors)
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/core.py", line 370, in justext
+    dom = html_to_dom(html_text, default_encoding, encoding, enc_errors)
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/core.py", line 63, in html_to_dom
+    dom = lxml.html.fromstring(decoded_html)
+  File "/home/jtate/opt/lib/python2.7/site-packages/lxml/html/__init__.py", line 725, in fromstring
+    doc = document_fromstring(html, parser=parser, base_url=base_url, **kw)
+  File "/home/jtate/opt/lib/python2.7/site-packages/lxml/html/__init__.py", line 613, in document_fromstring
+    value = etree.fromstring(html, parser, **kw)
+  File "lxml.etree.pyx", line 3094, in lxml.etree.fromstring (src/lxml/lxml.etree.c:70505)
+  File "parser.pxi", line 1828, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:106339)
+  File "parser.pxi", line 1709, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:105042)
+  File "parser.pxi", line 1047, in lxml.etree._BaseParser._parseUnicodeDoc (src/lxml/lxml.etree.c:99470)
+  File "parser.pxi", line 580, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:94286)
+  File "parser.pxi", line 690, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:95722)
+  File "parser.pxi", line 631, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:95001)
+lxml.etree.XMLSyntaxError: None
+2662Traceback (most recent call last):
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 318, in <module>
+    main()
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 299, in main
+    no_headings, encoding, default_encoding, enc_errors)
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/core.py", line 370, in justext
+    dom = html_to_dom(html_text, default_encoding, encoding, enc_errors)
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/core.py", line 63, in html_to_dom
+    dom = lxml.html.fromstring(decoded_html)
+  File "/home/jtate/opt/lib/python2.7/site-packages/lxml/html/__init__.py", line 725, in fromstring
+    doc = document_fromstring(html, parser=parser, base_url=base_url, **kw)
+  File "/home/jtate/opt/lib/python2.7/site-packages/lxml/html/__init__.py", line 613, in document_fromstring
+    value = etree.fromstring(html, parser, **kw)
+  File "lxml.etree.pyx", line 3094, in lxml.etree.fromstring (src/lxml/lxml.etree.c:70505)
+  File "parser.pxi", line 1828, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:106339)
+  File "parser.pxi", line 1709, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:105042)
+  File "parser.pxi", line 1047, in lxml.etree._BaseParser._parseUnicodeDoc (src/lxml/lxml.etree.c:99470)
+  File "parser.pxi", line 580, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:94286)
+  File "parser.pxi", line 690, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:95722)
+  File "parser.pxi", line 631, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:95001)
+lxml.etree.XMLSyntaxError: None
+2785Traceback (most recent call last):
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 318, in <module>
+    main()
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 299, in main
+    no_headings, encoding, default_encoding, enc_errors)
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/core.py", line 370, in justext
+    dom = html_to_dom(html_text, default_encoding, encoding, enc_errors)
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/core.py", line 63, in html_to_dom
+    dom = lxml.html.fromstring(decoded_html)
+  File "/home/jtate/opt/lib/python2.7/site-packages/lxml/html/__init__.py", line 725, in fromstring
+    doc = document_fromstring(html, parser=parser, base_url=base_url, **kw)
+  File "/home/jtate/opt/lib/python2.7/site-packages/lxml/html/__init__.py", line 613, in document_fromstring
+    value = etree.fromstring(html, parser, **kw)
+  File "lxml.etree.pyx", line 3094, in lxml.etree.fromstring (src/lxml/lxml.etree.c:70505)
+  File "parser.pxi", line 1828, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:106339)
+  File "parser.pxi", line 1709, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:105042)
+  File "parser.pxi", line 1047, in lxml.etree._BaseParser._parseUnicodeDoc (src/lxml/lxml.etree.c:99470)
+  File "parser.pxi", line 580, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:94286)
+  File "parser.pxi", line 690, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:95722)
+  File "parser.pxi", line 631, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:95001)
+lxml.etree.XMLSyntaxError: None
+3334Traceback (most recent call last):
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 318, in <module>
+    main()
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 299, in main
+    no_headings, encoding, default_encoding, enc_errors)
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/core.py", line 370, in justext
+    dom = html_to_dom(html_text, default_encoding, encoding, enc_errors)
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/core.py", line 63, in html_to_dom
+    dom = lxml.html.fromstring(decoded_html)
+  File "/home/jtate/opt/lib/python2.7/site-packages/lxml/html/__init__.py", line 725, in fromstring
+    doc = document_fromstring(html, parser=parser, base_url=base_url, **kw)
+  File "/home/jtate/opt/lib/python2.7/site-packages/lxml/html/__init__.py", line 613, in document_fromstring
+    value = etree.fromstring(html, parser, **kw)
+  File "lxml.etree.pyx", line 3094, in lxml.etree.fromstring (src/lxml/lxml.etree.c:70505)
+  File "parser.pxi", line 1828, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:106339)
+  File "parser.pxi", line 1709, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:105042)
+  File "parser.pxi", line 1047, in lxml.etree._BaseParser._parseUnicodeDoc (src/lxml/lxml.etree.c:99470)
+  File "parser.pxi", line 580, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:94286)
+  File "parser.pxi", line 690, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:95722)
+  File "parser.pxi", line 631, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:95001)
+lxml.etree.XMLSyntaxError: None
+3756Traceback (most recent call last):
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 318, in <module>
+    main()
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 299, in main
+    no_headings, encoding, default_encoding, enc_errors)
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/core.py", line 370, in justext
+    dom = html_to_dom(html_text, default_encoding, encoding, enc_errors)
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/core.py", line 63, in html_to_dom
+    dom = lxml.html.fromstring(decoded_html)
+  File "/home/jtate/opt/lib/python2.7/site-packages/lxml/html/__init__.py", line 725, in fromstring
+    doc = document_fromstring(html, parser=parser, base_url=base_url, **kw)
+  File "/home/jtate/opt/lib/python2.7/site-packages/lxml/html/__init__.py", line 613, in document_fromstring
+    value = etree.fromstring(html, parser, **kw)
+  File "lxml.etree.pyx", line 3094, in lxml.etree.fromstring (src/lxml/lxml.etree.c:70505)
+  File "parser.pxi", line 1828, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:106339)
+  File "parser.pxi", line 1709, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:105042)
+  File "parser.pxi", line 1047, in lxml.etree._BaseParser._parseUnicodeDoc (src/lxml/lxml.etree.c:99470)
+  File "parser.pxi", line 580, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:94286)
+  File "parser.pxi", line 690, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:95722)
+  File "parser.pxi", line 631, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:95001)
+lxml.etree.XMLSyntaxError: None
+4043Traceback (most recent call last):
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 318, in <module>
+    main()
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 299, in main
+    no_headings, encoding, default_encoding, enc_errors)
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/core.py", line 370, in justext
+    dom = html_to_dom(html_text, default_encoding, encoding, enc_errors)
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/core.py", line 63, in html_to_dom
+    dom = lxml.html.fromstring(decoded_html)
+  File "/home/jtate/opt/lib/python2.7/site-packages/lxml/html/__init__.py", line 725, in fromstring
+    doc = document_fromstring(html, parser=parser, base_url=base_url, **kw)
+  File "/home/jtate/opt/lib/python2.7/site-packages/lxml/html/__init__.py", line 613, in document_fromstring
+    value = etree.fromstring(html, parser, **kw)
+  File "lxml.etree.pyx", line 3094, in lxml.etree.fromstring (src/lxml/lxml.etree.c:70505)
+  File "parser.pxi", line 1828, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:106339)
+  File "parser.pxi", line 1709, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:105042)
+  File "parser.pxi", line 1047, in lxml.etree._BaseParser._parseUnicodeDoc (src/lxml/lxml.etree.c:99470)
+  File "parser.pxi", line 580, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:94286)
+  File "parser.pxi", line 690, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:95722)
+  File "parser.pxi", line 631, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:95001)
+lxml.etree.XMLSyntaxError: None
+4452Traceback (most recent call last):
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 318, in <module>
+    main()
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 299, in main
+    no_headings, encoding, default_encoding, enc_errors)
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/core.py", line 370, in justext
+    dom = html_to_dom(html_text, default_encoding, encoding, enc_errors)
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/core.py", line 63, in html_to_dom
+    dom = lxml.html.fromstring(decoded_html)
+  File "/home/jtate/opt/lib/python2.7/site-packages/lxml/html/__init__.py", line 725, in fromstring
+    doc = document_fromstring(html, parser=parser, base_url=base_url, **kw)
+  File "/home/jtate/opt/lib/python2.7/site-packages/lxml/html/__init__.py", line 613, in document_fromstring
+    value = etree.fromstring(html, parser, **kw)
+  File "lxml.etree.pyx", line 3094, in lxml.etree.fromstring (src/lxml/lxml.etree.c:70505)
+  File "parser.pxi", line 1828, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:106339)
+  File "parser.pxi", line 1709, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:105042)
+  File "parser.pxi", line 1047, in lxml.etree._BaseParser._parseUnicodeDoc (src/lxml/lxml.etree.c:99470)
+  File "parser.pxi", line 580, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:94286)
+  File "parser.pxi", line 690, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:95722)
+  File "parser.pxi", line 631, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:95001)
+lxml.etree.XMLSyntaxError: None
+4850Traceback (most recent call last):
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 318, in <module>
+    main()
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 299, in main
+    no_headings, encoding, default_encoding, enc_errors)
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/core.py", line 370, in justext
+    dom = html_to_dom(html_text, default_encoding, encoding, enc_errors)
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/core.py", line 63, in html_to_dom
+    dom = lxml.html.fromstring(decoded_html)
+  File "/home/jtate/opt/lib/python2.7/site-packages/lxml/html/__init__.py", line 725, in fromstring
+    doc = document_fromstring(html, parser=parser, base_url=base_url, **kw)
+  File "/home/jtate/opt/lib/python2.7/site-packages/lxml/html/__init__.py", line 613, in document_fromstring
+    value = etree.fromstring(html, parser, **kw)
+  File "lxml.etree.pyx", line 3094, in lxml.etree.fromstring (src/lxml/lxml.etree.c:70505)
+  File "parser.pxi", line 1828, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:106339)
+  File "parser.pxi", line 1709, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:105042)
+  File "parser.pxi", line 1047, in lxml.etree._BaseParser._parseUnicodeDoc (src/lxml/lxml.etree.c:99470)
+  File "parser.pxi", line 580, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:94286)
+  File "parser.pxi", line 690, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:95722)
+  File "parser.pxi", line 631, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:95001)
+lxml.etree.XMLSyntaxError: None
+4873Traceback (most recent call last):
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 318, in <module>
+    main()
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 299, in main
+    no_headings, encoding, default_encoding, enc_errors)
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/core.py", line 370, in justext
+    dom = html_to_dom(html_text, default_encoding, encoding, enc_errors)
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/core.py", line 63, in html_to_dom
+    dom = lxml.html.fromstring(decoded_html)
+  File "/home/jtate/opt/lib/python2.7/site-packages/lxml/html/__init__.py", line 725, in fromstring
+    doc = document_fromstring(html, parser=parser, base_url=base_url, **kw)
+  File "/home/jtate/opt/lib/python2.7/site-packages/lxml/html/__init__.py", line 613, in document_fromstring
+    value = etree.fromstring(html, parser, **kw)
+  File "lxml.etree.pyx", line 3094, in lxml.etree.fromstring (src/lxml/lxml.etree.c:70505)
+  File "parser.pxi", line 1828, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:106339)
+  File "parser.pxi", line 1709, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:105042)
+  File "parser.pxi", line 1047, in lxml.etree._BaseParser._parseUnicodeDoc (src/lxml/lxml.etree.c:99470)
+  File "parser.pxi", line 580, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:94286)
+  File "parser.pxi", line 690, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:95722)
+  File "parser.pxi", line 631, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:95001)
+lxml.etree.XMLSyntaxError: None
+5082Traceback (most recent call last):
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 162, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/home/jtate/opt/lib/python2.7/runpy.py", line 72, in _run_code
+    exec code in run_globals
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 318, in <module>
+    main()
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/__main__.py", line 299, in main
+    no_headings, encoding, default_encoding, enc_errors)
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/core.py", line 370, in justext
+    dom = html_to_dom(html_text, default_encoding, encoding, enc_errors)
+  File "/home/jtate/opt/lib/python2.7/site-packages/justext/core.py", line 63, in html_to_dom
+    dom = lxml.html.fromstring(decoded_html)
+  File "/home/jtate/opt/lib/python2.7/site-packages/lxml/html/__init__.py", line 725, in fromstring
+    doc = document_fromstring(html, parser=parser, base_url=base_url, **kw)
+  File "/home/jtate/opt/lib/python2.7/site-packages/lxml/html/__init__.py", line 613, in document_fromstring
+    value = etree.fromstring(html, parser, **kw)
+  File "lxml.etree.pyx", line 3094, in lxml.etree.fromstring (src/lxml/lxml.etree.c:70505)
+  File "parser.pxi", line 1828, in lxml.etree._parseMemoryDocument (src/lxml/lxml.etree.c:106339)
+  File "parser.pxi", line 1709, in lxml.etree._parseDoc (src/lxml/lxml.etree.c:105042)
+  File "parser.pxi", line 1047, in lxml.etree._BaseParser._parseUnicodeDoc (src/lxml/lxml.etree.c:99470)
+  File "parser.pxi", line 580, in lxml.etree._ParserContext._handleParseResultDoc (src/lxml/lxml.etree.c:94286)
+  File "parser.pxi", line 690, in lxml.etree._handleParseResult (src/lxml/lxml.etree.c:95722)
+  File "parser.pxi", line 631, in lxml.etree._raiseParseError (src/lxml/lxml.etree.c:95001)
+lxml.etree.XMLSyntaxError: None
+5382__main__.py: Can't open ./tweets/560618972069236736/content.0/index.html?utm_medium=referral&utm_campaign=share%20button&awesm=tnw.to_i4t4s&utm_source=t.co&utm_content=Twitters%20Group%20DMs%20are%20the%20Internets%20best%20new%20secret%20meeting%20place.html for reading: [Errno 2] No such file or directory: './tweets/560618972069236736/content.0/index.html?utm_medium=referral&utm_campaign=share%20button&awesm=tnw.to_i4t4s&utm_source=t.co&utm_content=Twitters%20Group%20DMs%20are%20the%20Internets%20best%20new%20secret%20meeting%20place.html'
+5390/bin/sh: 1: Syntax error: Unterminated quoted string
