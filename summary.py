@@ -27,11 +27,14 @@ def parseArgs():
     parser.add_argument('-f', '--final-uris', action="store_true", help="Save final URI into file in tweet directory.")
     parser.add_argument('-t', '--tweets-file', help="Load other tweet information from this tweets file.")
     parser.add_argument('-m', '--most-popular', type=int, metavar="NUM", help="Print the NUM most popular final URIs.")
+    parser.add_argument('-M', '--most-popular-ids', action='store_true', help="Print the tweet and URI ID along with the most popular URIs. Implies -m.")
     args = parser.parse_args()
     if not args.load_tweets and not args.read_summary:
         parser.error("You must specify either -l or -r")
     if args.load_tweets and args.read_summary:
         parser.error("You cannot specify both -l and -r")
+    if args.most_popular_ids and not args.most_popular:
+        args.most_popular = 100
     return args
 
 def addOrIncrementDict(d, item):
@@ -54,18 +57,24 @@ def dictValuesToCount(input):
         addOrIncrementDict(output, input[key])
     return output
 
-def printMostPopular(tweets, num=100):
+def printMostPopular(tweets, num=100, tweetID=False):
     # print num most popular final URIs
     finalURIs = {}
+    uriIDs = {}
     for tweet in tweets:
         for url in tweet['urls']:
             addOrIncrementDict(finalURIs, url['finalURI'])
+            uriIDs[url['finalURI']] = str(tweet['id']) + '.' + str(url['index'])
     sortedURIs = sorted(finalURIs.items(), key=operator.itemgetter(1), reverse=True)
     count = 0
     for i in sortedURIs:
         if count >= num: break
         count += 1
-        print(i[1], i[0])
+        if tweetID:
+            id = uriIDs[i[0]]
+            print(i[1], id, i[0])
+        else:
+            print(i[1], i[0])
 
 def printStats(tweets, delete=False, stopAt=999999999):
     print("Number of tweets with URIs:", len(tweets))
@@ -253,5 +262,5 @@ if __name__ == '__main__':
         print("=== Stats for first 10000 tweets ===")
         printStats(summary['tweets'], delete=args.remove_errors, stopAt=10000)
     if args.most_popular:
-        printMostPopular(summary['tweets'], num=args.most_popular)
+        printMostPopular(summary['tweets'], num=args.most_popular, tweetID=args.most_popular_ids)
 
