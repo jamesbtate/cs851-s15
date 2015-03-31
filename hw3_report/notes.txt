@@ -1,0 +1,4 @@
+18 URIs failed to boilerpipe
+5629 unique final URIs
+5505 unique HTML URIs
+124 URIs were excluded before running boilerpipe because non-HTML
