@@ -10,3 +10,5 @@ __pycache__/
 CarbonDate/
 output_2015-01-31b
 old/
+*_words
+concat_*
