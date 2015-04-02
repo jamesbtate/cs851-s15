@@ -23,3 +23,6 @@ To get word counts:
 ./word_count.py -l concat_boilerpipe > boilerpipe_words_letters-only
 ./word_count.py concat_original > original_words
 ./word_count.py concat_original -l > original_words_letters-only
+
+To generate top 50 words table:
+paste -d "\&" <(seq 1 50) <(head -50 original_words | awk1) <(head -50 boilerpipe_words | awk1) <(comm -12 <(head -50 original_words | awk1 | sort) <(head -50 boilerpipe_words | awk1 | sort)) | sed 's/&/ & /g' | sed 's/$/\\\\ \\hline/' | sed 's/</\\textless{}/g' | sed 's/>/\\textgreater{}/'

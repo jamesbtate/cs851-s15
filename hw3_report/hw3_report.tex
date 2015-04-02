@@ -127,7 +127,7 @@ unsuccessful invocations.
 \caption{Word Count Data}
 \begin{tabular}{ | c | c | c | }
 \hline
-\textbf{Data Point}  & \textbf{Original} & \textbf{After jusText}
+\textbf{Data Point}  & \textbf{Original} & \textbf{After jusText} \\ \hline
 Total bytes          & 646,619,835  & 12,133,748    \\ \hline
 Total words          & 33,594,568   & 2,035,935     \\ \hline
 Unique words         & 9,135,191    & 121,422       \\ \hline
@@ -151,8 +151,80 @@ is possible that YouTube is such a popular site, that an algorithm for processin
 the jusText utility. The output from jusText for YouTube video webpages is only the description of the video.
 
 \subsection{Word Frequency}
+Table 3.2 shows the top 50 most frequent words from the original downloaded webpages and from the successful
+outputs of jusText. The last column in the table shows words that were common to both top 50 lists.
 
-\subsection{Stop Words}
+{\renewcommand{\arraystretch}{0.93}
+\begin{table}[H]
+\centering
+\small
+\caption{Word Count Data}
+\begin{tabular}{ | c | c | c | c | }
+\hline
+\textbf{Word Rank} & \textbf{Original Words} & \textbf{jusText Words} & \textbf{Common Words} \\ \hline
+1 & \textless{}div & the & the \\ \hline
+2 & \textless{}/div\textgreater{} & to & to \\ \hline
+3 & \textless{}a & and & and \\ \hline
+4 & = & \textless{}p\textgreater{} & \\ \hline
+5 & \textless{}span & of & of \\ \hline
+6 & the & a & a \\ \hline
+7 & \{ & in & in \\ \hline
+8 & to & is & is \\ \hline
+9 & \} & that & that \\ \hline
+10 & /\textgreater{} & for & for \\ \hline
+11 & and & on & on \\ \hline
+12 & of & you & you \\ \hline
+13 & a & with & with \\ \hline
+14 & \textless{}li & it & \\ \hline
+15 & in & as & \\ \hline
+16 & \textless{}/li\textgreater{} & are & \\ \hline
+17 & \textless{}/a\textgreater{} & be & \\ \hline
+18 & var & this & this \\ \hline
+19 & --\textgreater{} & i & \\ \hline
+20 & \textless{}meta & at & \\ \hline
+21 & \textless{}script & have & \\ \hline
+22 & \textgreater{} & from & \\ \hline
+23 & \textless{}/span\textgreater{} & or & \\ \hline
+24 & for & was & \\ \hline
+25 & \textless{}!-- & by & by \\ \hline
+26 & \textless{}li\textgreater{}\textless{}a & your & your \\ \hline
+27 & on & but & \\ \hline
+28 & + & will & \\ \hline
+29 & 0 & an & \\ \hline
+30 & if & not & if \\ \hline
+31 & is & we & \\ \hline
+32 & \textless{}img & \textless{}h\textgreater{} & \\ \hline
+33 & - & he & \\ \hline
+34 & \textless{}/script\textgreater{} & they & \\ \hline
+35 & \textless{}link & can & \\ \hline
+36 & this & new & new \\ \hline
+37 & \textless{}option & has & \\ \hline
+38 & you & more & \\ \hline
+39 & with & their & \\ \hline
+40 & "\textgreater{} & his & \\ \hline
+41 & \textless{}li\textgreater{} & if & \\ \hline
+42 & \textless{}/ul\textgreater{} & all & \\ \hline
+43 & \textless{}/td\textgreater{} & about & \\ \hline
+44 & : & how & \\ \hline
+45 & your & one & \\ \hline
+46 & by & who & \\ \hline
+47 & \textless{}/tr\textgreater{} & our & \\ \hline
+48 & new & what & \\ \hline
+49 & that & when & \\ \hline
+50 & \textless{}tr\textgreater{} & up & \\ \hline
+\end{tabular}
+\end{table}
+}
+
+\subsection{Stopwords}
+Using the default English stopwords list from Ranks NL, I determined how many words from the top 50 lists are
+stopwords. In the original content top 50 words list, which clearly contains a lot of punctuation that would not
+normally be found on a stopwords list, 16 of the words are stopwords. These 16 words happen to be the 16 words
+common between the original top 50 words and the top 50 jusText words, except the word \emph{new}. Of the top 50
+jusText words, 44 of them are stopwords.
+
+\subsection{Distribution of Words}
+
 
 %\begin{figure}[H]
 %    \centering
@@ -160,43 +232,6 @@ the jusText utility. The output from jusText for YouTube video webpages is only 
 %    \caption{Frequency of HTTP status codes in histogram by sequential category.
 %}
 %\end{figure}
-
-\clearpage
-\begin{appendices}
-
-\section{Streaming API Filter Keywords}
-These keywords were selected arbitrarily. Keywords were added to the list until the streaming
-API seemed to pull tweets at a strong, consistent rate.
-\begin{multicols}{3}
-\begin{itemize}
-    \item python
-    \item fsf
-    \item foss
-    \item coding
-    \item programming
-    \item fedora
-    \item rhel
-    \item dovetail
-    \item woodworking
-    \item blizzard
-    \item snowstorm
-    \item colorado
-    \item virginia
-    \item internet
-    \item library
-    \item libraries
-    \item json
-    \item lemonade
-    \item woodchuck
-    \item iasip
-    \item league
-    \item awesomenaut
-    \item tf2
-\end{itemize}
-\end{multicols}
-
-\end{appendices}
-
 
 
 
