@@ -224,14 +224,22 @@ common between the original top 50 words and the top 50 jusText words, except th
 jusText words, 44 of them are stopwords.
 
 \subsection{Distribution of Words}
+A Zipf distribution is a ranking of frequencies in which the rank of an item is inversely proportional to its
+frequency\cite{wiki:zipf}. Both the original words and the jusText output words, when ordered by frequency,
+obey Zipf's Law and follow a Zipf distibution. This can be seen in Figures 3.1 and 3.2, where the plot closely
+follows the axes, similar to the plot of the continuous function \( f(x)=1/x, \forall x > 0 \). Only the first
+1,000 most frequent words in each dataset is plotted to make the curve more visible to the reader.
 
-
-%\begin{figure}[H]
-%    \centering
-%    \includegraphics{stats/http_status_codes.pdf}
-%    \caption{Frequency of HTTP status codes in histogram by sequential category.
-%}
-%\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics{stats/original_words.pdf}
+    \caption{Rank of Original Words vs. Their Frequency}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics{stats/boilerpipe_words.pdf}
+    \caption{Rank of jusText Words vs. Their Frequency}
+\end{figure}
 
 
 

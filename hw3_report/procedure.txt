@@ -26,3 +26,7 @@ To get word counts:
 
 To generate top 50 words table:
 paste -d "\&" <(seq 1 50) <(head -50 original_words | awk1) <(head -50 boilerpipe_words | awk1) <(comm -12 <(head -50 original_words | awk1 | sort) <(head -50 boilerpipe_words | awk1 | sort)) | sed 's/&/ & /g' | sed 's/$/\\\\ \\hline/' | sed 's/</\\textless{}/g' | sed 's/>/\\textgreater{}/'
+
+To generate .stats files for R graphs:
+awk2 original_words | head -1000 > hw3_report/stats/original_words.stats
+awk2 boilerpipe_words | head -1000 > hw3_report/stats/boilerpipe_words.stats
