@@ -11,8 +11,9 @@
 
 \begin{document}
 
-\renewcommand{\thelstlisting}{\thesection-\arabic{lstlisting}}
-\renewcommand{\thefigure}{\arabic{section}-\arabic{figure}}
+\renewcommand{\thelstlisting}{\thesection.\arabic{lstlisting}}
+\renewcommand{\thefigure}{\arabic{section}.\arabic{figure}}
+\renewcommand{\thetable}{\arabic{section}.\arabic{table}}
 \setlength{\floatsep}{0pt plus 2pt minus 2pt}
 %\setlength{\intextsep}{0pt plus 2pt minus 2pt}
 %\setlength{\textfloatsep}{0pt plus 2pt minus 2pt}
@@ -26,7 +27,7 @@
 Assignment \#3 required comparing the downloaded webpages from assignment \#1 with and without the HTML
 templates\cite{hw1}.
 I attempted to remove HTML templates using jusText, a heuristic boilerplate removal tool\cite{justext}. The input
-and output text of jusText was compared and jusText's performance was analysed.
+and output text of jusText was compared and jusText's performance was analyzed.
 
 \section{Methodology}
 I wrote two scripts for this utility, both of which are available in my git repository on
@@ -88,7 +89,7 @@ whitespace as a ``word'' and to count the frequency of each unique ``word,'' aft
 lowercase. With the \emph{-l} flag, only consecutive letters, apostrophes and hyphens are treated as words.
 Apostrophes and hyphens are only accepted if they immediately follow a letter.
 
-\begin{lstlisting}[basicstyle=\ttfamily,caption={Concatenating input and output data.}]
+\begin{lstlisting}[basicstyle=\ttfamily,caption={Counting words in concatenated data}]
     ./word_count.py concat_boilerpipe \
         > boilerpipe_words
     ./word_count.py -l concat_boilerpipe \
@@ -99,7 +100,59 @@ Apostrophes and hyphens are only accepted if they immediately follow a letter.
         > original_words_letters-only
 \end{lstlisting}
 
-\section{Statistics}
+\section{Results}
+This section discusses the results of the boilerpipe program and analyzes the frequent words in the original
+representations and the versions that have been processed by jusText. The most common words in each dataset
+are compared to a stop word list, and the word frequencies are graphed.
+
+\subsection{jusText}
+Of my original 5,629 unique final URIs, 124 had to be excluded because they were not HTML. Most of the 124 were
+MP3 files of podcasts, and a few were PDF files. The output from the commands shown in Listing 3.1 show that
+2,427 of my 5,505 remaining unique URIs had no output from jusText (because the output file has zero lines).
+This indicates a failure of jusText for 44\% of my URIs.
+
+\begin{lstlisting}[basicstyle=\ttfamily,caption={Counting failed jusText runs}]
+    grep "boilerpipe.output" tweets_file_list \
+        | xargs wc > wc_boilerpipe
+    grep " 0 " wc_boilerpipe | wc -l
+\end{lstlisting}
+
+Table 3.1 includes the number of total words, unique words and total characters in the input and
+output data. It has results for both filtering modes of the \emph{word\_count.py} utility. Note that only the
+output from the successful jusText invocations is counted in this data, because there was no output from the
+unsuccessful invocations.
+
+\begin{table}[H]
+\centering
+\caption{Word Count Data}
+\begin{tabular}{ | c | c | c | }
+\hline
+\textbf{Data Point}  & \textbf{Original} & \textbf{After jusText}
+Total bytes          & 646,619,835  & 12,133,748    \\ \hline
+Total words          & 33,594,568   & 2,035,935     \\ \hline
+Unique words         & 9,135,191    & 121,422       \\ \hline
+Total letter words   & 81,318,873   & 2,030,636     \\ \hline
+Unique letter words  & 1,271,593    & 57,434        \\ \hline
+\end{tabular}
+\end{table}
+
+Most of the webpages that failed jusText processing have very little textual content. Many of these webpages
+are specific images on Facebook or specific tweets on twitter. A few have significant content in the form of an
+article, but the article is only accessible after navigating through some advertisement or splash page. Without
+examining the source of the program, it appears jusText may fail if it determines the input document does not
+have enough text to be anything meaningful.
+
+Most of the successful jusText invocations were on news articles. One of my search terms in assignment \#1 when
+downloading tweets was ``blizzard.'' This search term yielded many news articles regarding the then-recent
+snowstorm in the U.S. northeast. These types of documents work well in jusText.
+
+There were also some successes on content that was not primarily text, such as the page for a YouTube video. It
+is possible that YouTube is such a popular site, that an algorithm for processing its webpages is hard-coded in
+the jusText utility. The output from jusText for YouTube video webpages is only the description of the video.
+
+\subsection{Word Frequency}
+
+\subsection{Stop Words}
 
 %\begin{figure}[H]
 %    \centering

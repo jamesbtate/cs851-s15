@@ -20,6 +20,12 @@ word count results after ignoring case:
   9135191 original_words
   1271593 original_words_letters-only
 
+total word count after ignoring case:
+jtate@sirius:~/cs751/hw$ cat boilerpipe_words | awk2 | total
+2035935
+jtate@sirius:~/cs751/hw$ cat original_words | awk2 | total
+33594568
+
 full wc output after ignoring case:
    121422    242844   1468840 boilerpipe_words
     57434    114868    651585 boilerpipe_words_letters-only
