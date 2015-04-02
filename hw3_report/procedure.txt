@@ -1,0 +1,25 @@
+To run boilerpipe:
+./run_boilerpipe.py
+
+Sample boilerpipe command:
+python -m justext -s English ./tweets/560616528069263361/content.0/index.html\?title=developer\&utm_source=twitter\&utm_medium=link\&utm_campaign=developer\&utm_term=developer\&url=http\:%2F%2Ffeeds.dzone.com%2F~r%2Fdzone%2Ffrontpage%2F~3%2Fl-5yhb0M9g0%2Fget_your_advanced_java_programming_degree_with_th.html
+
+To get list of files in tweets/:
+find ./tweets/ > tweets_file_list
+
+To find number of failed boilerpipes:
+grep "boilerpipe.output" tweets_file_list | xargs wc > wc_boilerpipe
+grep " 0 " wc_boilerpipe | wc -l
+
+To get list of unique content files:
+sort tweets_file_list | grep -v "/wget.output$" | grep -C 1 "/boilerpipe.output$" | grep -v -- "^--$" | grep "[0-9]/content\.[0-9]/" | grep -v "/boilerpipe.output$" > uniq_uri_content_files
+
+To copy boilerpipe and original content to single file each:
+grep "boilerpipe.output" tweets_file_list | xargs cat > concat_boilerpipe
+i=0; while read line; do cat "$line" >> concat_original ; echo "" >> concat_original ; echo $i; i=$((i+1)); done < uniq_uri_content_files
+
+To get word counts:
+./word_count.py concat_boilerpipe > boilerpipe_words
+./word_count.py -l concat_boilerpipe > boilerpipe_words_letters-only
+./word_count.py concat_original > original_words
+./word_count.py concat_original -l > original_words_letters-only

@@ -67,6 +67,7 @@ if __name__ == '__main__':
         if args.letters: line = extractWords(line)
         terms = line.split()
         for term in terms:
+            term = term.lower()
             addOrIncrementDict(words, term)
     stderr("\n" + "Sorting words list...")
     n = 999999999999

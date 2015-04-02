@@ -1,6 +1,8 @@
 *report.log
 *report.out
 *report.aux
+*.bbl
+*.blg
 texput.log
 .*.swp
 *.pyc
@@ -11,4 +13,5 @@ CarbonDate/
 output_2015-01-31b
 old/
 *_words
+*_words_*
 concat_*

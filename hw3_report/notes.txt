@@ -3,3 +3,30 @@
 5505 unique HTML URIs
 124 URIs were excluded before running boilerpipe because non-HTML
 2427 URIs had no output from boilerpipe
+
+manually excluded <p> and <h> from boilerpipe results
+
+
+word count results before ignoring case:
+jtate@sirius:~/cs751/hw$ wc -l *words*
+   137498 boilerpipe_words
+    70877 boilerpipe_words_letters-only
+  9240330 original_words
+  1553781 original_words_letters-only
+
+word count results after ignoring case:
+   121422 boilerpipe_words
+    57434 boilerpipe_words_letters-only
+  9135191 original_words
+  1271593 original_words_letters-only
+
+full wc output after ignoring case:
+   121422    242844   1468840 boilerpipe_words
+    57434    114868    651585 boilerpipe_words_letters-only
+  9135191  18253476 380981256 original_words
+  1271593   2543186  17707269 original_words_letters-only
+
+wc of combined text:
+    55490   2035854  12133748 concat_boilerpipe
+  7437342  30018946 646625340 concat_original
+
