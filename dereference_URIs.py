@@ -7,7 +7,7 @@ import os
 
 if __name__=='__main__':
     max = 128
-    tweetIDs = os.listdir('tweets')
+    tweetIDs = os.listdir('tweets2')
     started = 0
     succeeded = 0
     headerErrors = []
@@ -50,7 +50,7 @@ if __name__=='__main__':
         print('\nKeyboardInterrupt')
     finally:
         #save stats
-        statsFile = open('download.stats', 'w')
+        statsFile = open('download2.stats', 'w')
         d = {'started':started, 'succeeded':succeeded, 'headerErrors':headerErrors, 'contentErrors':contentErrors}
         statsFile.write(json.dumps(d))
         statsFile.write('\n')

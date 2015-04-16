@@ -8,6 +8,8 @@ texput.log
 *.pyc
 warc/
 tweets/
+tweets2/
+tweets_bad/
 __pycache__/
 CarbonDate/
 output_2015-01-31b

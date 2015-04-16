@@ -4,7 +4,7 @@ import subprocess
 import sys
 import re
 
-dir_index = open('tweets_file_list', 'r', encoding='latin-1')
+dir_index = open('tweets2_file_list', 'r', encoding='latin-1')
 files = []
 for line in dir_index:
     line = line.strip()
@@ -42,7 +42,7 @@ for line in uri_file:
         #stderr('\n' + "Did not find content directory for", tweetID, uriID)
 stderr()
 stderr("saving work queue")
-saveFile = open('boilerpipe_work_queue', 'w')
+saveFile = open('boilerpipe_work_queue2', 'w')
 for i in queue:
     saveFile.write(i[1] + " " + i[2] + " " + i[0] + "\n")
 saveFile.write('\n\nDid not find content for these tweets/URIs:\n')

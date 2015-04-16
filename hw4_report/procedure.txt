@@ -1,0 +1,15 @@
+grep -v " 0 " wc_boilerpipe | awk4 | grep -o "\./tweets/[0-9]\+/" > boilerpipe_success_dirs
+
+mkdir tweets2
+
+for i in $(cat boilerpipe_success_dirs); do id=$(echo $i | grep -o "[0-9]\+"); mkdir tweets2/$id; cp "${i}url.0" tweets2/$id/url.0; done
+
+# edit this script to use new directory and download2.stats
+vim dereference_URIs.py
+
+jtate@sirius:~/cs751/hw$ ./dereference_URIs.py
+started: 3035  succeeded: 2880  header errors: 32  content errors: 123  elapsed seconds: 115
+
+find ./tweets2/ > tweets2_file_list
+
+
