@@ -8,7 +8,7 @@ for i in $(cat boilerpipe_success_dirs); do id=$(echo $i | grep -o "[0-9]\+"); m
 vim dereference_URIs.py
 
 jtate@sirius:~/cs751/hw$ ./dereference_URIs.py
-started: 3035  succeeded: 2880  header errors: 32  content errors: 123  elapsed seconds: 115
+started: 3035  succeeded: 2889  header errors: 26  content errors: 120  elapsed seconds: 136
 
 find ./tweets2/ > tweets2_file_list
 
