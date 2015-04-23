@@ -12,4 +12,6 @@ started: 3035  succeeded: 2889  header errors: 26  content errors: 120  elapsed 
 
 find ./tweets2/ > tweets2_file_list
 
+./run_boilerpipe.py
+
 

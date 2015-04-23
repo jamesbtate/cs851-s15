@@ -39,13 +39,13 @@ for line in uri_file:
     if not found:
         bad.append((tweetID, uriID, uri))
         doNothing = True
-        #stderr('\n' + "Did not find content directory for", tweetID, uriID)
+        stderr('\n' + "Did not find content directory for", tweetID, uriID)
 stderr()
 stderr("saving work queue")
 saveFile = open('boilerpipe_work_queue2', 'w')
 for i in queue:
     saveFile.write(i[1] + " " + i[2] + " " + i[0] + "\n")
-saveFile.write('\n\nDid not find content for these tweets/URIs:\n')
+saveFile.write('\n\nDid not find content for these tweets2/URIs:\n')
 for i in bad:
     saveFile.write(i[0] + " " + i[1] + " " + i[2] + "\n")
 saveFile.close()
@@ -56,7 +56,7 @@ count = 1
 for item in queue:
     sys.stderr.write('\r' + str(count))
     count += 1
-    dir = item[0][:38]
+    dir = item[0][:39]
     outName = dir + 'boilerpipe.output'
     cmd = 'python -m justext -s English -o ' + outName + " '" + item[0] + "'"
     #print(cmd)

@@ -1,0 +1,6 @@
+3078 URIs were boilerpiped successfully in Q3 (representation obtained in Q1)
+2865 URIs were dereferenced and boilerpiped successfully in Q4
+    started with 3034 URIs
+        accidentally excluded some URIs. oh well
+    146 dereference errors were skipped
+    
