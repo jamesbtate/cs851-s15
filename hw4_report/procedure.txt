@@ -22,3 +22,7 @@ grep -v "^ \+0 " wc_boilerpipe2 | grep -v " total$" | awk4 | grep -o "56[0-9]\+"
 comm -12 <(sort boilerpipe1_ids) <(sort boilerpipe2_ids) > boilerpipe_common_ids
 
 ./jaccard.py | tee hw4_report/stats/q1_distances.stats
+awk2 q1_distances.stats | tail -n +2 | sort -n > q1_unigrams.stats
+awk3 q1_distances.stats | tail -n +2 | sort -n > q1_bigrams.stats
+awk4 q1_distances.stats | tail -n +2 | sort -n > q1_trigrams.stats
+

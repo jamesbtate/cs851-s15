@@ -48,4 +48,4 @@ if __name__=='__main__':
         dist1 = (len(union1) - len(intersection1)) * 1.0 / len(union1)
         dist2 = (len(union2) - len(intersection2)) * 1.0 / len(union2)
         dist3 = (len(union3) - len(intersection3)) * 1.0 / len(union3)
-        print(id, dist1, dist2, dist3)
+        print(id, "%0.3f %0.3f %0.3f" %(dist1, dist2, dist3))
