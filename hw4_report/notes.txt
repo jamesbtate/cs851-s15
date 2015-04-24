@@ -3,4 +3,6 @@
     started with 3034 URIs
         accidentally excluded some URIs. oh well
     146 dereference errors were skipped
+
+2735 URIs were successfully boilerpiped in both datasets
     

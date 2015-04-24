@@ -14,4 +14,11 @@ find ./tweets2/ > tweets2_file_list
 
 ./run_boilerpipe.py
 
+wc tweets2/*/*/boilerpipe.output | tee wc_boilerpipe2
 
+grep -v "^ \+0 " wc_boilerpipe | grep -v " total$" | awk4 | grep -o "56[0-9]\+" > boilerpipe1_ids
+grep -v "^ \+0 " wc_boilerpipe2 | grep -v " total$" | awk4 | grep -o "56[0-9]\+" > boilerpipe2_ids
+
+comm -12 <(sort boilerpipe1_ids) <(sort boilerpipe2_ids) > boilerpipe_common_ids
+
+./jaccard.py | tee hw4_report/stats/q1_distances.stats
