@@ -1,0 +1,6 @@
+<http://www.macandbob.co.uk>; rel="original",
+<http://web.archive.org/web/timemap/link/http://www.macandbob.co.uk>; rel="self"; type="application/link-format"; from="Thu, 05 Jun 2014 12:05:20 GMT"; until="Fri, 02 Jan 2015 07:32:48 GMT",
+<http://web.archive.org/web/http://www.macandbob.co.uk>; rel="timegate",
+<http://web.archive.org/web/20140605120520/http://www.macandbob.co.uk/>; rel="first memento"; datetime="Thu, 05 Jun 2014 12:05:20 GMT",
+<http://web.archive.org/web/20141220070244/http://macandbob.co.uk/>; rel="memento"; datetime="Sat, 20 Dec 2014 07:02:44 GMT",
+<http://web.archive.org/web/20150102073248/http://www.macandbob.co.uk/>; rel="last memento"; datetime="Fri, 02 Jan 2015 07:32:48 GMT"

@@ -1,0 +1,5 @@
+<http://www.seattlepi.com/>; rel="original",
+<http://timetravel.mementoweb.org/si/timegate/http://www.seattlepi.com/>; rel="timegate",
+<http://timetravel.mementoweb.org/si/timemap/link/http://www.seattlepi.com/>; rel="self"; type="application/link-format",
+<http://timetravel.mementoweb.org/si/timemap/json/http://www.seattlepi.com/>; rel="timemap"; type="application/json",
+<http://nukrobi2.nuk.uni-lj.si:8080/wayback/20140602130807/http://www.seattlepi.com/>; rel="first last memento"; datetime="Mon, 02 Jun 2014 13:08:07 GMT"

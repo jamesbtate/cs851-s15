@@ -1,0 +1,27 @@
+{"original_uri":"http://grandsocial.ca/events/54c147ce7ae9010000043fc9",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://grandsocial.ca/events/54c147ce7ae9010000043fc9",
+"timemap_index": [
+{"uri":"http://timetravel.mementoweb.org/webcite/timemap/link/http://grandsocial.ca/events/54c147ce7ae9010000043fc9",
+"memento_compliant":"no",
+"archive_id":"webcite"
+},{"uri":"http://timetravel.mementoweb.org/can/timemap/link/http://grandsocial.ca/events/54c147ce7ae9010000043fc9",
+"memento_compliant":"no",
+"archive_id":"gcwa"
+},{"uri":"http://timetravel.mementoweb.org/cr/timemap/link/http://grandsocial.ca/events/54c147ce7ae9010000043fc9",
+"memento_compliant":"no",
+"archive_id":"hr"
+},{"uri":"http://timetravel.mementoweb.org/po/timemap/link/http://grandsocial.ca/events/54c147ce7ae9010000043fc9",
+"memento_compliant":"no",
+"archive_id":"pt"
+},{"uri":"http://timetravel.mementoweb.org/es/timemap/link/http://grandsocial.ca/events/54c147ce7ae9010000043fc9",
+"memento_compliant":"no",
+"archive_id":"es"
+},{"uri":"http://timetravel.mementoweb.org/si/timemap/link/http://grandsocial.ca/events/54c147ce7ae9010000043fc9",
+"memento_compliant":"no",
+"archive_id":"si"
+},{"uri":"http://timetravel.mementoweb.org/loc/timemap/link/http://grandsocial.ca/events/54c147ce7ae9010000043fc9",
+"memento_compliant":"no",
+"archive_id":"loc"
+}],"timemap_uri": {"json_format": "http://timetravel.mementoweb.org/timemap/json/http://grandsocial.ca/events/54c147ce7ae9010000043fc9",
+"link_format": "http://timetravel.mementoweb.org/timemap/link/http://grandsocial.ca/events/54c147ce7ae9010000043fc9"
+}}

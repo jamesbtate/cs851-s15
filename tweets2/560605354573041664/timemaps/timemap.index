@@ -1,0 +1,27 @@
+{"original_uri":"http://nr.news-republic.com/Web/ArticleWeb.aspx?regionid=1&articleid=35359699",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://nr.news-republic.com/Web/ArticleWeb.aspx?regionid=1&articleid=35359699",
+"timemap_index": [
+{"uri":"http://timetravel.mementoweb.org/webcite/timemap/link/http://nr.news-republic.com/Web/ArticleWeb.aspx?regionid=1&articleid=35359699",
+"memento_compliant":"no",
+"archive_id":"webcite"
+},{"uri":"http://timetravel.mementoweb.org/can/timemap/link/http://nr.news-republic.com/Web/ArticleWeb.aspx?regionid=1&articleid=35359699",
+"memento_compliant":"no",
+"archive_id":"gcwa"
+},{"uri":"http://timetravel.mementoweb.org/cr/timemap/link/http://nr.news-republic.com/Web/ArticleWeb.aspx?regionid=1&articleid=35359699",
+"memento_compliant":"no",
+"archive_id":"hr"
+},{"uri":"http://timetravel.mementoweb.org/po/timemap/link/http://nr.news-republic.com/Web/ArticleWeb.aspx?regionid=1&articleid=35359699",
+"memento_compliant":"no",
+"archive_id":"pt"
+},{"uri":"http://timetravel.mementoweb.org/es/timemap/link/http://nr.news-republic.com/Web/ArticleWeb.aspx?regionid=1&articleid=35359699",
+"memento_compliant":"no",
+"archive_id":"es"
+},{"uri":"http://timetravel.mementoweb.org/si/timemap/link/http://nr.news-republic.com/Web/ArticleWeb.aspx?regionid=1&articleid=35359699",
+"memento_compliant":"no",
+"archive_id":"si"
+},{"uri":"http://timetravel.mementoweb.org/loc/timemap/link/http://nr.news-republic.com/Web/ArticleWeb.aspx?regionid=1&articleid=35359699",
+"memento_compliant":"no",
+"archive_id":"loc"
+}],"timemap_uri": {"json_format": "http://timetravel.mementoweb.org/timemap/json/http://nr.news-republic.com/Web/ArticleWeb.aspx?regionid=1&articleid=35359699",
+"link_format": "http://timetravel.mementoweb.org/timemap/link/http://nr.news-republic.com/Web/ArticleWeb.aspx?regionid=1&articleid=35359699"
+}}

@@ -1,0 +1,30 @@
+{"original_uri":"http://ay0.info",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://ay0.info",
+"timemap_index": [
+{"uri":"http://timetravel.mementoweb.org/webcite/timemap/link/http://ay0.info",
+"memento_compliant":"no",
+"archive_id":"webcite"
+},{"uri":"http://timetravel.mementoweb.org/can/timemap/link/http://ay0.info",
+"memento_compliant":"no",
+"archive_id":"gcwa"
+},{"uri":"http://timetravel.mementoweb.org/cr/timemap/link/http://ay0.info",
+"memento_compliant":"no",
+"archive_id":"hr"
+},{"uri":"http://timetravel.mementoweb.org/po/timemap/link/http://ay0.info",
+"memento_compliant":"no",
+"archive_id":"pt"
+},{"uri":"http://timetravel.mementoweb.org/es/timemap/link/http://ay0.info",
+"memento_compliant":"no",
+"archive_id":"es"
+},{"uri":"http://timetravel.mementoweb.org/si/timemap/link/http://ay0.info",
+"memento_compliant":"no",
+"archive_id":"si"
+},{"uri":"http://timetravel.mementoweb.org/loc/timemap/link/http://ay0.info",
+"memento_compliant":"no",
+"archive_id":"loc"
+},{"uri":"http://web.archive.org/web/timemap/link/http://ay0.info",
+"memento_compliant":"yes",
+"archive_id":"ia"
+}],"timemap_uri": {"json_format": "http://timetravel.mementoweb.org/timemap/json/http://ay0.info",
+"link_format": "http://timetravel.mementoweb.org/timemap/link/http://ay0.info"
+}}

@@ -1,0 +1,33 @@
+{"original_uri":"http://www.barnesandnoble.com/w/betrayed-wodke-hawkinson/1105148693?ean=2940013083806&itm=1&usri=2940013083806",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.barnesandnoble.com/w/betrayed-wodke-hawkinson/1105148693?ean=2940013083806&itm=1&usri=2940013083806",
+"timemap_index": [
+{"uri":"http://timetravel.mementoweb.org/webcite/timemap/link/http://www.barnesandnoble.com/w/betrayed-wodke-hawkinson/1105148693?ean=2940013083806&itm=1&usri=2940013083806",
+"memento_compliant":"no",
+"archive_id":"webcite"
+},{"uri":"http://timetravel.mementoweb.org/can/timemap/link/http://www.barnesandnoble.com/w/betrayed-wodke-hawkinson/1105148693?ean=2940013083806&itm=1&usri=2940013083806",
+"memento_compliant":"no",
+"archive_id":"gcwa"
+},{"uri":"http://timetravel.mementoweb.org/cr/timemap/link/http://www.barnesandnoble.com/w/betrayed-wodke-hawkinson/1105148693?ean=2940013083806&itm=1&usri=2940013083806",
+"memento_compliant":"no",
+"archive_id":"hr"
+},{"uri":"http://timetravel.mementoweb.org/po/timemap/link/http://www.barnesandnoble.com/w/betrayed-wodke-hawkinson/1105148693?ean=2940013083806&itm=1&usri=2940013083806",
+"memento_compliant":"no",
+"archive_id":"pt"
+},{"uri":"http://timetravel.mementoweb.org/es/timemap/link/http://www.barnesandnoble.com/w/betrayed-wodke-hawkinson/1105148693?ean=2940013083806&itm=1&usri=2940013083806",
+"memento_compliant":"no",
+"archive_id":"es"
+},{"uri":"http://timetravel.mementoweb.org/si/timemap/link/http://www.barnesandnoble.com/w/betrayed-wodke-hawkinson/1105148693?ean=2940013083806&itm=1&usri=2940013083806",
+"memento_compliant":"no",
+"archive_id":"si"
+},{"uri":"http://timetravel.mementoweb.org/loc/timemap/link/http://www.barnesandnoble.com/w/betrayed-wodke-hawkinson/1105148693?ean=2940013083806&itm=1&usri=2940013083806",
+"memento_compliant":"no",
+"archive_id":"loc"
+},{"uri":"http://wayback.archive-it.org/all/timemap/link/http://www.barnesandnoble.com/w/betrayed-wodke-hawkinson/1105148693?ean=2940013083806&itm=1&usri=2940013083806",
+"memento_compliant":"yes",
+"archive_id":"archiveit"
+},{"uri":"http://web.archive.org/web/timemap/link/http://www.barnesandnoble.com/w/betrayed-wodke-hawkinson/1105148693?ean=2940013083806&itm=1&usri=2940013083806",
+"memento_compliant":"yes",
+"archive_id":"ia"
+}],"timemap_uri": {"json_format": "http://timetravel.mementoweb.org/timemap/json/http://www.barnesandnoble.com/w/betrayed-wodke-hawkinson/1105148693?ean=2940013083806&itm=1&usri=2940013083806",
+"link_format": "http://timetravel.mementoweb.org/timemap/link/http://www.barnesandnoble.com/w/betrayed-wodke-hawkinson/1105148693?ean=2940013083806&itm=1&usri=2940013083806"
+}}

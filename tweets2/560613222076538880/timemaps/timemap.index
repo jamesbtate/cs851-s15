@@ -1,0 +1,9 @@
+{"original_uri":"http://github.com/nathanepstein/markov",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://github.com/nathanepstein/markov",
+"timemap_index": [
+{"uri":"http://timetravel.mementoweb.org/github/timemap/link/http://github.com/nathanepstein/markov",
+"memento_compliant":"no",
+"archive_id":"git"
+}],"timemap_uri": {"json_format": "http://timetravel.mementoweb.org/timemap/json/http://github.com/nathanepstein/markov",
+"link_format": "http://timetravel.mementoweb.org/timemap/link/http://github.com/nathanepstein/markov"
+}}

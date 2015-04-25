@@ -1,0 +1,7 @@
+<http://PAC12playfair.com>; rel="original",
+<http://web.archive.org/web/timemap/link/http://PAC12playfair.com>; rel="self"; type="application/link-format"; from="Thu, 29 Aug 2013 23:42:37 GMT"; until="Thu, 18 Dec 2014 00:52:28 GMT",
+<http://web.archive.org/web/http://PAC12playfair.com>; rel="timegate",
+<http://web.archive.org/web/20130829234237/http://pac12playfair.com>; rel="first memento"; datetime="Thu, 29 Aug 2013 23:42:37 GMT",
+<http://web.archive.org/web/20130911231921/http://pac12playfair.com/>; rel="memento"; datetime="Wed, 11 Sep 2013 23:19:21 GMT",
+<http://web.archive.org/web/20140518044356/http://pac12playfair.com/>; rel="memento"; datetime="Sun, 18 May 2014 04:43:56 GMT",
+<http://web.archive.org/web/20141218005228/http://pac12playfair.com/>; rel="last memento"; datetime="Thu, 18 Dec 2014 00:52:28 GMT"

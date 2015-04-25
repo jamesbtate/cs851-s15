@@ -1,0 +1,27 @@
+{"original_uri":"http://www.ebay.com/itm/like/271751253764?item=271751253764&lgeo=1&vectorid=229466&rmvSB=true",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://www.ebay.com/itm/like/271751253764?item=271751253764&lgeo=1&vectorid=229466&rmvSB=true",
+"timemap_index": [
+{"uri":"http://timetravel.mementoweb.org/webcite/timemap/link/http://www.ebay.com/itm/like/271751253764?item=271751253764&lgeo=1&vectorid=229466&rmvSB=true",
+"memento_compliant":"no",
+"archive_id":"webcite"
+},{"uri":"http://timetravel.mementoweb.org/can/timemap/link/http://www.ebay.com/itm/like/271751253764?item=271751253764&lgeo=1&vectorid=229466&rmvSB=true",
+"memento_compliant":"no",
+"archive_id":"gcwa"
+},{"uri":"http://timetravel.mementoweb.org/cr/timemap/link/http://www.ebay.com/itm/like/271751253764?item=271751253764&lgeo=1&vectorid=229466&rmvSB=true",
+"memento_compliant":"no",
+"archive_id":"hr"
+},{"uri":"http://timetravel.mementoweb.org/po/timemap/link/http://www.ebay.com/itm/like/271751253764?item=271751253764&lgeo=1&vectorid=229466&rmvSB=true",
+"memento_compliant":"no",
+"archive_id":"pt"
+},{"uri":"http://timetravel.mementoweb.org/es/timemap/link/http://www.ebay.com/itm/like/271751253764?item=271751253764&lgeo=1&vectorid=229466&rmvSB=true",
+"memento_compliant":"no",
+"archive_id":"es"
+},{"uri":"http://timetravel.mementoweb.org/si/timemap/link/http://www.ebay.com/itm/like/271751253764?item=271751253764&lgeo=1&vectorid=229466&rmvSB=true",
+"memento_compliant":"no",
+"archive_id":"si"
+},{"uri":"http://timetravel.mementoweb.org/loc/timemap/link/http://www.ebay.com/itm/like/271751253764?item=271751253764&lgeo=1&vectorid=229466&rmvSB=true",
+"memento_compliant":"no",
+"archive_id":"loc"
+}],"timemap_uri": {"json_format": "http://timetravel.mementoweb.org/timemap/json/http://www.ebay.com/itm/like/271751253764?item=271751253764&lgeo=1&vectorid=229466&rmvSB=true",
+"link_format": "http://timetravel.mementoweb.org/timemap/link/http://www.ebay.com/itm/like/271751253764?item=271751253764&lgeo=1&vectorid=229466&rmvSB=true"
+}}

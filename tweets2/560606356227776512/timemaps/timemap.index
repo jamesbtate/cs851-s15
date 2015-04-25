@@ -1,0 +1,33 @@
+{"original_uri":"http://sendible.com/pricing/allplans/",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://sendible.com/pricing/allplans/",
+"timemap_index": [
+{"uri":"http://timetravel.mementoweb.org/webcite/timemap/link/http://sendible.com/pricing/allplans/",
+"memento_compliant":"no",
+"archive_id":"webcite"
+},{"uri":"http://timetravel.mementoweb.org/can/timemap/link/http://sendible.com/pricing/allplans/",
+"memento_compliant":"no",
+"archive_id":"gcwa"
+},{"uri":"http://timetravel.mementoweb.org/cr/timemap/link/http://sendible.com/pricing/allplans/",
+"memento_compliant":"no",
+"archive_id":"hr"
+},{"uri":"http://timetravel.mementoweb.org/po/timemap/link/http://sendible.com/pricing/allplans/",
+"memento_compliant":"no",
+"archive_id":"pt"
+},{"uri":"http://timetravel.mementoweb.org/es/timemap/link/http://sendible.com/pricing/allplans/",
+"memento_compliant":"no",
+"archive_id":"es"
+},{"uri":"http://timetravel.mementoweb.org/si/timemap/link/http://sendible.com/pricing/allplans/",
+"memento_compliant":"no",
+"archive_id":"si"
+},{"uri":"http://timetravel.mementoweb.org/loc/timemap/link/http://sendible.com/pricing/allplans/",
+"memento_compliant":"no",
+"archive_id":"loc"
+},{"uri":"http://wayback.archive-it.org/all/timemap/link/http://sendible.com/pricing/allplans/",
+"memento_compliant":"yes",
+"archive_id":"archiveit"
+},{"uri":"http://web.archive.org/web/timemap/link/http://sendible.com/pricing/allplans/",
+"memento_compliant":"yes",
+"archive_id":"ia"
+}],"timemap_uri": {"json_format": "http://timetravel.mementoweb.org/timemap/json/http://sendible.com/pricing/allplans/",
+"link_format": "http://timetravel.mementoweb.org/timemap/link/http://sendible.com/pricing/allplans/"
+}}

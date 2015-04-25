@@ -1,0 +1,27 @@
+{"original_uri":"http://page2rss.com/430c8d296ea7e56729ed83fca06cd93c",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://page2rss.com/430c8d296ea7e56729ed83fca06cd93c",
+"timemap_index": [
+{"uri":"http://timetravel.mementoweb.org/webcite/timemap/link/http://page2rss.com/430c8d296ea7e56729ed83fca06cd93c",
+"memento_compliant":"no",
+"archive_id":"webcite"
+},{"uri":"http://timetravel.mementoweb.org/can/timemap/link/http://page2rss.com/430c8d296ea7e56729ed83fca06cd93c",
+"memento_compliant":"no",
+"archive_id":"gcwa"
+},{"uri":"http://timetravel.mementoweb.org/cr/timemap/link/http://page2rss.com/430c8d296ea7e56729ed83fca06cd93c",
+"memento_compliant":"no",
+"archive_id":"hr"
+},{"uri":"http://timetravel.mementoweb.org/po/timemap/link/http://page2rss.com/430c8d296ea7e56729ed83fca06cd93c",
+"memento_compliant":"no",
+"archive_id":"pt"
+},{"uri":"http://timetravel.mementoweb.org/es/timemap/link/http://page2rss.com/430c8d296ea7e56729ed83fca06cd93c",
+"memento_compliant":"no",
+"archive_id":"es"
+},{"uri":"http://timetravel.mementoweb.org/si/timemap/link/http://page2rss.com/430c8d296ea7e56729ed83fca06cd93c",
+"memento_compliant":"no",
+"archive_id":"si"
+},{"uri":"http://timetravel.mementoweb.org/loc/timemap/link/http://page2rss.com/430c8d296ea7e56729ed83fca06cd93c",
+"memento_compliant":"no",
+"archive_id":"loc"
+}],"timemap_uri": {"json_format": "http://timetravel.mementoweb.org/timemap/json/http://page2rss.com/430c8d296ea7e56729ed83fca06cd93c",
+"link_format": "http://timetravel.mementoweb.org/timemap/link/http://page2rss.com/430c8d296ea7e56729ed83fca06cd93c"
+}}

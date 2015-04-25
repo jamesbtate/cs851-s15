@@ -1,0 +1,9 @@
+{"original_uri":"http://arxiv.org/abs/1501.07033",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://arxiv.org/abs/1501.07033",
+"timemap_index": [
+{"uri":"http://timetravel.mementoweb.org/arxiv/timemap/link/http://arxiv.org/abs/1501.07033",
+"memento_compliant":"no",
+"archive_id":"arxiv"
+}],"timemap_uri": {"json_format": "http://timetravel.mementoweb.org/timemap/json/http://arxiv.org/abs/1501.07033",
+"link_format": "http://timetravel.mementoweb.org/timemap/link/http://arxiv.org/abs/1501.07033"
+}}

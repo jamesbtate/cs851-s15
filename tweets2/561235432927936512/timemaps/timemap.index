@@ -1,0 +1,27 @@
+{"original_uri":"http://us4.campaign-archive1.com/?u=ac3bb3016ecb44fedf7386e64&id=71085431c8",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://us4.campaign-archive1.com/?u=ac3bb3016ecb44fedf7386e64&id=71085431c8",
+"timemap_index": [
+{"uri":"http://timetravel.mementoweb.org/webcite/timemap/link/http://us4.campaign-archive1.com/?u=ac3bb3016ecb44fedf7386e64&id=71085431c8",
+"memento_compliant":"no",
+"archive_id":"webcite"
+},{"uri":"http://timetravel.mementoweb.org/can/timemap/link/http://us4.campaign-archive1.com/?u=ac3bb3016ecb44fedf7386e64&id=71085431c8",
+"memento_compliant":"no",
+"archive_id":"gcwa"
+},{"uri":"http://timetravel.mementoweb.org/cr/timemap/link/http://us4.campaign-archive1.com/?u=ac3bb3016ecb44fedf7386e64&id=71085431c8",
+"memento_compliant":"no",
+"archive_id":"hr"
+},{"uri":"http://timetravel.mementoweb.org/po/timemap/link/http://us4.campaign-archive1.com/?u=ac3bb3016ecb44fedf7386e64&id=71085431c8",
+"memento_compliant":"no",
+"archive_id":"pt"
+},{"uri":"http://timetravel.mementoweb.org/es/timemap/link/http://us4.campaign-archive1.com/?u=ac3bb3016ecb44fedf7386e64&id=71085431c8",
+"memento_compliant":"no",
+"archive_id":"es"
+},{"uri":"http://timetravel.mementoweb.org/si/timemap/link/http://us4.campaign-archive1.com/?u=ac3bb3016ecb44fedf7386e64&id=71085431c8",
+"memento_compliant":"no",
+"archive_id":"si"
+},{"uri":"http://timetravel.mementoweb.org/loc/timemap/link/http://us4.campaign-archive1.com/?u=ac3bb3016ecb44fedf7386e64&id=71085431c8",
+"memento_compliant":"no",
+"archive_id":"loc"
+}],"timemap_uri": {"json_format": "http://timetravel.mementoweb.org/timemap/json/http://us4.campaign-archive1.com/?u=ac3bb3016ecb44fedf7386e64&id=71085431c8",
+"link_format": "http://timetravel.mementoweb.org/timemap/link/http://us4.campaign-archive1.com/?u=ac3bb3016ecb44fedf7386e64&id=71085431c8"
+}}

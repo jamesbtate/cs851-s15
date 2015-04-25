@@ -1,0 +1,27 @@
+{"original_uri":"http://blackhawks.nhl.com/gamecenter/en/preview?id=2014020726&hootPostID=dd78fe11926cf658d7fc8df5fd2b4f51",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://blackhawks.nhl.com/gamecenter/en/preview?id=2014020726&hootPostID=dd78fe11926cf658d7fc8df5fd2b4f51",
+"timemap_index": [
+{"uri":"http://timetravel.mementoweb.org/webcite/timemap/link/http://blackhawks.nhl.com/gamecenter/en/preview?id=2014020726&hootPostID=dd78fe11926cf658d7fc8df5fd2b4f51",
+"memento_compliant":"no",
+"archive_id":"webcite"
+},{"uri":"http://timetravel.mementoweb.org/can/timemap/link/http://blackhawks.nhl.com/gamecenter/en/preview?id=2014020726&hootPostID=dd78fe11926cf658d7fc8df5fd2b4f51",
+"memento_compliant":"no",
+"archive_id":"gcwa"
+},{"uri":"http://timetravel.mementoweb.org/cr/timemap/link/http://blackhawks.nhl.com/gamecenter/en/preview?id=2014020726&hootPostID=dd78fe11926cf658d7fc8df5fd2b4f51",
+"memento_compliant":"no",
+"archive_id":"hr"
+},{"uri":"http://timetravel.mementoweb.org/po/timemap/link/http://blackhawks.nhl.com/gamecenter/en/preview?id=2014020726&hootPostID=dd78fe11926cf658d7fc8df5fd2b4f51",
+"memento_compliant":"no",
+"archive_id":"pt"
+},{"uri":"http://timetravel.mementoweb.org/es/timemap/link/http://blackhawks.nhl.com/gamecenter/en/preview?id=2014020726&hootPostID=dd78fe11926cf658d7fc8df5fd2b4f51",
+"memento_compliant":"no",
+"archive_id":"es"
+},{"uri":"http://timetravel.mementoweb.org/si/timemap/link/http://blackhawks.nhl.com/gamecenter/en/preview?id=2014020726&hootPostID=dd78fe11926cf658d7fc8df5fd2b4f51",
+"memento_compliant":"no",
+"archive_id":"si"
+},{"uri":"http://timetravel.mementoweb.org/loc/timemap/link/http://blackhawks.nhl.com/gamecenter/en/preview?id=2014020726&hootPostID=dd78fe11926cf658d7fc8df5fd2b4f51",
+"memento_compliant":"no",
+"archive_id":"loc"
+}],"timemap_uri": {"json_format": "http://timetravel.mementoweb.org/timemap/json/http://blackhawks.nhl.com/gamecenter/en/preview?id=2014020726&hootPostID=dd78fe11926cf658d7fc8df5fd2b4f51",
+"link_format": "http://timetravel.mementoweb.org/timemap/link/http://blackhawks.nhl.com/gamecenter/en/preview?id=2014020726&hootPostID=dd78fe11926cf658d7fc8df5fd2b4f51"
+}}

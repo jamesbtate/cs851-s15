@@ -7,8 +7,8 @@ texput.log
 .*.swp
 *.pyc
 warc/
-tweets/
-tweets2/
+tweets/*
+tweets2/*
 tweets_bad/
 __pycache__/
 CarbonDate/

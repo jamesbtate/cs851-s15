@@ -1,0 +1,5 @@
+<http://arxiv.org/abs/1501.07033>; rel="original",
+<http://timetravel.mementoweb.org/arxiv/timegate/http://arxiv.org/abs/1501.07033>; rel="timegate",
+<http://timetravel.mementoweb.org/arxiv/timemap/link/http://arxiv.org/abs/1501.07033>; rel="self"; type="application/link-format",
+<http://timetravel.mementoweb.org/arxiv/timemap/json/http://arxiv.org/abs/1501.07033>; rel="timemap"; type="application/json",
+<http://arxiv.org/abs/1501.07033v1>; rel="first last memento"; datetime="Wed, 28 Jan 2015 08:58:19 GMT"

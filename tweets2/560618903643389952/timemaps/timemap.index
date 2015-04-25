@@ -1,0 +1,27 @@
+{"original_uri":"http://world.einnews.com/article/246909547/fxvh80PCrPiKunmU",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://world.einnews.com/article/246909547/fxvh80PCrPiKunmU",
+"timemap_index": [
+{"uri":"http://timetravel.mementoweb.org/webcite/timemap/link/http://world.einnews.com/article/246909547/fxvh80PCrPiKunmU",
+"memento_compliant":"no",
+"archive_id":"webcite"
+},{"uri":"http://timetravel.mementoweb.org/can/timemap/link/http://world.einnews.com/article/246909547/fxvh80PCrPiKunmU",
+"memento_compliant":"no",
+"archive_id":"gcwa"
+},{"uri":"http://timetravel.mementoweb.org/cr/timemap/link/http://world.einnews.com/article/246909547/fxvh80PCrPiKunmU",
+"memento_compliant":"no",
+"archive_id":"hr"
+},{"uri":"http://timetravel.mementoweb.org/po/timemap/link/http://world.einnews.com/article/246909547/fxvh80PCrPiKunmU",
+"memento_compliant":"no",
+"archive_id":"pt"
+},{"uri":"http://timetravel.mementoweb.org/es/timemap/link/http://world.einnews.com/article/246909547/fxvh80PCrPiKunmU",
+"memento_compliant":"no",
+"archive_id":"es"
+},{"uri":"http://timetravel.mementoweb.org/si/timemap/link/http://world.einnews.com/article/246909547/fxvh80PCrPiKunmU",
+"memento_compliant":"no",
+"archive_id":"si"
+},{"uri":"http://timetravel.mementoweb.org/loc/timemap/link/http://world.einnews.com/article/246909547/fxvh80PCrPiKunmU",
+"memento_compliant":"no",
+"archive_id":"loc"
+}],"timemap_uri": {"json_format": "http://timetravel.mementoweb.org/timemap/json/http://world.einnews.com/article/246909547/fxvh80PCrPiKunmU",
+"link_format": "http://timetravel.mementoweb.org/timemap/link/http://world.einnews.com/article/246909547/fxvh80PCrPiKunmU"
+}}

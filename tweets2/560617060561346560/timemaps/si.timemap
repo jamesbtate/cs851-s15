@@ -1,0 +1,5 @@
+<http://www.examiner.com/>; rel="original",
+<http://timetravel.mementoweb.org/si/timegate/http://www.examiner.com/>; rel="timegate",
+<http://timetravel.mementoweb.org/si/timemap/link/http://www.examiner.com/>; rel="self"; type="application/link-format",
+<http://timetravel.mementoweb.org/si/timemap/json/http://www.examiner.com/>; rel="timemap"; type="application/json",
+<http://nukrobi2.nuk.uni-lj.si:8080/wayback/20140519161104/http://www.examiner.com/>; rel="first last memento"; datetime="Mon, 19 May 2014 16:11:04 GMT"

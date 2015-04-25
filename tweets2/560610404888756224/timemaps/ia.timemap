@@ -1,0 +1,7 @@
+<http://www.lib.lsu.edu/services/circ/>; rel="original",
+<http://web.archive.org/web/timemap/link/http://www.lib.lsu.edu/services/circ/>; rel="self"; type="application/link-format"; from="Thu, 29 Jan 2015 23:31:04 GMT"; until="Tue, 14 Apr 2015 03:45:31 GMT",
+<http://web.archive.org/web/http://www.lib.lsu.edu/services/circ/>; rel="timegate",
+<http://web.archive.org/web/20150129233104/http://www.lib.lsu.edu/services/circ>; rel="first memento"; datetime="Thu, 29 Jan 2015 23:31:04 GMT",
+<http://web.archive.org/web/20150130013202/http://www.lib.lsu.edu/services/circ/>; rel="memento"; datetime="Fri, 30 Jan 2015 01:32:02 GMT",
+<http://web.archive.org/web/20150319104736/http://www.lib.lsu.edu/services/circ>; rel="memento"; datetime="Thu, 19 Mar 2015 10:47:36 GMT",
+<http://web.archive.org/web/20150414034531/http://lib.lsu.edu/services/circ>; rel="last memento"; datetime="Tue, 14 Apr 2015 03:45:31 GMT"

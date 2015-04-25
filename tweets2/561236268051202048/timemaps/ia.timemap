@@ -1,0 +1,11 @@
+<http://www.thehtml500.com>; rel="original",
+<http://web.archive.org/web/timemap/link/http://www.thehtml500.com>; rel="self"; type="application/link-format"; from="Thu, 18 Jul 2013 14:57:28 GMT"; until="Thu, 26 Mar 2015 21:00:04 GMT",
+<http://web.archive.org/web/http://www.thehtml500.com>; rel="timegate",
+<http://web.archive.org/web/20130718145728/http://thehtml500.com/>; rel="first memento"; datetime="Thu, 18 Jul 2013 14:57:28 GMT",
+<http://web.archive.org/web/20140117114634/http://thehtml500.com/>; rel="memento"; datetime="Fri, 17 Jan 2014 11:46:34 GMT",
+<http://web.archive.org/web/20140227110303/http://thehtml500.com/>; rel="memento"; datetime="Thu, 27 Feb 2014 11:03:03 GMT",
+<http://web.archive.org/web/20140327134452/http://thehtml500.com/>; rel="memento"; datetime="Thu, 27 Mar 2014 13:44:52 GMT",
+<http://web.archive.org/web/20150220155329/http://www.thehtml500.com/>; rel="memento"; datetime="Fri, 20 Feb 2015 15:53:29 GMT",
+<http://web.archive.org/web/20150314210701/http://thehtml500.com/>; rel="memento"; datetime="Sat, 14 Mar 2015 21:07:01 GMT",
+<http://web.archive.org/web/20150315005159/http://www.thehtml500.com/>; rel="memento"; datetime="Sun, 15 Mar 2015 00:51:59 GMT",
+<http://web.archive.org/web/20150326210004/http://thehtml500.com/>; rel="last memento"; datetime="Thu, 26 Mar 2015 21:00:04 GMT"

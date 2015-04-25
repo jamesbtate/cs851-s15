@@ -1,0 +1,9 @@
+<http://online-stock-exchange.com>; rel="original",
+<http://web.archive.org/web/timemap/link/http://online-stock-exchange.com>; rel="self"; type="application/link-format"; from="Mon, 14 Jul 2014 23:07:28 GMT"; until="Mon, 16 Mar 2015 14:45:26 GMT",
+<http://web.archive.org/web/http://online-stock-exchange.com>; rel="timegate",
+<http://web.archive.org/web/20140714230728/http://online-stock-exchange.com/>; rel="first memento"; datetime="Mon, 14 Jul 2014 23:07:28 GMT",
+<http://web.archive.org/web/20140715213533/http://online-stock-exchange.com/>; rel="memento"; datetime="Tue, 15 Jul 2014 21:35:33 GMT",
+<http://web.archive.org/web/20140801024053/http://online-stock-exchange.com/>; rel="memento"; datetime="Fri, 01 Aug 2014 02:40:53 GMT",
+<http://web.archive.org/web/20140831232045/http://online-stock-exchange.com/>; rel="memento"; datetime="Sun, 31 Aug 2014 23:20:45 GMT",
+<http://web.archive.org/web/20141218051113/http://online-stock-exchange.com/>; rel="memento"; datetime="Thu, 18 Dec 2014 05:11:13 GMT",
+<http://web.archive.org/web/20150316144526/http://online-stock-exchange.com/>; rel="last memento"; datetime="Mon, 16 Mar 2015 14:45:26 GMT"

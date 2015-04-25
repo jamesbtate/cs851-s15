@@ -1,0 +1,5 @@
+<http://answering-islam.org>; rel="original",
+<http://timetravel.mementoweb.org/po/timegate/http://answering-islam.org>; rel="timegate",
+<http://timetravel.mementoweb.org/po/timemap/link/http://answering-islam.org>; rel="self"; type="application/link-format",
+<http://timetravel.mementoweb.org/po/timemap/json/http://answering-islam.org>; rel="timemap"; type="application/json",
+<http://arquivo.pt/wayback/wayback/20091013084201/http://www.answering-islam.org/>; rel="first last memento"; datetime="Tue, 13 Oct 2009 08:42:01 GMT"

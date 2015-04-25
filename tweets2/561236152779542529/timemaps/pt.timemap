@@ -1,0 +1,8 @@
+<http://www.tk421.net/librarylink/>; rel="original",
+<http://timetravel.mementoweb.org/po/timegate/http://www.tk421.net/librarylink/>; rel="timegate",
+<http://timetravel.mementoweb.org/po/timemap/link/http://www.tk421.net/librarylink/>; rel="self"; type="application/link-format",
+<http://timetravel.mementoweb.org/po/timemap/json/http://www.tk421.net/librarylink/>; rel="timemap"; type="application/json",
+<http://arquivo.pt/wayback/wayback/20090709030219/http://www.tk421.net/librarylink/>; rel="first memento"; datetime="Thu, 09 Jul 2009 03:02:19 GMT",
+<http://arquivo.pt/wayback/wayback/20090709030219/http://www.tk421.net/librarylink/>; rel="memento"; datetime="Thu, 09 Jul 2009 03:02:19 GMT",
+<http://arquivo.pt/wayback/wayback/20091014212152/http://www.tk421.net/librarylink/>; rel="memento"; datetime="Wed, 14 Oct 2009 21:21:52 GMT",
+<http://arquivo.pt/wayback/wayback/20091014212152/http://www.tk421.net/librarylink/>; rel="last memento"; datetime="Wed, 14 Oct 2009 21:21:52 GMT"
