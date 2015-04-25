@@ -23,13 +23,43 @@ def threadDo(tweetID):
     #curl http://timetravel.mementoweb.org/timemap/json/http://google.com
     indexURI = 'http://timetravel.mementoweb.org/timemap/json/' + finalURI
     #stderr(indexURI)
-    response = requests.get(indexURI)
+    try:
+        response = requests.get(indexURI)
+    except Exception as e:
+        stderr("Failed to download timemap index,", indexURI , e)
+        return
     try:
         responseJSON = json.loads(response.text)
-    except:
+    except Exception as e:
         stderr("Failed to load JSON response from Timemap Index:")
         stderr(response.text)
         return
+
+    #create timemaps directory if it doesn't exists
+    timemapDir = 'tweets2/' + tweetID + '/timemaps/'
+    if not os.path.exists(timemapDir):
+        os.makedirs(timemapDir)
+    #save timemapindex to timemaps directory
+    with open(timemapDir + 'timemap.index', 'w') as timemapIndexFile:
+        timemapIndexFile.write(response.text)
+
+    #save each timemap in index to a file in timemaps directory
+    num = 0
+    for timemap in responseJSON['timemap_index']:
+        uri = timemap['uri']
+        id = timemap['archive_id']
+        path = timemapDir + id + '.timemap'
+        #if os.path.exists(path):
+        #    stderr("Timemap", path, "already exists.")
+        #    return
+        try:
+            timemapResponse = requests.get(uri)
+        except Exception as e:
+            stderr("Failed to download timemap,", path, e)
+        with open(path, 'w') as timemapFile:
+            timemapFile.write(timemapResponse.text)
+        num += 1
+    stderr("Thread", threading.current_thread().name, "downloaded", num, "timemaps.")
 
 if __name__=='__main__':
 
@@ -48,7 +78,7 @@ if __name__=='__main__':
     while True:
         if index >= len(tweetIDs):
             break
-        if threading.active_count() > 16:
+        if threading.active_count() > 32:
             time.sleep(0.1)
             continue
         t = threading.Thread(target=threadDo, args=(tweetIDs[index],))
