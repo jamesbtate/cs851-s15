@@ -26,3 +26,6 @@ awk2 q1_distances.stats | tail -n +2 | sort -n > q1_unigrams.stats
 awk3 q1_distances.stats | tail -n +2 | sort -n > q1_bigrams.stats
 awk4 q1_distances.stats | tail -n +2 | sort -n > q1_trigrams.stats
 
+#Q2:
+./get_timemaps.py > get_timemap_output
+
