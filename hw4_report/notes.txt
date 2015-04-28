@@ -5,4 +5,20 @@
     146 dereference errors were skipped
 
 2735 URIs were successfully boilerpiped in both datasets
-    
+
+content was first dereferenced Feb 11, then Again April 22
+
+561645242731233281 /playlist/mistajam-7pm-31-01-2015/
+    there was some # on the end
+
+jtate@sirius:~/cs751/hw$ ./count_mementos.py | wc -l
+1020
+jtate@sirius:~/cs751/hw$ grep /timemaps\$ tweets2_file_list | wc -l
+2735
+there were 2735-1020=1715 URIs with no mementos
+
+jtate@sirius:~/cs751/hw$ wc -l two-year-old_ids twenty-plus_mementos old_with_20_ids
+  373 two-year-old_ids
+  134 twenty-plus_mementos
+   58 old_with_20_ids
+  565 total

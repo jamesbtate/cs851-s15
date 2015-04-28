@@ -20,6 +20,16 @@ def threadDo(tweetID):
     if not finalURI:
         stderr("Could not find finalURI for tweetID", tweetID)
         return
+    getTimemaps(tweetID, finalURI)
+
+def getTimemaps(tweetID, finalURI):
+    #skip this one if tweet dir doesn't exist
+    #create timemaps directory if it doesn't exists
+    tweetDir = 'tweets2/' + tweetID + '/'
+    if not os.path.exists(tweetDir):
+        stderr("Skipping nonexistant tweet", tweetID)
+        return
+
     #curl http://timetravel.mementoweb.org/timemap/json/http://google.com
     indexURI = 'http://timetravel.mementoweb.org/timemap/json/' + finalURI
     #stderr(indexURI)
@@ -34,7 +44,7 @@ def threadDo(tweetID):
         stderr("Failed to load JSON response from Timemap Index:")
         stderr(response.text)
         return
-
+    
     #create timemaps directory if it doesn't exists
     timemapDir = 'tweets2/' + tweetID + '/timemaps/'
     if not os.path.exists(timemapDir):

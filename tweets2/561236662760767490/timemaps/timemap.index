@@ -1,0 +1,33 @@
+{"original_uri":"http://imlive.com/hostlist.ashx?cat=1&RoomID=10,160&fromsearch=detail&gallery=1&captionid=138",
+"timegate_uri":"http://timetravel.mementoweb.org/timegate/http://imlive.com/hostlist.ashx?cat=1&RoomID=10,160&fromsearch=detail&gallery=1&captionid=138",
+"timemap_index": [
+{"uri":"http://timetravel.mementoweb.org/webcite/timemap/link/http://imlive.com/hostlist.ashx?cat=1&RoomID=10,160&fromsearch=detail&gallery=1&captionid=138",
+"memento_compliant":"no",
+"archive_id":"webcite"
+},{"uri":"http://timetravel.mementoweb.org/can/timemap/link/http://imlive.com/hostlist.ashx?cat=1&RoomID=10,160&fromsearch=detail&gallery=1&captionid=138",
+"memento_compliant":"no",
+"archive_id":"gcwa"
+},{"uri":"http://timetravel.mementoweb.org/cr/timemap/link/http://imlive.com/hostlist.ashx?cat=1&RoomID=10,160&fromsearch=detail&gallery=1&captionid=138",
+"memento_compliant":"no",
+"archive_id":"hr"
+},{"uri":"http://timetravel.mementoweb.org/po/timemap/link/http://imlive.com/hostlist.ashx?cat=1&RoomID=10,160&fromsearch=detail&gallery=1&captionid=138",
+"memento_compliant":"no",
+"archive_id":"pt"
+},{"uri":"http://timetravel.mementoweb.org/es/timemap/link/http://imlive.com/hostlist.ashx?cat=1&RoomID=10,160&fromsearch=detail&gallery=1&captionid=138",
+"memento_compliant":"no",
+"archive_id":"es"
+},{"uri":"http://timetravel.mementoweb.org/si/timemap/link/http://imlive.com/hostlist.ashx?cat=1&RoomID=10,160&fromsearch=detail&gallery=1&captionid=138",
+"memento_compliant":"no",
+"archive_id":"si"
+},{"uri":"http://timetravel.mementoweb.org/loc/timemap/link/http://imlive.com/hostlist.ashx?cat=1&RoomID=10,160&fromsearch=detail&gallery=1&captionid=138",
+"memento_compliant":"no",
+"archive_id":"loc"
+},{"uri":"http://web.archive.org/web/timemap/link/http://imlive.com/hostlist.ashx?cat=1&RoomID=10,160&fromsearch=detail&gallery=1&captionid=138",
+"memento_compliant":"yes",
+"archive_id":"ia"
+},{"uri":"http://archive.today/timemap/http://imlive.com/hostlist.ashx?cat=1&RoomID=10,160&fromsearch=detail&gallery=1&captionid=138",
+"memento_compliant":"yes",
+"archive_id":"archive.is"
+}],"timemap_uri": {"json_format": "http://timetravel.mementoweb.org/timemap/json/http://imlive.com/hostlist.ashx?cat=1&RoomID=10,160&fromsearch=detail&gallery=1&captionid=138",
+"link_format": "http://timetravel.mementoweb.org/timemap/link/http://imlive.com/hostlist.ashx?cat=1&RoomID=10,160&fromsearch=detail&gallery=1&captionid=138"
+}}

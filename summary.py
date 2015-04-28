@@ -37,26 +37,6 @@ def parseArgs():
         args.most_popular = 100
     return args
 
-def addOrIncrementDict(d, item):
-    try:
-        d[item] += 1
-    except KeyError:
-        d[item] = 1
-
-def printDict(d):
-    sortedKeys = sorted(d)
-    for key in sortedKeys:
-        print(key, d[key])
-
-def dictValuesToCount(input):
-    # takes input dict with some repeated values, and generates output dict
-    # with keys the being the values from input and values being the number
-    # of occurences of each
-    output = {}
-    for key in input:
-        addOrIncrementDict(output, input[key])
-    return output
-
 def printMostPopular(tweets, num=100, tweetID=False):
     # print num most popular final URIs
     finalURIs = {}
