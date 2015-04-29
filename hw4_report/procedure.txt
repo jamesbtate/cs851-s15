@@ -54,3 +54,9 @@ mv tmp hw4_q3_ids
 for i in $(awk1 hw4_q3_ids); do grep memento tweets2/$i/timemaps/*.timemap; done | grep -v rel=\"timegate | grep -v rel=\"self | grep -v rel=\"timemap > hw4_q3_mementos
 
 ./get_mementos.py hw4_q3_mementos | tee get_mementos_output
+
+find ./tweets2/ > tweets2_file_list
+for i in $(cat tweets2_file_list | grep /mementos/); do python -m justext -s English -o "$i.boilerpipe" "$i"; done
+find ./tweets2/ > tweets2_file_list
+grep "/mementos/.*.boilerpipe" tweets2_file_list | xargs wc > hw4_q3_wc
+
