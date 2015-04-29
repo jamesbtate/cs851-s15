@@ -41,28 +41,16 @@ for i in $(seq -f "%04g" 1 1715); do echo "padding_$i 0"; done >> memento_counts
 awk2 memento_counts | sort -n > hw4_report/stats/memento_counts.stats
 
 ./count_mementos.py | sort -nrk 2 | awk '{if ($2 > 19) print $1}' > twenty-plus_mementos
-# used python interpreter to save list of tweet ids where first URI is older than two years:
->>> import json
->>> summaryFile = open('tweets.summary.json', 'r')
->>> summary = json.load(summaryFile)
->>> old = [tweet for tweet in summary['tweets'] if tweet['urls'][0]['timeDelta'] > 0.0]
->>> len(old)
-5767
->>> old = [tweet for tweet in summary['tweets'] if tweet['urls'][0]['timeDelta'] > 86400.0]
->>> len(old)
-3160
->>> old = [tweet for tweet in summary['tweets'] if tweet['urls'][0]['timeDelta'] > 365*86400.0]
->>> len(old)
-600
->>> old = [tweet for tweet in summary['tweets'] if tweet['urls'][0]['timeDelta'] > 730*86400.0]
->>> len(old)
-373
->>> old_ids = [tweet['id'] for tweet in old]
->>> a = open('two-year-old_tweets', 'w')
->>> for id in old_ids:
-...     a.write(id + '\n')
-...
->>> a.close()
+./identify_old_uris.py
+
 # find old URIs that also have 20+ mementos
 comm -12 <(sort two-year-old_ids) <(sort twenty-plus_mementos) > old_with_20_ids
+# select 20 with fewest mementos >= 20
+for i in $(cat old_with_20_ids); do grep $i memento_counts ; done | sort -nk 2 | head -20 > hw4_q3_ids
+# add age column to that list
+paste hw4_q3_ids <(while read line; do id=$(echo "$line" | awk1); age=$(grep -Po "${id}.*?timeDelta\": [0-9\.]+" tweets.summary.json | awknf); echo "$age"; done < hw4_q3_ids) -d' ' > tmp
+mv tmp hw4_q3_ids
 
+for i in $(awk1 hw4_q3_ids); do grep memento tweets2/$i/timemaps/*.timemap; done | grep -v rel=\"timegate | grep -v rel=\"self | grep -v rel=\"timemap > hw4_q3_mementos
+
+./get_mementos.py hw4_q3_mementos | tee get_mementos_output

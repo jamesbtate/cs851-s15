@@ -22,3 +22,9 @@ jtate@sirius:~/cs751/hw$ wc -l two-year-old_ids twenty-plus_mementos old_with_20
   134 twenty-plus_mementos
    58 old_with_20_ids
   565 total
+
+had to implement workaround for broken archiveit timemaps that do not include 'http:' in URIs:
+    if mementoURI[:2] == '//':
+        mementoURI = 'http:' + mementoURI
+archiveit also lists mementos with the same time and content for two different URIs:
+    www.hostname.tld and hostname.tld

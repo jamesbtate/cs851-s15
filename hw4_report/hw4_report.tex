@@ -136,8 +136,64 @@ commands.
 \end{lstlisting}
 
 \subsection{Question \#3}
+Question \#3 required downloading all the Mementos for 20 URIs that had at least 20 Mementos and were at
+least two years old, as determined by CarbonDate in Assignment \#1. Once all the Mementos were downloaded,
+I had to get the Jaccard Distance of each Memento from the first Memento, and plot a CDF of the results.
 
+The first step was to identify which URIs I would be using. I first made two lists: a list of URIs with
+20 or more Mementos and a list of URIs two years old or older. Getting a list of old Mementos actually
+required an entirely new Python script. 
+How I generated these lists is shown in Listing 2.9. 
 
+\begin{lstlisting}[basicstyle=\ttfamily,caption={Making Lists of URIs}]
+    ./count_mementos.py | sort -nrk 2 \
+      | awk '{if ($2 > 19) print $1}' \
+      > twenty-plus_mementos
+    ./identify_old_uris.py
+\end{lstlisting}
+
+Then, I used the \emph{comm} utility to get the common URIs from both lists. This new list included only the
+tweet ID of the URI. I also wanted to have easy access to the number of Mementos and age of the URIs, so I
+added that information to the same list using more Linux/Bash magic. This is listed in Listing 2.10.
+
+\begin{lstlisting}[basicstyle=\ttfamily,caption={Magicing More Columns}]
+    comm -12 <(sort two-year-old_ids) \
+      <(sort twenty-plus_mementos) \
+      > old_with_20_ids
+    for i in $(cat old_with_20_ids)
+    do
+        grep $i memento_counts
+    done | sort -nk 2 | head -20 > hw4_q3_ids
+    paste hw4_q3_ids <(while read line
+    do
+        id=$(echo "$line" | awk1)
+        age=$(grep -Po "${id}.*?timeDelta\": [0-9\.]+" \
+          tweets.summary.json | awknf)
+        echo "$age"
+    done < hw4_q3_ids) -d' ' > tmp
+    mv tmp hw4_q3_ids
+\end{lstlisting}
+
+After all that, I had a pretty list tweet IDs, and a little info about them. Now I just needed to generate
+a list of the Mementos for these URIs, and download the Mementos. Both of these steps are shown in Listing
+2.11, including a few more shell commands. Basically, I just used the \emph{grep} utility to find all
+Mementos links in the downloaded TimeMaps. Then I used that list as input to a simple script that downloads
+all the Mementos and saves them in the right place with the right name.
+
+\begin{lstlisting}[basicstyle=\ttfamily,caption={Getting Mementos}]
+    for i in $(awk1 hw4_q3_ids)
+    do
+        grep memento tweets2/$i/timemaps/*.timemap
+    done | grep -v rel=\"timegate \
+      | grep -v rel=\"self \
+      | grep -v rel=\"timemap \
+      > hw4_q3_mementos
+    ./get_mementos.py hw4_q3_mementos \
+      | tee get_mementos_output
+\end{lstlisting}
+
+Now all the Mementos are available in another subdirectory of the tweet directory. The only remaining steps
+are to run boilerpipe on the Mementos and calculate the Jaccard Distances.
 
 \section{Results}
 This section is broken into subsections for each question.
