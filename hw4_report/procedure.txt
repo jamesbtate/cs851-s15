@@ -59,4 +59,7 @@ find ./tweets2/ > tweets2_file_list
 for i in $(cat tweets2_file_list | grep /mementos/); do python -m justext -s English -o "$i.boilerpipe" "$i"; done
 find ./tweets2/ > tweets2_file_list
 grep "/mementos/.*.boilerpipe" tweets2_file_list | xargs wc > hw4_q3_wc
+./jaccard_over_time.py
 
+# from hw4_report/stats/
+./q3.bash

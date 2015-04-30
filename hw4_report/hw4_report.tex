@@ -193,7 +193,25 @@ all the Mementos and saves them in the right place with the right name.
 \end{lstlisting}
 
 Now all the Mementos are available in another subdirectory of the tweet directory. The only remaining steps
-are to run boilerpipe on the Mementos and calculate the Jaccard Distances.
+are to run boilerpipe on the Mementos and calculate the Jaccard Distances. Running boilerpipe on the
+downloaded Mementos was yet another for loop in Bash. I wrote another script to calculate the Jaccard
+Distances over time. Listing 2.12 shows I executed these items.
+
+\begin{lstlisting}[basicstyle=\ttfamily,caption={Boilerpipe and Jaccard Distance}]
+  find ./tweets2/ > tweets2_file_list
+  for i in $(cat tweets2_file_list | grep /mementos/)
+  do
+    python -m justext -s English -o "$i.boilerpipe" "$i"
+  done
+  ./jaccard_over_time.py
+\end{lstlisting}
+
+The last step, shown in Listing 2.13, creates a graph using Rscript for each of the 20 URIs. Unlike the others,
+this script resides in the \texttt{hw4\_report/stats/} directory.
+
+\begin{lstlisting}[basicstyle=\ttfamily,caption={Generating R Graphs}]
+    cd hw4_report/stats/ && ./q3.bash
+\end{lstlisting}
 
 \section{Results}
 This section is broken into subsections for each question.
@@ -272,16 +290,150 @@ on the X-axis.
 \begin{figure}[H]
     \centering
     \includegraphics{stats/memento_counts.pdf}
+    \caption{CDF of Number of Mementos per URI}
 \end{figure}
 
 \begin{figure}[H]
     \centering
     \includegraphics{stats/memento_counts_nonzero.pdf}
-    %\caption{Trigram Jaccard Distance}
+    \caption{CDF of Nonzero Memento Count per URI}
 \end{figure}
 
 \subsection{Question \#3}
+When I was collecting for Question \#3, I noticed the \texttt{archiveit} TimeMap provider has a problem
+with their TimeMaps. All their TimeMaps seem to have dropped the \texttt{http:} from the begginning of the
+URI for the Mementos. But, they still include the \texttt{//\emph{host}}, so it's not like they were
+assuming we know the correct host-portion of the URI and only need the path portion.
 
+From my dataset, I had 373 URIs that were at least two years old. I had 134 URIs with 20 or more Mementos.
+The intersection of these two lists was 58 URIs. For the sample data used in this question, I selected
+the twenty URIs from the intersection with the fewest Mementos, for quicker processing. The number of
+Mementos per URI in this sample ranged from 20 to 62. Of the 647 Mementos in this sample of URIs, 51
+did not boilerpipe successfully. The Jaccard Distance between these Mementos and the first Memento is 1.0.
+
+Figures 3.6 through 3.25 show the graphs of the Jaccard Distance over time for the sample URIs. Most of
+them immediately diverged thow the Jaccard Distance immediately approaching 1.0 due to drastic changes in
+resource content.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{stats/q3/560605915280605184.pdf}
+    \caption{Change in Jaccard Distance over Time for URI 560605915280605184}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{stats/q3/560606018678583296.pdf}
+    \caption{Change in Jaccard Distance over Time for URI 560606018678583296}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{stats/q3/560607485191786497.pdf}
+    \caption{Change in Jaccard Distance over Time for URI 560607485191786497}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{stats/q3/560607626426609664.pdf}
+    \caption{Change in Jaccard Distance over Time for URI 560607626426609664}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{stats/q3/560608430864334849.pdf}
+    \caption{Change in Jaccard Distance over Time for URI 560608430864334849}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{stats/q3/560610783034228737.pdf}
+    \caption{Change in Jaccard Distance over Time for URI 560610783034228737}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{stats/q3/560610843986235392.pdf}
+    \caption{Change in Jaccard Distance over Time for URI 560610843986235392}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{stats/q3/560611269699334144.pdf}
+    \caption{Change in Jaccard Distance over Time for URI 560611269699334144}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{stats/q3/560611545361551360.pdf}
+    \caption{Change in Jaccard Distance over Time for URI 560611545361551360}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{stats/q3/560611791118819328.pdf}
+    \caption{Change in Jaccard Distance over Time for URI 560611791118819328}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{stats/q3/560612456138297344.pdf}
+    \caption{Change in Jaccard Distance over Time for URI 560612456138297344}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{stats/q3/560616591306395649.pdf}
+    \caption{Change in Jaccard Distance over Time for URI 560616591306395649}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{stats/q3/560618285281329152.pdf}
+    \caption{Change in Jaccard Distance over Time for URI 560618285281329152}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{stats/q3/560618300909318145.pdf}
+    \caption{Change in Jaccard Distance over Time for URI 560618300909318145}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{stats/q3/560618427488813057.pdf}
+    \caption{Change in Jaccard Distance over Time for URI 560618427488813057}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{stats/q3/560620497650475009.pdf}
+    \caption{Change in Jaccard Distance over Time for URI 560620497650475009}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{stats/q3/561236569697583104.pdf}
+    \caption{Change in Jaccard Distance over Time for URI 561236569697583104}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{stats/q3/561236744733880321.pdf}
+    \caption{Change in Jaccard Distance over Time for URI 561236744733880321}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{stats/q3/561645377829748736.pdf}
+    \caption{Change in Jaccard Distance over Time for URI 561645377829748736}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics{stats/q3/561646314241273856.pdf}
+    \caption{Change in Jaccard Distance over Time for URI 561646314241273856}
+\end{figure}
 
 \clearpage
 \begin{appendices}

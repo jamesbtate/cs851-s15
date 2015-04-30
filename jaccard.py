@@ -7,6 +7,22 @@ import time
 import sys
 import os
 
+def jaccardDistance(list1, list2):
+    union = set(list1).union(list2)
+    intersect = set(list1).intersection(list2)
+    dist = (len(union) - len(intersect)) * 1.0 / len(union)
+    return dist
+
+def wordsFromFile(filePath):
+    text = ''
+    with open(filePath, 'r') as textFile:
+        for line in textFile:
+            text = text + extractWords(line).strip() + ' '
+    words = text.strip().split(' ')
+    if '' in words:
+        words.remove('')
+    return words
+
 if __name__=='__main__':
     tweetIDsFile = open('boilerpipe_common_ids', 'r')
     tweetIDs = []
@@ -15,16 +31,8 @@ if __name__=='__main__':
     tweetIDsFile.close()
     print("Tweet_ID", "Unigram_Distance", "Bigram_Distance", "Trigram_Distance")
     for id in tweetIDs:
-        text1 = ''
-        text2 = ''
-        with open('tweets/' + id + '/content.0/boilerpipe.output', 'r') as textFile1:
-            for line in textFile1:
-                text1 = text1 + extractWords(line).strip() + ' '
-        with open('tweets2/' + id + '/content.0/boilerpipe.output', 'r') as textFile2:
-            for line in textFile2:
-                text2 = text2 + extractWords(line).strip() + ' '
-        unigrams1 = text1.split(' ')
-        unigrams2 = text2.split(' ')
+        unigrams1 = wordsFromFile('tweets/' + id + '/content.0/boilerpipe.output')
+        unigrams2 = wordsFromFile('tweets2/' + id + '/content.0/boilerpipe.output')
         bigrams1 = []
         bigrams2 = []
         trigrams1 = []
@@ -39,13 +47,7 @@ if __name__=='__main__':
                 bigrams2.append(unigrams2[i-1] + ' ' + unigrams2[i])
             if i >= 2:
                 trigrams2.append(unigrams2[i-2] + ' ' + unigrams2[i-1] + ' ' + unigrams2[i])
-        union1 = set(unigrams1).union(unigrams2)
-        intersection1 = set(unigrams1).intersection(unigrams2)
-        union2 = set(bigrams1).union(bigrams2)
-        intersection2 = set(bigrams1).intersection(bigrams2)
-        union3 = set(trigrams1).union(trigrams2)
-        intersection3 = set(trigrams1).intersection(trigrams2)
-        dist1 = (len(union1) - len(intersection1)) * 1.0 / len(union1)
-        dist2 = (len(union2) - len(intersection2)) * 1.0 / len(union2)
-        dist3 = (len(union3) - len(intersection3)) * 1.0 / len(union3)
+        dist1 = jaccardDistance(unigrams1, unigrams2)
+        dist2 = jaccardDistance(bigrams1, bigrams2)
+        dist3 = jaccardDistance(trigrams1, trigrams2)
         print(id, "%0.3f %0.3f %0.3f" %(dist1, dist2, dist3))
